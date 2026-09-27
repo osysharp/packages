@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-26T23:03:03.953484+00:00",
+  "generated": "2026-09-27T01:34:07.300186+00:00",
   "packages": [
     {
       "name": "Osysharp.Barcode",
@@ -96,6 +96,14 @@
       "name": "Osysharp.Gemini",
       "repository": "osysharp/gemini",
       "description": "the Google Gemini API as an app.Models \u0060Client\u0060 \u2014 complete and stream, tools included.",
+      "availability": "Known",
+      "stars": 0,
+      "source": "overlay"
+    },
+    {
+      "name": "Osysharp.Graph",
+      "repository": "osysharp/graph",
+      "description": "Microsoft 365 through Graph \u2014 mail, calendar and files, as the signed-in user or as the app.",
       "availability": "Known",
       "stars": 0,
       "source": "overlay"
