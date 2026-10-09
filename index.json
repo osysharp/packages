@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-09T13:43:50.89637+00:00",
+  "generated": "2026-10-09T14:57:40.720481+00:00",
   "packages": [
     {
       "name": "Osysharp.Accounts",
@@ -1524,12 +1524,13 @@
       "repository": "osysharp/warehouses",
       "description": "Osysharp.Warehouses.Databricks \u2014 an Osy# package. Databricks as a data source and an export destination: entities read from a SQL warehouse, and changes merged into its tables.",
       "availability": "Published",
-      "version": "0.2.2",
+      "version": "0.2.3",
       "use": "use Osysharp.Warehouses.Databricks@0;",
       "stars": 0,
       "source": "topic",
       "folder": "databricks",
       "versions": [
+        "0.2.3",
         "0.2.2",
         "0.2.1"
       ],
@@ -1540,12 +1541,13 @@
       "repository": "osysharp/warehouses",
       "description": "Osysharp.Warehouses.Snowflake \u2014 an Osy# package. Snowflake as a data source and an export destination: entities read from a warehouse, and changes merged into its tables.",
       "availability": "Published",
-      "version": "0.2.2",
+      "version": "0.2.3",
       "use": "use Osysharp.Warehouses.Snowflake@0;",
       "stars": 0,
       "source": "topic",
       "folder": "snowflake",
       "versions": [
+        "0.2.3",
         "0.2.2",
         "0.2.1"
       ],
