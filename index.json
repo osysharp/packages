@@ -1,16 +1,17 @@
 {
-  "generated": "2026-10-09T15:37:51.282263+00:00",
+  "generated": "2026-10-09T20:46:20.44069+00:00",
   "packages": [
     {
       "name": "Osysharp.Accounts",
       "repository": "osysharp/accounts",
       "description": "Osysharp.Accounts \u2014 an Osy# package. sign-in (password, or a provider such as Google or GitHub, linked from the account page), sign-up, password reset and change, verified address change (one the desk can start, confirmed from the new address) and verification, an address proven by a mailed link or code, two-step sign-in with an authenticator app and recovery codes, and a phone number proven by a texted code (to sign in with, or as an optional second step) \u2014 with pages \u2014 on Osysharp.Identity.",
       "availability": "Published",
-      "version": "0.12.0",
-      "use": "use Osysharp.Accounts@0;",
+      "version": "1.0.0",
+      "use": "use Osysharp.Accounts@1;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "1.0.0",
         "0.12.0",
         "0.11.0"
       ],
@@ -490,11 +491,12 @@
       "repository": "osysharp/invitations",
       "description": "Osysharp.Invitations \u2014 an Osy# package. invite a person by address with their role (and organisation) fixed when it is sent \u2014 mailed, reminded, expiring, revocable and resendable as a durable run; answered only by the invited address: a newcomer through a single-use mailed link, an existing account only once fully signed in (its second step included) and with that address proven.",
       "availability": "Published",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "use": "use Osysharp.Invitations@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.4.0",
         "0.3.0",
         "0.2.0"
       ],
@@ -900,11 +902,12 @@
       "repository": "osysharp/people",
       "description": "Osysharp.People \u2014 an Osy# package. the user manager: a searchable people list (roles, two-step sign-in, last sign-in, sessions), and audited access changes \u2014 grant and revoke the app\u0027s roles, deactivate and reactivate, reset a lost second factor, sign out everywhere, and the same within an organisation; API keys issued once and revoked at once, and integrations \u2014 programs that work under their own name with keys and a role and can never sign in \u2014 each one a record of who changed whose access, when and why, made only by the app\u0027s people managers.",
       "availability": "Published",
-      "version": "0.5.1",
+      "version": "0.6.0",
       "use": "use Osysharp.People@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.6.0",
         "0.5.1",
         "0.5.0"
       ],
@@ -930,7 +933,7 @@
       "repository": "osysharp/privacy",
       "description": "Osysharp.Privacy.Accounts \u2014 an Osy# package. the step-up for Osysharp.Privacy\u0027s self-service requests, from Osysharp.Accounts \u2014 a code to the account\u0027s own address, typed back, spent once by the request\u0027s run.",
       "availability": "Published",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "use": "use Osysharp.Privacy.Accounts@0;",
       "stars": 0,
       "source": "topic",
@@ -940,6 +943,7 @@
         "osy-completes-osysharp-accounts"
       ],
       "versions": [
+        "0.3.0",
         "0.2.1",
         "0.2.0"
       ],
@@ -1127,13 +1131,14 @@
     {
       "name": "Osysharp.Shop",
       "repository": "osysharp/shop",
-      "description": "Osysharp.Shop \u2014 an Osy# package. an online shop\u0027s backend \u2014 catalogue, accounts, bag, orders, pluggable payment and delivery providers, returns, mail and the staff desk.",
+      "description": "Osysharp.Shop \u2014 an Osy# package. an online shop\u0027s backend \u2014 catalogue, bag, orders, pluggable payment and delivery providers, returns, mail and the staff desk \u2014 with its customers and staff signing in through Osysharp.Accounts.",
       "availability": "Published",
-      "version": "0.8.0",
-      "use": "use Osysharp.Shop@0;",
+      "version": "1.0.0",
+      "use": "use Osysharp.Shop@1;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "1.0.0",
         "0.8.0",
         "0.7.0"
       ],
@@ -1144,7 +1149,7 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.BankId \u2014 an Osy# package. Age verification with Swedish BankID \u2014 the shop\u0027s AgeVerifier, over mutual TLS.",
       "availability": "Published",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "use": "use Osysharp.Shop.BankId@0;",
       "stars": 0,
       "source": "topic",
@@ -1154,6 +1159,7 @@
         "osy-completes-osysharp-bankid"
       ],
       "versions": [
+        "0.2.0",
         "0.1.1",
         "0.1.0"
       ],
@@ -1164,12 +1170,13 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Bookkeeping \u2014 an Osy# package. a shop\u0027s books \u2014 SIE 4, CSV and the VAT report per rate \u2014 from its invoices and credit notes.",
       "availability": "Published",
-      "version": "0.3.1",
+      "version": "0.4.0",
       "use": "use Osysharp.Shop.Bookkeeping@0;",
       "stars": 0,
       "source": "topic",
       "folder": "bookkeeping",
       "versions": [
+        "0.4.0",
         "0.3.1",
         "0.3.0"
       ],
@@ -1180,12 +1187,13 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Discounts \u2014 an Osy# package. discount codes for the shop \u2014 percent, amount or free delivery, with limits and dates.",
       "availability": "Published",
-      "version": "0.4.0",
+      "version": "0.5.0",
       "use": "use Osysharp.Shop.Discounts@0;",
       "stars": 0,
       "source": "topic",
       "folder": "discounts",
       "versions": [
+        "0.5.0",
         "0.4.0",
         "0.3.0"
       ],
@@ -1196,12 +1204,13 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Ecb \u2014 an Osy# package. the European Central Bank\u0027s daily reference rates, for showing a visitor prices in their own currency.",
       "availability": "Published",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "use": "use Osysharp.Shop.Ecb@0;",
       "stars": 0,
       "source": "topic",
       "folder": "ecb",
       "versions": [
+        "0.2.0",
         "0.1.1",
         "0.1.0"
       ],
@@ -1212,12 +1221,13 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Looks.Atelier \u2014 an Osy# package. a shop look \u2014 the gallery wall: white, one light grotesk, full-bleed photographs, hairlines, an oxblood accent.",
       "availability": "Published",
-      "version": "0.1.3",
+      "version": "0.2.0",
       "use": "use Osysharp.Shop.Looks.Atelier@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks/atelier",
       "versions": [
+        "0.2.0",
         "0.1.3",
         "0.1.2",
         "0.1.1"
@@ -1229,12 +1239,13 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Looks.Boutique \u2014 an Osy# package. a shop look \u2014 the boutique: powder blue, navy, a soft serif, round corners, a tomato accent and a sliding bag.",
       "availability": "Published",
-      "version": "0.1.3",
+      "version": "0.2.0",
       "use": "use Osysharp.Shop.Looks.Boutique@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks/boutique",
       "versions": [
+        "0.2.0",
         "0.1.3",
         "0.1.2",
         "0.1.1"
@@ -1246,12 +1257,13 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Looks.Drop \u2014 an Osy# package. a shop look \u2014 the drop: black, a poster face in capitals, a ticker, mono labels, a signal-orange accent.",
       "availability": "Published",
-      "version": "0.1.3",
+      "version": "0.2.0",
       "use": "use Osysharp.Shop.Looks.Drop@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks/drop",
       "versions": [
+        "0.2.0",
         "0.1.3",
         "0.1.2",
         "0.1.1"
@@ -1263,12 +1275,13 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Looks.Fitting \u2014 an Osy# package. a shop look \u2014 the fitting room: dark chocolate, Young Serif in italic, the piece pinned to half the screen, amber.",
       "availability": "Published",
-      "version": "0.1.3",
+      "version": "0.2.0",
       "use": "use Osysharp.Shop.Looks.Fitting@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks/fitting",
       "versions": [
+        "0.2.0",
         "0.1.3",
         "0.1.2",
         "0.1.1"
@@ -1280,12 +1293,13 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Looks.Index \u2014 an Osy# package. a shop look \u2014 the index: grey, black Geist, mono prices, the shelf tree always open, an acid-lime accent.",
       "availability": "Published",
-      "version": "0.1.3",
+      "version": "0.2.0",
       "use": "use Osysharp.Shop.Looks.Index@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks/index",
       "versions": [
+        "0.2.0",
         "0.1.3",
         "0.1.2",
         "0.1.1"
@@ -1297,12 +1311,13 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Looks.Kiosk \u2014 an Osy# package. a shop look \u2014 the kiosk: lilac-grey, one light grotesk, the find full-bleed like a magazine cover, an emerald accent.",
       "availability": "Published",
-      "version": "0.1.3",
+      "version": "0.2.0",
       "use": "use Osysharp.Shop.Looks.Kiosk@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks/kiosk",
       "versions": [
+        "0.2.0",
         "0.1.3",
         "0.1.2",
         "0.1.1"
@@ -1314,12 +1329,13 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Looks.Loud \u2014 an Osy# package. a shop look \u2014 loud: hot yellow, black poster type in capitals, a ticker, an electric-blue accent.",
       "availability": "Published",
-      "version": "0.1.3",
+      "version": "0.2.0",
       "use": "use Osysharp.Shop.Looks.Loud@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks/loud",
       "versions": [
+        "0.2.0",
         "0.1.3",
         "0.1.2",
         "0.1.1"
@@ -1331,12 +1347,13 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Looks.Rail \u2014 an Osy# package. a shop look \u2014 the rail: a bottle-green wall, a big tight grotesk, finds pinned at an angle, a price-tag yellow.",
       "availability": "Published",
-      "version": "0.1.3",
+      "version": "0.2.0",
       "use": "use Osysharp.Shop.Looks.Rail@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks/rail",
       "versions": [
+        "0.2.0",
         "0.1.3",
         "0.1.2",
         "0.1.1"
@@ -1348,12 +1365,13 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Looks.Studio \u2014 an Osy# package. a shop look \u2014 the showroom: aubergine on white, an italic serif, a pinned photograph that follows the page, hot pink.",
       "availability": "Published",
-      "version": "0.1.3",
+      "version": "0.2.0",
       "use": "use Osysharp.Shop.Looks.Studio@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks/studio",
       "versions": [
+        "0.2.0",
         "0.1.3",
         "0.1.2",
         "0.1.1"
@@ -1365,12 +1383,13 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Looks.Swap \u2014 an Osy# package. a shop look \u2014 the swap sheet: white, a condensed grotesk and mono lot labels, the shelves in a column, signal red.",
       "availability": "Published",
-      "version": "0.1.3",
+      "version": "0.2.0",
       "use": "use Osysharp.Shop.Looks.Swap@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks/swap",
       "versions": [
+        "0.2.0",
         "0.1.3",
         "0.1.2",
         "0.1.1"
@@ -1382,12 +1401,13 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Reviews \u2014 an Osy# package. product reviews for the shop \u2014 verified buyers only, moderated by staff, averaged for search engines.",
       "availability": "Published",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "use": "use Osysharp.Shop.Reviews@0;",
       "stars": 0,
       "source": "topic",
       "folder": "reviews",
       "versions": [
+        "0.5.0",
         "0.4.1",
         "0.4.0"
       ],
@@ -1398,12 +1418,13 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Subscriptions \u2014 an Osy# package. subscriptions for the shop \u2014 plans and add-ons per interval, entitlements, renewals, prorated changes.",
       "availability": "Published",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "use": "use Osysharp.Shop.Subscriptions@0;",
       "stars": 0,
       "source": "topic",
       "folder": "subscriptions",
       "versions": [
+        "0.5.0",
         "0.4.1",
         "0.4.0"
       ],
@@ -1414,12 +1435,13 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Vies \u2014 an Osy# package. EU VAT-number checks against VIES \u2014 the shop\u0027s reverse-charge check.",
       "availability": "Published",
-      "version": "0.1.2",
+      "version": "0.2.0",
       "use": "use Osysharp.Shop.Vies@0;",
       "stars": 0,
       "source": "topic",
       "folder": "vies",
       "versions": [
+        "0.2.0",
         "0.1.2",
         "0.1.1",
         "0.1.0"
