@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-10T00:50:07.941794+00:00",
+  "generated": "2026-10-10T05:18:21.461023+00:00",
   "packages": [
     {
       "name": "Osysharp.Accounts",
@@ -151,11 +151,12 @@
       "repository": "osysharp/charts",
       "description": "Osysharp.Charts \u2014 an Osy# package. charts in pure Osy#, no JavaScript: many mark types on one scale, plus pie and axes.",
       "availability": "Published",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "use": "use Osysharp.Charts@1;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "1.1.2",
         "1.1.1",
         "1.1.0"
       ],
@@ -1608,15 +1609,31 @@
       "repository": "osysharp/ui",
       "description": "Osysharp.Ui \u2014 an Osy# package. the general application vocabulary: buttons, fields, dialogs, the data grid, and the app shell.",
       "availability": "Published",
-      "version": "2.18.2",
+      "version": "2.19.0",
       "use": "use Osysharp.Ui@2;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "2.19.0",
         "2.18.2",
         "2.18.1",
         "2.18.0",
         "2.17.1"
+      ],
+      "minPlatform": "0.9.0"
+    },
+    {
+      "name": "Osysharp.Ui.Looks",
+      "repository": "osysharp/ui",
+      "description": "Osysharp.Ui.Looks \u2014 an Osy# package. five looks for apps on the UI kit \u2014 Ledger, Relay, Civic, Studio, Signal \u2014 each a theme an app derives from and makes its own.",
+      "availability": "Published",
+      "version": "0.1.0",
+      "use": "use Osysharp.Ui.Looks@0;",
+      "stars": 0,
+      "source": "topic",
+      "folder": "looks",
+      "versions": [
+        "0.1.0"
       ],
       "minPlatform": "0.9.0"
     },
