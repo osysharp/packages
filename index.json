@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-10T20:17:22.509421+00:00",
+  "generated": "2026-10-10T20:20:05.428614+00:00",
   "packages": [
     {
       "name": "Osysharp.Automations",
@@ -632,22 +632,6 @@
         "0.1.3",
         "0.1.2",
         "0.1.1"
-      ],
-      "minPlatform": "0.9.0"
-    },
-    {
-      "name": "Osysharp.Flow",
-      "repository": "osysharp/flow",
-      "description": "Osysharp.Flow \u2014 an Osy# package. a node/edge modelling canvas: pan, zoom, drag, connect \u2014 nodes rendered by the app\u0027s own Osy#.",
-      "availability": "Published",
-      "version": "0.3.2",
-      "use": "use Osysharp.Flow@0;",
-      "stars": 0,
-      "source": "topic",
-      "versions": [
-        "0.3.2",
-        "0.3.1",
-        "0.3.0"
       ],
       "minPlatform": "0.9.0"
     },
