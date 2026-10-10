@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-10T00:34:06.354506+00:00",
+  "generated": "2026-10-10T00:50:07.941794+00:00",
   "packages": [
     {
       "name": "Osysharp.Accounts",
@@ -39,11 +39,12 @@
       "repository": "osysharp/analytics",
       "description": "Osysharp.Analytics \u2014 an Osy# package. web analytics \u2014 Plausible or Google Analytics 4: page views, e-commerce events, and consent before GA4 tracks.",
       "availability": "Published",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "use": "use Osysharp.Analytics@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.1.3",
         "0.1.2",
         "0.1.1",
         "0.1.0"
