@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-10T20:20:05.428614+00:00",
+  "generated": "2026-10-11T10:00:08.429479+00:00",
   "packages": [
     {
       "name": "Osysharp.Automations",
@@ -255,6 +255,79 @@
         "VisibleMarks",
         "WidestLabel",
         "ZeroPct"
+      ]
+    },
+    {
+      "name": "Osysharp.ClassBookings",
+      "repository": "osysharp/classbookings",
+      "description": "Osysharp.ClassBookings \u2014 an Osy# package. bookable sessions with numbered places that are never overbooked \u2014 a first-come waiting list whose freed places are offered for a limited time (or given at once) on a durable clock, booking windows, late cancellation and no-shows heard as events for the app to charge, check-in, walk-ins and the register closing by itself, weekly series in the app\u0027s time zone with one-off changes, instructors, rooms and equipment that no two sessions hold at once, reminders before a session, app-defined booking rules, booking for the people one acts for \u2014 with a timetable, a my-bookings page and the register.",
+      "availability": "Published",
+      "version": "0.1.0",
+      "use": "use Osysharp.ClassBookings@0;",
+      "stars": 0,
+      "source": "topic",
+      "versions": [
+        "0.1.0"
+      ],
+      "minPlatform": "0.9.0",
+      "exports": [
+        "AcceptOffer",
+        "Announce",
+        "AssignResource",
+        "BookSeries",
+        "BookSession",
+        "CancelBooking",
+        "CancelSession",
+        "CancellingIsLate",
+        "CheckIn",
+        "ClashFor",
+        "ClashSentence",
+        "CloseOffer",
+        "CloseRegister",
+        "DeclineOffer",
+        "EndOf",
+        "EndSeries",
+        "FillVacancies",
+        "FindWalkIns",
+        "ForgetBookingsOf",
+        "HeldBy",
+        "LineFor",
+        "Live",
+        "LowestFreeSeat",
+        "MarkNoShow",
+        "MayAnswerFor",
+        "MayTakeRegister",
+        "MoveSession",
+        "MyBookings",
+        "NewWalkInPerson",
+        "NextTicket",
+        "OfferOf",
+        "PassOn",
+        "PeopleIBookFor",
+        "PlacesLeft",
+        "PlanSeries",
+        "QueuePosition",
+        "RegisterOf",
+        "RegistersToday",
+        "ReleaseResource",
+        "ResourcesOf",
+        "RosterOf",
+        "Say",
+        "SeriesDays",
+        "SessionsTaughtBy",
+        "SetCapacity",
+        "SmallestResourceCapacity",
+        "TakesAnyRegister",
+        "Timetable",
+        "UndoCheckIn",
+        "UntilRegisterCloses",
+        "UntilReminder",
+        "UpcomingOf",
+        "WaitingCount",
+        "WalkIn",
+        "WhenText",
+        "WhyNotBook",
+        "policy TeachesSession"
       ]
     },
     {
@@ -650,6 +723,65 @@
       "minPlatform": "0.9.0"
     },
     {
+      "name": "Osysharp.Guardianship",
+      "repository": "osysharp/guardianship",
+      "description": "Osysharp.Guardianship \u2014 an Osy# package. who acts for whom: a child added by their guardian as an account they cannot sign in to yet, a second guardian invited by address, standings (acts for them, kept informed, ended) that change by themselves when the child comes of age, consents the guardian gives on the child\u0027s behalf against versioned wording, emergency contacts and the people who may collect them, care notes for staff on site \u2014 and one policy, ActsForDependant, for an app\u0027s own rules.",
+      "availability": "Published",
+      "version": "0.1.0",
+      "use": "use Osysharp.Guardianship@0;",
+      "stars": 0,
+      "source": "topic",
+      "versions": [
+        "0.1.0"
+      ],
+      "minPlatform": "0.9.0",
+      "exports": [
+        "AcceptGuardianInvitation",
+        "AddDependant",
+        "AgeAt",
+        "AnswerConsent",
+        "ChangeStanding",
+        "ComesOfAgeOn",
+        "ConsentsOwed",
+        "DeclareOfAge",
+        "DeclineGuardianInvitation",
+        "DependantsOf",
+        "DescribeFamilyMember",
+        "DisplayNameOf",
+        "EmergencyContactsOf",
+        "FamiliesFor",
+        "GuardiansOf",
+        "HandOverAccount",
+        "HasConsent",
+        "InviteGuardian",
+        "IsGuardianOf",
+        "IsMinor",
+        "KeepProfile",
+        "LatestConsent",
+        "LinkGuardian",
+        "MajorityOn",
+        "MayAnswerFor",
+        "MayChangeStanding",
+        "MayCollectNames",
+        "MayInviteFor",
+        "MeAndMyDependants",
+        "MyFamily",
+        "MyGuardianInvitations",
+        "MyGuardians",
+        "NeedsGuardian",
+        "OpenFor",
+        "PersonById",
+        "ReviseConsentForm",
+        "SetBornOn",
+        "UntilMajority",
+        "WithdrawGuardianInvitation",
+        "policy ActsForDependant",
+        "policy ActsForSomeone",
+        "policy KeptInformedOf",
+        "policy LooksAfterSomeone"
+      ]
+    },
+    {
       "name": "Osysharp.Identity",
       "repository": "osysharp/identity",
       "description": "Osysharp.Identity \u2014 an Osy# package. who signs in, and which of the app\u0027s roles each person holds \u2014 the base every people-aware kit builds on.",
@@ -674,6 +806,96 @@
         "RoleLabel",
         "policy IsAuthenticator"
       ]
+    },
+    {
+      "name": "Osysharp.IncidentReports",
+      "repository": "osysharp/incidentreports",
+      "description": "Osysharp.IncidentReports \u2014 an Osy# package. confidential incident reports \u2014 injuries, near misses, damage, concerns \u2014 in categories and severities the app defines, with the people involved and witnesses (accounts or just names), their statements, injuries and treatment, photos and files, a review that classifies the report, records the cause and sets corrective actions with owners and due dates, a close that waits for those actions, notices to the people who must be told (a child\u0027s guardians) with their acknowledgement, a deadline for reporting to an authority watched on a durable clock, a register with a CSV export \u2014 and a reporter\u0027s page, a review desk, the register and a setup page.",
+      "availability": "Published",
+      "version": "0.1.0",
+      "use": "use Osysharp.IncidentReports@0;",
+      "stars": 0,
+      "source": "topic",
+      "versions": [
+        "0.1.0"
+      ],
+      "minPlatform": "0.9.0",
+      "exports": [
+        "AcknowledgeIncidentNotice",
+        "ActionAbout",
+        "ActionLineOf",
+        "ActionOverdueAt",
+        "ActionsOn",
+        "AddIncidentPerson",
+        "AssignCorrectiveAction",
+        "AttachIncidentFile",
+        "AuthorityWarningAt",
+        "AwaitingAuthorityReport",
+        "CancelCorrectiveAction",
+        "CategoryToFile",
+        "ChangeCorrectiveAction",
+        "ClassifyIncident",
+        "CloseIncident",
+        "CompleteCorrectiveAction",
+        "ContactsToInform",
+        "EraseIncidentDataOf",
+        "FilesOf",
+        "GiveStatement",
+        "IncidentCardOf",
+        "IncidentDeskNow",
+        "IncidentFiguresNow",
+        "IncidentRegister",
+        "IncidentRegisterCsv",
+        "IncidentRegisterFileLink",
+        "IncidentRowOf",
+        "IncidentWhen",
+        "InformAboutIncident",
+        "InformContacts",
+        "KeepIncidentFile",
+        "MarkIncidentReportable",
+        "MayAddTo",
+        "MyCorrectiveActions",
+        "MyIncidentNotices",
+        "MyIncidents",
+        "MyIncidentsNow",
+        "NoticeSummary",
+        "NoticesOn",
+        "OpenActionsOn",
+        "OpenIncidents",
+        "OutcomeForReporter",
+        "OverdueActions",
+        "PeopleIn",
+        "RecordAuthorityReport",
+        "RecordIncidentFindings",
+        "RemoveIncidentPerson",
+        "ReopenIncident",
+        "ReportIncident",
+        "StartIncidentReview",
+        "TickAction",
+        "TickIncident",
+        "UntilActionOverdue",
+        "UntilIncidentTick",
+        "UpdateIncidentPerson"
+      ]
+    },
+    {
+      "name": "Osysharp.IncidentReports.Guardianship",
+      "repository": "osysharp/incidentreports",
+      "description": "Osysharp.IncidentReports.Guardianship \u2014 an Osy# package. the guardians Osysharp.Guardianship links are who Osysharp.IncidentReports tells when somebody they look after is named in an incident \u2014 offered on the review desk, told in one call, and their acknowledgement kept.",
+      "availability": "Published",
+      "version": "0.1.0",
+      "use": "use Osysharp.IncidentReports.Guardianship@0;",
+      "stars": 0,
+      "source": "topic",
+      "folder": "guardianship",
+      "completes": [
+        "osy-completes-osysharp-incidentreports",
+        "osy-completes-osysharp-guardianship"
+      ],
+      "versions": [
+        "0.1.0"
+      ],
+      "minPlatform": "0.9.0"
     },
     {
       "name": "Osysharp.Invitations",
@@ -1105,6 +1327,65 @@
       "minPlatform": "0.9.0"
     },
     {
+      "name": "Osysharp.Memberships",
+      "repository": "osysharp/memberships",
+      "description": "Osysharp.Memberships \u2014 an Osy# package. memberships and passes \u2014 day tickets, monthly and yearly memberships, cards of N visits (a pack of Osysharp.PrepaidCredits), starting on a date or on the first visit; admission that uses a visit, never goes below zero and says plainly why somebody may not enter; pauses that move the end date, extension, renewal (by hand or by the app\u0027s payment) and the notice before it ends, transfer, family members on one membership, and its unused value in money \u2014 every change and every attempt to enter recorded with who and why \u2014 with a my-memberships page, a desk page and a plans page.",
+      "availability": "Published",
+      "version": "0.1.0",
+      "use": "use Osysharp.Memberships@0;",
+      "stars": 0,
+      "source": "topic",
+      "versions": [
+        "0.1.0"
+      ],
+      "minPlatform": "0.9.0",
+      "exports": [
+        "AddToMembership",
+        "AdmissionLineOf",
+        "AdmissionsOf",
+        "AdmissionsToday",
+        "ApplyMembershipChange",
+        "ChangesTo",
+        "CheckIn",
+        "DecideAdmission",
+        "DoorLog",
+        "EndMembership",
+        "EndedSentence",
+        "EntryFor",
+        "EraseMembershipsOf",
+        "ExtendMembership",
+        "FindMembers",
+        "MayChangeOwn",
+        "MemberName",
+        "MembersOf",
+        "MembershipEndFrom",
+        "MembershipScope",
+        "MembershipStanding",
+        "MembershipsOf",
+        "MembershipsRunBySystem",
+        "MembershipsViewOf",
+        "MyMembershipsView",
+        "PauseMembership",
+        "PlanPrice",
+        "PlanSummary",
+        "PlansOnSale",
+        "RemoveFromMembership",
+        "RenewMembership",
+        "ResumeMembership",
+        "ResumeNow",
+        "SellMembership",
+        "SetAutoRenew",
+        "StartMembership",
+        "TickMembership",
+        "TransferMembership",
+        "UndoAdmission",
+        "UntilMembershipTick",
+        "UnusedValueOf",
+        "VisitsLeftOn",
+        "policy SharesMembership"
+      ]
+    },
+    {
       "name": "Osysharp.Memory.Testing",
       "repository": "osysharp/memory",
       "description": "Osysharp.Memory.Testing \u2014 an Osy# package. a deterministic, offline embedder for tests \u2014 a hashed bag of words \u2014 so a suite can assert what Memory.Search and [Searchable(Memory)] find without a model.",
@@ -1228,6 +1509,107 @@
         "SweepNotifications",
         "TellAbout",
         "UnreadNotifications"
+      ]
+    },
+    {
+      "name": "Osysharp.OfferSales",
+      "repository": "osysharp/offersales",
+      "description": "Osysharp.OfferSales \u2014 an Osy# package. sell a few simple offers \u2014 a ticket, a pass, a pack, a membership \u2014 online through any payment provider, by transfer or pay-at-the-desk marked received, or across a counter (cash, a card terminal, a reader or a QR code), for the buyer or somebody they buy for; prices, sale windows, limited places and a per-person limit; each purchase recorded with a receipt number, held while it is paid and lapsing when it is not; paid announced exactly once, refunds whole or in part announced once each; the day\u0027s takings by channel and method and a CSV \u2014 with an offers page, a buyer\u0027s purchases, a counter and an offers desk.",
+      "availability": "Published",
+      "version": "0.1.0",
+      "use": "use Osysharp.OfferSales@0;",
+      "stars": 0,
+      "source": "topic",
+      "versions": [
+        "0.1.0"
+      ],
+      "minPlatform": "0.9.0",
+      "exports": [
+        "ApplyOfferSalesEvents",
+        "ApplyRefund",
+        "CancelPurchase",
+        "CheckCounterPurchase",
+        "ConfirmPurchase",
+        "CounterAmount",
+        "CounterChoices",
+        "ErasePurchasesOf",
+        "FindBuyers",
+        "HeldOf",
+        "MarkPurchasePaid",
+        "Money",
+        "MyPurchaseLines",
+        "MyPurchases",
+        "NewPurchaseReference",
+        "OfferCardOf",
+        "OfferCards",
+        "OfferRefusal",
+        "OfferSalesPaymentEvents",
+        "OfferSalesProvider",
+        "OfferSalesRecipients",
+        "OffersOnSale",
+        "PaymentChoices",
+        "PerPersonRefusal",
+        "PlacesLeft",
+        "PurchaseLineOf",
+        "PurchaseLinesBetween",
+        "PurchasesBetween",
+        "PurchasesCsv",
+        "PurchasesFileLink",
+        "RefundPurchase",
+        "RefundableOf",
+        "RefundsOf",
+        "RefundsThrough",
+        "ReturnPlaces",
+        "SellAtCounter",
+        "StartCounterPurchase",
+        "StartPurchase",
+        "TakePurchasePayment",
+        "TakingsBetween",
+        "UntilLapse"
+      ]
+    },
+    {
+      "name": "Osysharp.OfferSales.Memberships",
+      "repository": "osysharp/offersales",
+      "description": "Osysharp.OfferSales.Memberships \u2014 an Osy# package. an Osysharp.Memberships plan as an Osysharp.OfferSales offer \u2014 sold to whoever it was bought for once it is paid, at what was paid, and ended when it is refunded in full.",
+      "availability": "Published",
+      "version": "0.1.0",
+      "use": "use Osysharp.OfferSales.Memberships@0;",
+      "stars": 0,
+      "source": "topic",
+      "folder": "memberships",
+      "completes": [
+        "osy-completes-osysharp-offersales",
+        "osy-completes-osysharp-memberships"
+      ],
+      "versions": [
+        "0.1.0"
+      ],
+      "minPlatform": "0.9.0",
+      "exports": [
+        "MembershipReference"
+      ]
+    },
+    {
+      "name": "Osysharp.OfferSales.PrepaidCredits",
+      "repository": "osysharp/offersales",
+      "description": "Osysharp.OfferSales.PrepaidCredits \u2014 an Osy# package. a pack of Osysharp.PrepaidCredits as an Osysharp.OfferSales offer \u2014 credits, a scope and a validity \u2014 granted to whoever it was bought for once it is paid, and voided when it is refunded in full.",
+      "availability": "Published",
+      "version": "0.1.0",
+      "use": "use Osysharp.OfferSales.PrepaidCredits@0;",
+      "stars": 0,
+      "source": "topic",
+      "folder": "prepaidcredits",
+      "completes": [
+        "osy-completes-osysharp-offersales",
+        "osy-completes-osysharp-prepaidcredits"
+      ],
+      "versions": [
+        "0.1.0"
+      ],
+      "minPlatform": "0.9.0",
+      "exports": [
+        "CreditPackReference"
       ]
     },
     {
@@ -1456,6 +1838,50 @@
       "minPlatform": "0.9.0"
     },
     {
+      "name": "Osysharp.PrepaidCredits",
+      "repository": "osysharp/prepaidcredits",
+      "description": "Osysharp.PrepaidCredits \u2014 an Osy# package. prepaid uses: packs of credits granted to a person (a class pack, a ten-visit card, desk-hours), optionally expiring and scoped, spent several at a time from the pack that expires first, never below zero, idempotent per reference, refundable, for the holder or somebody they pay for; staff adjust, extend, void and move credits with a reason; expiry and low-balance notices; a statement the holder reads; and the value still owed \u2014 with a my-credits page and a desk page.",
+      "availability": "Published",
+      "version": "0.1.0",
+      "use": "use Osysharp.PrepaidCredits@0;",
+      "stars": 0,
+      "source": "topic",
+      "versions": [
+        "0.1.0"
+      ],
+      "minPlatform": "0.9.0",
+      "exports": [
+        "AdjustCredits",
+        "CountIn",
+        "CreditCount",
+        "CreditHolderName",
+        "CreditLiabilities",
+        "CreditPacksOf",
+        "CreditSpendsOf",
+        "CreditStatementOf",
+        "CreditUnits",
+        "CreditsExpiringWithin",
+        "CreditsLeft",
+        "CreditsRunBySystem",
+        "CreditsViewOf",
+        "EraseCreditsOf",
+        "ExpireCreditPack",
+        "ExpireCredits",
+        "ExtendCredits",
+        "FindCreditHolders",
+        "GrantCredits",
+        "MyCreditsView",
+        "RefundSpend",
+        "SpendCredit",
+        "SpendCredits",
+        "TransferCredits",
+        "UntilCreditExpiry",
+        "UntilCreditNotice",
+        "UsableCreditPacks",
+        "VoidCredits"
+      ]
+    },
+    {
       "name": "Osysharp.Presence",
       "repository": "osysharp/presence",
       "description": "Osysharp.Presence \u2014 an Osy# package. who else is on a record, live \u2014 a presence topic addressed by any record\u0027s id, staff-only by the app\u0027s own rule, each seat stamped with who by the platform and carrying an activity (viewing, replying, assigning) but never content; a seats strip for the record\u0027s header; and the \u0027moved first\u0027 sentence that turns a concurrency refusal into who changed which fields and when.",
@@ -1605,25 +2031,21 @@
       ]
     },
     {
-      "name": "Osysharp.Privacy.Accounts",
+      "name": "Osysharp.Privacy.ClassBookings",
       "repository": "osysharp/privacy",
-      "description": "Osysharp.Privacy.Accounts \u2014 an Osy# package. Osysharp.Privacy\u0027s part for Osysharp.Accounts \u2014 the step-up for self-service requests (a code to the account\u0027s own address, typed back, spent once by the request\u0027s run), and accounts made for somebody who never signs in: in their guardian\u0027s copy of their data, and erased with the person they were made for.",
+      "description": "Osysharp.Privacy.ClassBookings \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.ClassBookings \u2014 the places a person booked or waited for, their attendance, late cancellations and no-shows: counted, in their copy of their data, and erased when they ask, a place they still held passing to the next person waiting.",
       "availability": "Published",
-      "version": "0.4.0",
-      "use": "use Osysharp.Privacy.Accounts@0;",
+      "version": "0.1.0",
+      "use": "use Osysharp.Privacy.ClassBookings@0;",
       "stars": 0,
       "source": "topic",
-      "folder": "accounts",
+      "folder": "classbookings",
       "completes": [
         "osy-completes-osysharp-privacy",
-        "osy-completes-osysharp-accounts"
+        "osy-completes-osysharp-classbookings"
       ],
       "versions": [
-        "0.4.0",
-        "0.3.1",
-        "0.3.0",
-        "0.2.1",
-        "0.2.0"
+        "0.1.0"
       ],
       "minPlatform": "0.9.0"
     },
@@ -1666,44 +2088,39 @@
       ]
     },
     {
-      "name": "Osysharp.Privacy.Feedback",
+      "name": "Osysharp.Privacy.Guardianship",
       "repository": "osysharp/privacy",
-      "description": "Osysharp.Privacy.Feedback \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.Feedback \u2014 a person\u0027s questions and answers about how it went, found by their account or a proven address, in their copy of their data, kept restricted on request and erased when they ask.",
+      "description": "Osysharp.Privacy.Guardianship \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.Guardianship \u2014 who looks after a person and whom they look after, their date of birth and care notes (special-category data), the consents answered for them, their emergency contacts and the invitations to their address: counted, in their copy of their data, and erased when they ask.",
       "availability": "Published",
-      "version": "0.2.1",
-      "use": "use Osysharp.Privacy.Feedback@0;",
+      "version": "0.1.0",
+      "use": "use Osysharp.Privacy.Guardianship@0;",
       "stars": 0,
       "source": "topic",
-      "folder": "feedback",
+      "folder": "guardianship",
       "completes": [
         "osy-completes-osysharp-privacy",
-        "osy-completes-osysharp-feedback"
+        "osy-completes-osysharp-guardianship"
       ],
       "versions": [
-        "0.2.1",
-        "0.2.0"
+        "0.1.0"
       ],
-      "minPlatform": "0.9.0",
-      "exports": [
-        "AsksOf"
-      ]
+      "minPlatform": "0.9.0"
     },
     {
-      "name": "Osysharp.Privacy.Knowledge",
+      "name": "Osysharp.Privacy.IncidentReports",
       "repository": "osysharp/privacy",
-      "description": "Osysharp.Privacy.Knowledge \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.Knowledge \u2014 the articles and versions a person wrote or published and the review steps they took, found by their account, in their copy of their data, their review notes kept restricted on request, and their name taken off everything when they ask to be erased while the articles stay.",
+      "description": "Osysharp.Privacy.IncidentReports \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.IncidentReports \u2014 the reports a person filed, the reports naming them with their injury, care and statement, and what they were told about an incident: special-category data kept on a legal obligation, counted, in their copy of their data, and erased from the record once its period ends.",
       "availability": "Published",
-      "version": "0.1.1",
-      "use": "use Osysharp.Privacy.Knowledge@0;",
+      "version": "0.1.0",
+      "use": "use Osysharp.Privacy.IncidentReports@0;",
       "stars": 0,
       "source": "topic",
-      "folder": "knowledge",
+      "folder": "incidentreports",
       "completes": [
         "osy-completes-osysharp-privacy",
-        "osy-completes-osysharp-knowledge"
+        "osy-completes-osysharp-incidentreports"
       ],
       "versions": [
-        "0.1.1",
         "0.1.0"
       ],
       "minPlatform": "0.9.0"
@@ -1748,6 +2165,25 @@
       "minPlatform": "0.9.0"
     },
     {
+      "name": "Osysharp.Privacy.Memberships",
+      "repository": "osysharp/privacy",
+      "description": "Osysharp.Privacy.Memberships \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.Memberships \u2014 a person\u0027s memberships, who else they let in, every change and every visit, in their copy of their data and erased when they ask.",
+      "availability": "Published",
+      "version": "0.1.0",
+      "use": "use Osysharp.Privacy.Memberships@0;",
+      "stars": 0,
+      "source": "topic",
+      "folder": "memberships",
+      "completes": [
+        "osy-completes-osysharp-privacy",
+        "osy-completes-osysharp-memberships"
+      ],
+      "versions": [
+        "0.1.0"
+      ],
+      "minPlatform": "0.9.0"
+    },
+    {
       "name": "Osysharp.Privacy.Notifications",
       "repository": "osysharp/privacy",
       "description": "Osysharp.Privacy.Notifications \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.Notifications \u2014 a person\u0027s notifications and their preferences, found by their account, in their copy of their data, kept restricted on request and erased when they ask.",
@@ -1764,6 +2200,63 @@
       "versions": [
         "0.2.1",
         "0.2.0"
+      ],
+      "minPlatform": "0.9.0"
+    },
+    {
+      "name": "Osysharp.Privacy.OfferSales",
+      "repository": "osysharp/privacy",
+      "description": "Osysharp.Privacy.OfferSales \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.OfferSales \u2014 the purchases a person made or had made for them, how they were paid and what was refunded: kept on the books\u0027 legal obligation, counted, in their copy of their data, and erased when that ends.",
+      "availability": "Published",
+      "version": "0.1.0",
+      "use": "use Osysharp.Privacy.OfferSales@0;",
+      "stars": 0,
+      "source": "topic",
+      "folder": "offersales",
+      "completes": [
+        "osy-completes-osysharp-privacy",
+        "osy-completes-osysharp-offersales"
+      ],
+      "versions": [
+        "0.1.0"
+      ],
+      "minPlatform": "0.9.0"
+    },
+    {
+      "name": "Osysharp.Privacy.PrepaidCredits",
+      "repository": "osysharp/privacy",
+      "description": "Osysharp.Privacy.PrepaidCredits \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.PrepaidCredits \u2014 a person\u0027s packs, what they used them for and every change to them, in their copy of their data and erased when they ask.",
+      "availability": "Published",
+      "version": "0.1.0",
+      "use": "use Osysharp.Privacy.PrepaidCredits@0;",
+      "stars": 0,
+      "source": "topic",
+      "folder": "prepaidcredits",
+      "completes": [
+        "osy-completes-osysharp-privacy",
+        "osy-completes-osysharp-prepaidcredits"
+      ],
+      "versions": [
+        "0.1.0"
+      ],
+      "minPlatform": "0.9.0"
+    },
+    {
+      "name": "Osysharp.Privacy.Qualifications",
+      "repository": "osysharp/privacy",
+      "description": "Osysharp.Privacy.Qualifications \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.Qualifications \u2014 the qualifications a person holds, what they signed and on which text, and the evidence files, in their copy of their data and erased when they ask.",
+      "availability": "Published",
+      "version": "0.1.0",
+      "use": "use Osysharp.Privacy.Qualifications@0;",
+      "stars": 0,
+      "source": "topic",
+      "folder": "qualifications",
+      "completes": [
+        "osy-completes-osysharp-privacy",
+        "osy-completes-osysharp-qualifications"
+      ],
+      "versions": [
+        "0.1.0"
       ],
       "minPlatform": "0.9.0"
     },
@@ -1788,6 +2281,25 @@
       "exports": [
         "AsksOf"
       ]
+    },
+    {
+      "name": "Osysharp.Privacy.ShiftScheduling",
+      "repository": "osysharp/privacy",
+      "description": "Osysharp.Privacy.ShiftScheduling \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.ShiftScheduling \u2014 a person\u0027s shifts, time off, the hours they are not free and their cover requests, in their copy of their data and erased when they ask.",
+      "availability": "Published",
+      "version": "0.1.0",
+      "use": "use Osysharp.Privacy.ShiftScheduling@0;",
+      "stars": 0,
+      "source": "topic",
+      "folder": "shiftscheduling",
+      "completes": [
+        "osy-completes-osysharp-privacy",
+        "osy-completes-osysharp-shiftscheduling"
+      ],
+      "versions": [
+        "0.1.0"
+      ],
+      "minPlatform": "0.9.0"
     },
     {
       "name": "Osysharp.Privacy.Sms",
@@ -1827,6 +2339,60 @@
         "0.4.0"
       ],
       "minPlatform": "0.9.0"
+    },
+    {
+      "name": "Osysharp.Qualifications",
+      "repository": "osysharp/qualifications",
+      "description": "Osysharp.Qualifications \u2014 an Osy# package. qualifications a person holds \u2014 licences, certificates, inductions, checks and signed waivers \u2014 of kinds with a validity in months (or none), recorded by staff or submitted with evidence for verification, a waiver signed on the exact text version the person was shown (by them, or by whoever acts for them), revocation and rejection with the reason, a renewal notice before each lapses and word when it does, and one call answering whether somebody holds what is needed now and why not \u2014 with a person\u0027s own page, a staff desk of what lapses soon and what waits for verification, and a kinds page with the waiver texts.",
+      "availability": "Published",
+      "version": "0.1.0",
+      "use": "use Osysharp.Qualifications@0;",
+      "stars": 0,
+      "source": "topic",
+      "versions": [
+        "0.1.0"
+      ],
+      "minPlatform": "0.9.0",
+      "exports": [
+        "AttachEvidence",
+        "AwaitingVerification",
+        "CheckQualification",
+        "CurrentText",
+        "EraseQualificationsOf",
+        "EvidenceOf",
+        "FindQualificationHolders",
+        "HasValidQualification",
+        "KeepEvidence",
+        "KindToIssue",
+        "LapsedWithin",
+        "LapsingWithin",
+        "LineOf",
+        "MissingQualifications",
+        "NoticeDaysOf",
+        "PublishQualificationText",
+        "QualificationCardOf",
+        "QualificationDay",
+        "QualificationDeskOf",
+        "QualificationGap",
+        "QualificationHoldsOn",
+        "QualificationLapsesAt",
+        "QualificationName",
+        "QualificationToday",
+        "QualificationValidUntil",
+        "QualificationWalletOf",
+        "QualificationsOf",
+        "RecordQualification",
+        "RejectQualification",
+        "Renewed",
+        "RevokeQualification",
+        "SignQualification",
+        "StillToSign",
+        "SubmitQualification",
+        "SubmittableKinds",
+        "TickQualification",
+        "UntilQualificationTick",
+        "VerifyQualification"
+      ]
     },
     {
       "name": "Osysharp.RecordTimeline",
@@ -2100,6 +2666,110 @@
       "versions": [
         "0.2.1",
         "0.2.0"
+      ],
+      "minPlatform": "0.9.0"
+    },
+    {
+      "name": "Osysharp.ShiftScheduling",
+      "repository": "osysharp/shiftscheduling",
+      "description": "Osysharp.ShiftScheduling \u2014 an Osy# package. a staff rota \u2014 shifts with a number of places, positions and what working one requires (answered by the app, or a qualifications kit), drafts published in one go, places a manager assigns or a worker claims (never over-filled, one place a shift, no overlaps, approved time off, weekly unavailability and an hours cap respected, the app\u0027s own rules asked), cover requests and swaps with approval, copying a week, hours per person and period, and a durable reminder before every shift \u2014 with a worker\u0027s my-shifts page, a manager\u0027s week and a requests page.",
+      "availability": "Published",
+      "version": "0.1.0",
+      "use": "use Osysharp.ShiftScheduling@0;",
+      "stars": 0,
+      "source": "topic",
+      "versions": [
+        "0.1.0"
+      ],
+      "minPlatform": "0.9.0",
+      "exports": [
+        "AcceptCover",
+        "AddShift",
+        "AssignShift",
+        "CancelShift",
+        "ClaimShift",
+        "CopyWeek",
+        "CoverAwaitingApproval",
+        "CoverLineOf",
+        "CoverOffersFor",
+        "CoverWaiting",
+        "Covered",
+        "CrewOf",
+        "DaysText",
+        "DecideCover",
+        "DecideTimeOff",
+        "DeleteDraftShift",
+        "DropShift",
+        "EraseRotaDataOf",
+        "FindRotaPeople",
+        "FireReminder",
+        "FirstFreePlace",
+        "ForgetUnavailability",
+        "HardRefusal",
+        "HoursBetween",
+        "HoursOf",
+        "MarkUnavailable",
+        "MyRotaView",
+        "OpenPlaces",
+        "OpenShiftsFor",
+        "OwnPlace",
+        "Placed",
+        "PublishShift",
+        "PublishShifts",
+        "RecordTimeOff",
+        "Refused",
+        "ReminderDueAt",
+        "ReminderIsDue",
+        "ReminderWait",
+        "Removed",
+        "RequestCover",
+        "RequestSwap",
+        "RequestTimeOff",
+        "RotaDayStart",
+        "RotaLocal",
+        "RotaName",
+        "RotaToday",
+        "RotaWeekOf",
+        "RotaWeekOfDay",
+        "RotaZone",
+        "ShiftCardOf",
+        "ShiftHours",
+        "ShiftTimes",
+        "ShiftsOf",
+        "TimeOffAhead",
+        "TimeOffEnds",
+        "TimeOffLineOf",
+        "TimeOffStarts",
+        "TimeOffWaiting",
+        "Unassign",
+        "UnavailabilityText",
+        "UnavailableDuring",
+        "UpdateShift",
+        "Warning",
+        "WeekHoursOf",
+        "WeekdayName",
+        "WhyNotCover",
+        "WhyNotOnShift",
+        "WithdrawCover",
+        "WithdrawTimeOff"
+      ]
+    },
+    {
+      "name": "Osysharp.ShiftScheduling.Qualifications",
+      "repository": "osysharp/shiftscheduling",
+      "description": "Osysharp.ShiftScheduling.Qualifications \u2014 an Osy# package. a rota position\u0027s requirements answered by Osysharp.Qualifications \u2014 nobody is put on a shift needing a qualification they do not hold in force that day, and the refusal says why in the qualifications kit\u0027s words.",
+      "availability": "Published",
+      "version": "0.1.0",
+      "use": "use Osysharp.ShiftScheduling.Qualifications@0;",
+      "stars": 0,
+      "source": "topic",
+      "folder": "qualifications",
+      "completes": [
+        "osy-completes-osysharp-shiftscheduling",
+        "osy-completes-osysharp-qualifications"
+      ],
+      "versions": [
+        "0.1.0"
       ],
       "minPlatform": "0.9.0"
     },
@@ -2754,34 +3424,6 @@
       ]
     },
     {
-      "name": "Osysharp.Shop.BankId",
-      "repository": "osysharp/shop",
-      "description": "Osysharp.Shop.BankId \u2014 an Osy# package. Age verification with Swedish BankID \u2014 the shop\u0027s AgeVerifier, over mutual TLS.",
-      "availability": "Published",
-      "version": "0.2.1",
-      "use": "use Osysharp.Shop.BankId@0;",
-      "stars": 0,
-      "source": "topic",
-      "folder": "bankid",
-      "completes": [
-        "osy-completes-osysharp-shop",
-        "osy-completes-osysharp-bankid"
-      ],
-      "versions": [
-        "0.2.1",
-        "0.2.0",
-        "0.1.1",
-        "0.1.0"
-      ],
-      "minPlatform": "0.9.0",
-      "exports": [
-        "BankIdFailed",
-        "BankIdWaiting",
-        "BirthDateOfPersonalNumber",
-        "LuhnHolds"
-      ]
-    },
-    {
       "name": "Osysharp.Shop.Bookkeeping",
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Bookkeeping \u2014 an Osy# package. a shop\u0027s books \u2014 SIE 4, CSV and the VAT report per rate \u2014 from its invoices and credit notes.",
@@ -2869,27 +3511,6 @@
         "UnusableAt",
         "UnusableIn",
         "UsedUp"
-      ]
-    },
-    {
-      "name": "Osysharp.Shop.Ecb",
-      "repository": "osysharp/shop",
-      "description": "Osysharp.Shop.Ecb \u2014 an Osy# package. the European Central Bank\u0027s daily reference rates, for showing a visitor prices in their own currency.",
-      "availability": "Published",
-      "version": "0.2.1",
-      "use": "use Osysharp.Shop.Ecb@0;",
-      "stars": 0,
-      "source": "topic",
-      "folder": "ecb",
-      "versions": [
-        "0.2.1",
-        "0.2.0",
-        "0.1.1",
-        "0.1.0"
-      ],
-      "minPlatform": "0.9.0",
-      "exports": [
-        "EcbSheet"
       ]
     },
     {
@@ -3254,25 +3875,6 @@
       "minPlatform": "0.9.0"
     },
     {
-      "name": "Osysharp.Shop.Vies",
-      "repository": "osysharp/shop",
-      "description": "Osysharp.Shop.Vies \u2014 an Osy# package. EU VAT-number checks against VIES \u2014 the shop\u0027s reverse-charge check.",
-      "availability": "Published",
-      "version": "0.2.1",
-      "use": "use Osysharp.Shop.Vies@0;",
-      "stars": 0,
-      "source": "topic",
-      "folder": "vies",
-      "versions": [
-        "0.2.1",
-        "0.2.0",
-        "0.1.2",
-        "0.1.1",
-        "0.1.0"
-      ],
-      "minPlatform": "0.9.0"
-    },
-    {
       "name": "Osysharp.Site.Looks",
       "repository": "osysharp/site",
       "description": "Osysharp.Site.Looks \u2014 an Osy# package. the general site contract for looks \u2014 hero, picture with words, quote, opening hours, address, sign-up, gallery, announcement, footer \u2014 as block TYPES each look draws in its own design.",
@@ -3310,23 +3912,6 @@
         "NormalisedPhone",
         "SendSms"
       ]
-    },
-    {
-      "name": "Osysharp.Sms.Elks",
-      "repository": "osysharp/sms",
-      "description": "Osysharp.Sms.Elks \u2014 an Osy# package. 46elks as a sender for Osysharp.Sms \u2014 Nordic alphanumeric senders, EU-only handling, and a dry run for staging.",
-      "availability": "Published",
-      "version": "0.1.3",
-      "use": "use Osysharp.Sms.Elks@0;",
-      "stars": 0,
-      "source": "topic",
-      "folder": "elks",
-      "versions": [
-        "0.1.3",
-        "0.1.2",
-        "0.1.1"
-      ],
-      "minPlatform": "0.9.0"
     },
     {
       "name": "Osysharp.Sms.FortySixElks",
