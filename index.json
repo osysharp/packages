@@ -1,22 +1,23 @@
 {
-  "generated": "2026-10-19T22:21:53.258815+00:00",
+  "generated": "2026-10-20T00:13:06.856952+00:00",
   "packages": [
     {
       "name": "Osysharp.Automations",
       "repository": "osysharp/automations",
       "description": "Osysharp.Automations \u2014 an Osy# package. rules that do an app\u0027s own work when something happens \u2014 a trigger from any event about the record or the hourly clock, conditions on the record\u0027s own fields as the rule\u0027s author may read them (and how long it has waited), and steps that are the app\u0027s own [Action] functions with the choices they offer; run in order, as the person who saved them under their own security, loop-protected, each fire recorded; the app\u0027s rules declared in code, copied by the team or a person to change them (restorable, lockable).",
       "availability": "Published",
-      "version": "0.6.3",
+      "version": "0.7.0",
       "use": "use Osysharp.Automations@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.7.0",
         "0.6.3",
         "0.6.2",
         "0.6.1",
         "0.6.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "ChoicesOf",
         "ConditionChoices",
@@ -81,64 +82,68 @@
       "repository": "osysharp/bankid",
       "description": "Osysharp.BankId \u2014 an Osy# package. Swedish BankID \u2014 auth and sign with animated QR or autostart, over mutual TLS.",
       "availability": "Published",
-      "version": "0.1.2",
+      "version": "0.2.0",
       "use": "use Osysharp.BankId@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.2.0",
         "0.1.2",
         "0.1.1",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.BarcodeScanner",
       "repository": "osysharp/barcodescanner",
       "description": "Osysharp.BarcodeScanner \u2014 an Osy# package. a live barcode \u002B QR scanner: it owns the camera, decoding with ZXing.",
       "availability": "Published",
-      "version": "1.0.2",
+      "version": "1.1.0",
       "use": "use Osysharp.BarcodeScanner@1;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "1.1.0",
         "1.0.2"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Carriers.PostNord",
       "repository": "osysharp/carriers",
       "description": "Osysharp.Carriers.PostNord \u2014 an Osy# package. PostNord parcels \u2014 booking with a PDF label, track \u0026 trace, service points, and a delivery provider.",
       "availability": "Published",
-      "version": "0.1.2",
+      "version": "0.2.0",
       "use": "use Osysharp.Carriers.PostNord@0;",
       "stars": 0,
       "source": "topic",
       "folder": "postnord",
       "versions": [
+        "0.2.0",
         "0.1.2",
         "0.1.1",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Carriers.Sendcloud",
       "repository": "osysharp/carriers",
       "description": "Osysharp.Carriers.Sendcloud \u2014 an Osy# package. Sendcloud \u2014 many European carriers behind one API: labels, customs, tracking, returns, pickups, and a delivery provider.",
       "availability": "Published",
-      "version": "0.1.2",
+      "version": "0.2.0",
       "use": "use Osysharp.Carriers.Sendcloud@0;",
       "stars": 0,
       "source": "topic",
       "folder": "sendcloud",
       "versions": [
+        "0.2.0",
         "0.1.2",
         "0.1.1",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "AnnounceWithSendcloud",
         "PickupWithSendcloud",
@@ -155,17 +160,18 @@
       "repository": "osysharp/carriers",
       "description": "Osysharp.Carriers.Shippo \u2014 an Osy# package. Shippo \u2014 USPS, UPS, FedEx and DHL Express behind one API: labels, customs, returns, tracking, and a delivery provider.",
       "availability": "Published",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "use": "use Osysharp.Carriers.Shippo@1;",
       "stars": 0,
       "source": "topic",
       "folder": "shippo",
       "versions": [
+        "1.1.0",
         "1.0.0",
         "0.1.1",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "AddressOf",
         "BuyLabel",
@@ -179,17 +185,18 @@
       "repository": "osysharp/charts",
       "description": "Osysharp.Charts \u2014 an Osy# package. charts in pure Osy#, no JavaScript: many mark types on one scale, plus pie and axes.",
       "availability": "Published",
-      "version": "1.2.0",
+      "version": "1.4.0",
       "use": "use Osysharp.Charts@1;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "1.4.0",
         "1.2.0",
         "1.1.2",
         "1.1.1",
         "1.1.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "AnnotationLabel",
         "AnnotationPct",
@@ -262,14 +269,15 @@
       "repository": "osysharp/classbookings",
       "description": "Osysharp.ClassBookings \u2014 an Osy# package. bookable sessions with numbered places that are never overbooked \u2014 a first-come waiting list whose freed places are offered for a limited time (or given at once) on a durable clock, booking windows, late cancellation and no-shows heard as events for the app to charge, check-in, walk-ins and the register closing by itself, weekly series in the app\u0027s time zone with one-off changes, instructors, rooms and equipment that no two sessions hold at once, reminders before a session, app-defined booking rules, booking for the people one acts for \u2014 with a timetable, a my-bookings page and the register.",
       "availability": "Published",
-      "version": "0.1.0",
+      "version": "0.4.0",
       "use": "use Osysharp.ClassBookings@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.4.0",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "AcceptOffer",
         "Announce",
@@ -284,6 +292,7 @@
         "ClashSentence",
         "CloseOffer",
         "CloseRegister",
+        "CountsAreMineToSee",
         "DeclineOffer",
         "EndOf",
         "EndSeries",
@@ -328,6 +337,53 @@
         "WhenText",
         "WhyNotBook",
         "policy TeachesSession"
+      ]
+    },
+    {
+      "name": "Osysharp.Color",
+      "repository": "osysharp/color",
+      "description": "Osysharp.Color \u2014 an Osy# package. colour maths \u2014 hex and OKLCH, WCAG contrast, readable-on, mixing, and palettes (light and dark) suggested from one base colour.",
+      "availability": "Published",
+      "version": "0.2.0",
+      "use": "use Osysharp.Color@0;",
+      "stars": 0,
+      "source": "topic",
+      "versions": [
+        "0.2.0"
+      ],
+      "minPlatform": "0.14.0",
+      "exports": [
+        "Checked",
+        "Clamp01",
+        "ContrastRatio",
+        "ContrastText",
+        "CubeRoot",
+        "FromLinear",
+        "FromOklch",
+        "HexDigit",
+        "InkOn",
+        "IsDark",
+        "IsHexColor",
+        "IsReadable",
+        "LinearOf",
+        "LinearOfHex",
+        "Luminance",
+        "LuminanceOf",
+        "Mix",
+        "ModeOf",
+        "NormalizeHex",
+        "PassesAA",
+        "RatioOf",
+        "ReadableOn",
+        "Rotated",
+        "ShownLinear",
+        "Shows",
+        "SuggestPalettes",
+        "ToLinear",
+        "ToOklch",
+        "TwoDigits",
+        "WithChroma",
+        "WithLightness"
       ]
     },
     {
@@ -499,7 +555,7 @@
       "repository": "osysharp/conversations",
       "description": "Osysharp.Conversations.MachineTranslation \u2014 an Osy# package. the app\u0027s own model as the translator of its conversations \u2014 a copy of every customer message in the desk\u0027s language and every reply in each customer\u0027s, through the app\u0027s key, router and budget; a missing key a state the desk is told about, never a lost message.",
       "availability": "Published",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "use": "use Osysharp.Conversations.MachineTranslation@0;",
       "stars": 0,
       "source": "topic",
@@ -509,17 +565,18 @@
         "osy-completes-osysharp-machinetranslation"
       ],
       "versions": [
+        "0.3.0",
         "0.2.1",
         "0.2.0"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Conversations.Mail",
       "repository": "osysharp/conversations",
       "description": "Osysharp.Conversations.Mail \u2014 an Osy# package. email as a channel for Osysharp.Conversations \u2014 replies through Osysharp.Mail\u0027s outbox, from the address the customer wrote to and threaded; a mail received continues its conversation; out-of-office replies and bounces recognised.",
       "availability": "Published",
-      "version": "0.4.2",
+      "version": "0.5.0",
       "use": "use Osysharp.Conversations.Mail@0;",
       "stars": 0,
       "source": "topic",
@@ -529,11 +586,12 @@
         "osy-completes-osysharp-mail-receiving"
       ],
       "versions": [
+        "0.5.0",
         "0.4.2",
         "0.4.1",
         "0.4.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "AddressOf",
         "ConversationTokenIn",
@@ -551,7 +609,7 @@
       "repository": "osysharp/conversations",
       "description": "Osysharp.Conversations.Sms \u2014 an Osy# package. text messages as a channel for Osysharp.Conversations \u2014 replies through Osysharp.Sms\u0027s outbox from the app\u0027s own number, a text received continues that number\u0027s latest conversation within a window, carrier delivery reports, and a refusal of an alphanumeric sender that could never be answered.",
       "availability": "Published",
-      "version": "0.1.2",
+      "version": "0.2.0",
       "use": "use Osysharp.Conversations.Sms@0;",
       "stars": 0,
       "source": "topic",
@@ -561,11 +619,12 @@
         "osy-completes-osysharp-sms"
       ],
       "versions": [
+        "0.2.0",
         "0.1.2",
         "0.1.1",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "ReceiveSms",
         "SmsDeliveryReport"
@@ -576,14 +635,15 @@
       "repository": "osysharp/csv",
       "description": "Osysharp.Csv \u2014 an Osy# package. CSV in and out \u2014 quoted fields, Excel\u0027s separators and byte-order mark, formula-safe cells.",
       "availability": "Published",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "use": "use Osysharp.Csv@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "CsvField",
         "CsvLine",
@@ -599,14 +659,15 @@
       "repository": "osysharp/customfields",
       "description": "Osysharp.CustomFields \u2014 an Osy# package. fields an app\u0027s admins add to its records without a release \u2014 text, numbers, yes or no, a choice, a date; required or optional; asked of outside people or kept for the team \u2014 on forms with conditions, every answer checked on the server and held to its kind on every write; each kind of record declares its own field and value types, so a value\u0027s security is its record\u0027s; with the question controls, the in-place editor for a record\u0027s fields, and the settings sections to define fields and forms.",
       "availability": "Published",
-      "version": "0.3.2",
-      "use": "use Osysharp.CustomFields@0;",
+      "version": "1.0.0",
+      "use": "use Osysharp.CustomFields@1;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "1.0.0",
         "0.3.2"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "AnswerProblem",
         "AnswerTo",
@@ -641,31 +702,33 @@
     {
       "name": "Osysharp.Diagrams",
       "repository": "osysharp/diagrams",
-      "description": "Osysharp.Diagrams \u2014 an Osy# package. a node/edge modelling canvas: pan, zoom, drag, connect \u2014 nodes rendered by the app\u0027s own Osy#.",
+      "description": "Osysharp.Diagrams \u2014 an Osy# package. a node/edge canvas: a laid-out picture of a process with a run\u0027s path on it, or an editor \u2014 pan, zoom, drag, connect; nodes rendered by the app\u0027s own Osy#.",
       "availability": "Published",
-      "version": "0.3.2",
+      "version": "0.5.0",
       "use": "use Osysharp.Diagrams@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.5.0",
         "0.3.2"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Dns",
       "repository": "osysharp/dns",
       "description": "Osysharp.Dns \u2014 an Osy# package. DNS records an app writes \u2014 one record shape, a pluggable provider, add-a-value TXT semantics, and a provider that keeps records in the app\u0027s own table.",
       "availability": "Published",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "use": "use Osysharp.Dns@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.2.0",
         "0.1.1",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "AddressRecordsAt",
         "IsAddressKind",
@@ -682,16 +745,17 @@
       "repository": "osysharp/dns",
       "description": "Osysharp.Dns.Cloudflare \u2014 an Osy# package. Cloudflare DNS as an Osysharp.Dns provider \u2014 records by the v4 API, TXT values added and removed one at a time, never proxied.",
       "availability": "Published",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "use": "use Osysharp.Dns.Cloudflare@0;",
       "stars": 0,
       "source": "topic",
       "folder": "cloudflare",
       "versions": [
+        "0.3.0",
         "0.2.1",
         "0.2.0"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.EmailTemplates",
@@ -715,28 +779,30 @@
       "repository": "osysharp/fortysixelks",
       "description": "Osysharp.FortySixElks \u2014 an Osy# package. SMS through 46elks \u2014 one message or a fan-out, with delivery reports and a dry run.",
       "availability": "Published",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "use": "use Osysharp.FortySixElks@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.2.0",
         "0.1.1"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Guardianship",
       "repository": "osysharp/guardianship",
       "description": "Osysharp.Guardianship \u2014 an Osy# package. who acts for whom: a child added by their guardian as an account they cannot sign in to yet, a second guardian invited by address, standings (acts for them, kept informed, ended) that change by themselves when the child comes of age, consents the guardian gives on the child\u0027s behalf against versioned wording, emergency contacts and the people who may collect them, care notes for staff on site \u2014 and one policy, ActsForDependant, for an app\u0027s own rules.",
       "availability": "Published",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "use": "use Osysharp.Guardianship@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "AcceptGuardianInvitation",
         "AddDependant",
@@ -784,6 +850,69 @@
       ]
     },
     {
+      "name": "Osysharp.HumanRequests",
+      "repository": "osysharp/humanrequests",
+      "description": "Osysharp.HumanRequests \u2014 an Osy# package. requests put to people \u2014 a question with typed options, an approval bound to the exact version approved, a request for information or a document \u2014 from a person, a process or an agent, with a deadline in business hours, reminders and escalation; answered in the app\u0027s work queue or, with no account, through a link that opens that one request; the answer comes back typed to whatever waits for it, however long that takes.",
+      "availability": "Published",
+      "version": "1.4.0",
+      "use": "use Osysharp.HumanRequests@1;",
+      "stars": 0,
+      "source": "topic",
+      "versions": [
+        "1.4.0"
+      ],
+      "minPlatform": "0.14.0",
+      "exports": [
+        "AnswerByLink",
+        "AnswerLinkFor",
+        "AnswerRequest",
+        "AnswerWords",
+        "ApprovalCovers",
+        "ApproveKey",
+        "ApproveRequests",
+        "AskedWho",
+        "AskerWords",
+        "CancelRequest",
+        "CheckedFields",
+        "Clip",
+        "Closed",
+        "DueOf",
+        "EraseFromRequest",
+        "ExtendRequest",
+        "FieldWords",
+        "FieldsOfSchema",
+        "GiveUpOnRequest",
+        "IsADigest",
+        "LateOf",
+        "LinesOf",
+        "NameOfPerson",
+        "OptionTone",
+        "OutcomeOf",
+        "OutsideWho",
+        "PutRequest",
+        "RejectKey",
+        "RemindOf",
+        "ReplaceRequest",
+        "RequestClock",
+        "RequestKindKey",
+        "RequireAskerOrOverseer",
+        "RevokeAnswerLink",
+        "SendAnswer",
+        "SendAnswerByLink",
+        "TextOfJson",
+        "UseApproval",
+        "ViewByLink",
+        "ViewOf",
+        "ViewRequest",
+        "WaitingLines",
+        "WaitingLinesOf",
+        "When",
+        "WhyNotCovered",
+        "policy AnswersRequests",
+        "policy HandlesRequests"
+      ]
+    },
+    {
       "name": "Osysharp.Identity",
       "repository": "osysharp/identity",
       "description": "Osysharp.Identity \u2014 an Osy# package. who signs in, and which of the app\u0027s roles each person holds \u2014 the base every people-aware kit builds on.",
@@ -818,14 +947,15 @@
       "repository": "osysharp/incidentreports",
       "description": "Osysharp.IncidentReports \u2014 an Osy# package. confidential incident reports \u2014 injuries, near misses, damage, concerns \u2014 in categories and severities the app defines, with the people involved and witnesses (accounts or just names), their statements, injuries and treatment, photos and files, a review that classifies the report, records the cause and sets corrective actions with owners and due dates, a close that waits for those actions, notices to the people who must be told (a child\u0027s guardians) with their acknowledgement, a deadline for reporting to an authority watched on a durable clock, a register with a CSV export \u2014 and a reporter\u0027s page, a review desk, the register and a setup page.",
       "availability": "Published",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "use": "use Osysharp.IncidentReports@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "AcknowledgeIncidentNotice",
         "ActionAbout",
@@ -889,7 +1019,7 @@
       "repository": "osysharp/incidentreports",
       "description": "Osysharp.IncidentReports.Guardianship \u2014 an Osy# package. the guardians Osysharp.Guardianship links are who Osysharp.IncidentReports tells when somebody they look after is named in an incident \u2014 offered on the review desk, told in one call, and their acknowledgement kept.",
       "availability": "Published",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "use": "use Osysharp.IncidentReports.Guardianship@0;",
       "stars": 0,
       "source": "topic",
@@ -899,40 +1029,50 @@
         "osy-completes-osysharp-guardianship"
       ],
       "versions": [
+        "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Invitations",
       "repository": "osysharp/invitations",
       "description": "Osysharp.Invitations \u2014 an Osy# package. invite a person by address with their role (and organisation) fixed when it is sent \u2014 mailed, reminded, expiring, revocable and resendable as a durable run; answered only by the invited address: a newcomer through a single-use mailed link, an existing account only once fully signed in (its second step included) and with that address proven.",
       "availability": "Published",
-      "version": "0.4.2",
-      "use": "use Osysharp.Invitations@0;",
+      "version": "1.0.0",
+      "use": "use Osysharp.Invitations@1;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "1.0.0",
         "0.4.2",
         "0.4.1",
         "0.4.0",
         "0.3.0",
         "0.2.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "AcceptInvitation",
         "AcceptInvitationById",
         "AlreadyHolds",
+        "AskToJoinAs",
         "GrantWhatWasSent",
+        "InvitationByKey",
         "InvitationLink",
         "Invite",
         "InvitedInto",
+        "InviterName",
         "JoinByInvitation",
+        "JoinByInvitationAs",
+        "JoinWithLink",
+        "MailAddressConfirmation",
         "MailInvitation",
         "MyInvitationViews",
         "MyInvitations",
         "NewInvitedAccount",
+        "ProvenAddress",
+        "ProvesAddress",
         "ResendInvitation",
         "ResendInvitationById",
         "RevokeInvitation",
@@ -947,14 +1087,15 @@
       "repository": "osysharp/knowledgebase",
       "description": "Osysharp.KnowledgeBase \u2014 an Osy# package. a knowledge base and its public help centre \u2014 markdown articles in categories and sections, drafts, numbered versions, review before publishing (nobody publishes their own words while review is on), a version per language with the original as fallback, team-only articles that never reach a customer or a search, search and suggestions as a person types \u2014 in each version\u0027s own language, so an inflected word finds its other forms, and by meaning once the app has an embedder \u2014 structured data and a sitemap for search engines, and the desk to write, review and arrange it all.",
       "availability": "Published",
-      "version": "0.9.1",
-      "use": "use Osysharp.KnowledgeBase@0;",
+      "version": "1.0.0",
+      "use": "use Osysharp.KnowledgeBase@1;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "1.0.0",
         "0.9.1"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "AddKnowledgeCategory",
         "AddKnowledgeSection",
@@ -1025,46 +1166,121 @@
       ]
     },
     {
+      "name": "Osysharp.Llm",
+      "repository": "osysharp/llm",
+      "description": "Osysharp.Llm \u2014 an Osy# package. calling a model: the provider and router contracts, the call path (route, reserve, call, fall back, meter), a price book and budgets with hard limits, typed extraction and typed decisions, and a scripted model for tests.",
+      "availability": "Published",
+      "version": "2.3.0",
+      "use": "use Osysharp.Llm@2;",
+      "stars": 0,
+      "source": "topic",
+      "versions": [
+        "2.3.0"
+      ],
+      "minPlatform": "0.14.0",
+      "exports": [
+        "Admit",
+        "BudgetSentence",
+        "BudgetsOf",
+        "Clamp01",
+        "Clip",
+        "CompleteWith",
+        "CostMicros",
+        "CurrentRequester",
+        "DecideWith",
+        "DecisionChatRequest",
+        "DecisionFrom",
+        "Declares",
+        "Dollars",
+        "EstimateTokens",
+        "EveryModelIsScripted",
+        "ExtractJson",
+        "ExtractJsonFrom",
+        "ExtractJsonFromFile",
+        "FactsOf",
+        "Failed",
+        "ForgetModelCallRequester",
+        "ForgetModelCallsBefore",
+        "GenerationIsOn",
+        "IsJson",
+        "JsonIn",
+        "LimitSentence",
+        "MillisSince",
+        "ModelCallsInFlightFor",
+        "ModelNamed",
+        "NoneServed",
+        "PassTurnstile",
+        "PeriodOf",
+        "PriceOf",
+        "RemoveBudget",
+        "RequestOf",
+        "RequireGeneration",
+        "RouteFor",
+        "RouteOrRefuse",
+        "RunKind",
+        "RunScope",
+        "RunScopes",
+        "ScopeLine",
+        "ScopesOf",
+        "ScriptedAnswer",
+        "ScriptedDecision",
+        "Served",
+        "SetBudget",
+        "SetModelPrice",
+        "SpentAgainst",
+        "SpentIn",
+        "SpentOn",
+        "StepDownOrStop",
+        "StreamOf",
+        "StreamWith",
+        "TextOf",
+        "WorkflowScope"
+      ]
+    },
+    {
       "name": "Osysharp.LlmRouter",
       "repository": "osysharp/llmrouter",
-      "description": "Osysharp.LlmRouter \u2014 an Osy# package. a cost-tiered model router: hard capability filters, a quality floor per task kind, then cheapest-admissible.",
+      "description": "Osysharp.LlmRouter \u2014 an Osy# package. a cost-tiered model router: hard capability filters, quality floors per task kind and per step, a cost ceiling a short budget steps down under, then cheapest-admissible \u2014 in an order that is the fallback order.",
       "availability": "Published",
-      "version": "0.1.0",
+      "version": "0.3.0",
       "use": "use Osysharp.LlmRouter@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.3.0",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.LoadingOrbs",
       "repository": "osysharp/loadingorbs",
       "description": "Osysharp.LoadingOrbs \u2014 an Osy# package. thinking orbs for waiting states \u2014 nine animated dotted spheres (searching, composing, weaving\u2026) in pure Osy#, themed by tokens.",
       "availability": "Published",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "use": "use Osysharp.LoadingOrbs@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.2.0",
         "0.1.1"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Localization",
       "repository": "osysharp/localization",
       "description": "Osysharp.Localization \u2014 an Osy# package. a translator\u0027s desk: untranslated and stale words and data in every language, and overrides that survive a recompile.",
       "availability": "Published",
-      "version": "0.2.3",
+      "version": "0.3.0",
       "use": "use Osysharp.Localization@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.3.0",
         "0.2.3"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "ClearOverride",
         "OverrideText",
@@ -1081,14 +1297,15 @@
       "repository": "osysharp/machinetranslation",
       "description": "Osysharp.MachineTranslation \u2014 an Osy# package. language detection that works offline (scripts, and the commonest words of twelve European languages) and translation through the app\u0027s own model \u2014 glossary terms kept as written, a missing key a state rather than an error.",
       "availability": "Published",
-      "version": "0.2.1",
+      "version": "0.4.0",
       "use": "use Osysharp.MachineTranslation@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.4.0",
         "0.2.1"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "DefaultProfiles",
         "IsLanguageTag",
@@ -1149,17 +1366,18 @@
       "repository": "osysharp/mail",
       "description": "Osysharp.Mail.Gmail \u2014 an Osy# package. a Gmail / Google Workspace inbox as a mailbox for Osysharp.Mail \u2014 new mail pushed through Cloud Pub/Sub (polled without), replies sent from it, threaded.",
       "availability": "Published",
-      "version": "0.2.2",
+      "version": "0.3.0",
       "use": "use Osysharp.Mail.Gmail@0;",
       "stars": 0,
       "source": "topic",
       "folder": "gmail",
       "versions": [
+        "0.3.0",
         "0.2.2",
         "0.2.1",
         "0.2.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "FromBase64Url",
         "PushSenderOf",
@@ -1171,52 +1389,55 @@
       "repository": "osysharp/mail",
       "description": "Osysharp.Mail.Imap \u2014 an Osy# package. any IMAP mailbox as a mailbox for Osysharp.Mail \u2014 new mail read over IMAP, replies sent over SMTP, threaded.",
       "availability": "Published",
-      "version": "0.2.2",
+      "version": "0.3.0",
       "use": "use Osysharp.Mail.Imap@0;",
       "stars": 0,
       "source": "topic",
       "folder": "imap",
       "versions": [
+        "0.3.0",
         "0.2.2",
         "0.2.1",
         "0.2.0"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Mail.Microsoft365",
       "repository": "osysharp/mail",
       "description": "Osysharp.Mail.Microsoft365 \u2014 an Osy# package. a Microsoft 365 mailbox as a mailbox for Osysharp.Mail \u2014 new mail polled through Graph, replies sent from it, threaded.",
       "availability": "Published",
-      "version": "0.2.2",
+      "version": "0.3.0",
       "use": "use Osysharp.Mail.Microsoft365@0;",
       "stars": 0,
       "source": "topic",
       "folder": "microsoft365",
       "versions": [
+        "0.3.0",
         "0.2.2",
         "0.2.1",
         "0.2.0"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Mail.Receiving",
       "repository": "osysharp/mail",
       "description": "Osysharp.Mail.Receiving \u2014 an Osy# package. watched mailboxes \u2014 new mail pushed (Gmail via Pub/Sub, Microsoft 365 via Graph) with a half-hourly safety net, or polled; each message kept once with its original, handed to the app\u0027s receiver after the commit, retried, failed with its reason, erasable by sender; and the settings page for whoever manages them.",
       "availability": "Published",
-      "version": "0.5.2",
+      "version": "0.6.0",
       "use": "use Osysharp.Mail.Receiving@0;",
       "stars": 0,
       "source": "topic",
       "folder": "receiving",
       "versions": [
+        "0.6.0",
         "0.5.2",
         "0.5.1",
         "0.5.0",
         "0.4.1"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "Clip",
         "EndPush",
@@ -1251,32 +1472,39 @@
       "repository": "osysharp/mail",
       "description": "Osysharp.Mail.Resend \u2014 an Osy# package. Resend as a sender for Osysharp.Mail \u2014 threading headers and attachments included.",
       "availability": "Published",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "use": "use Osysharp.Mail.Resend@0;",
       "stars": 0,
       "source": "topic",
       "folder": "resend",
       "versions": [
+        "0.2.0",
         "0.1.1",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0",
+      "exports": [
+        "Report",
+        "ResendDeliveryReported",
+        "TakeResendReport"
+      ]
     },
     {
       "name": "Osysharp.MailingLists",
       "repository": "osysharp/mailinglists",
       "description": "Osysharp.MailingLists \u2014 an Osy# package. mailing lists \u2014 double opt-in, consent recorded word for word, signed unsubscribe and preferences, suppression of bounces and complaints, export and erasure.",
       "availability": "Published",
-      "version": "0.2.2",
+      "version": "0.3.0",
       "use": "use Osysharp.MailingLists@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.3.0",
         "0.2.2",
         "0.2.1",
         "0.2.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "ActiveListsOf",
         "ChoicesOf",
@@ -1324,31 +1552,33 @@
       "repository": "osysharp/markdowneditor",
       "description": "Osysharp.MarkdownEditor \u2014 an Osy# package. a rich EDITOR over a \u0060Markdown\u0060 property: rich and source modes, tables, maths.",
       "availability": "Published",
-      "version": "1.0.4",
+      "version": "1.1.0",
       "use": "use Osysharp.MarkdownEditor@1;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "1.1.0",
         "1.0.4",
         "1.0.3",
         "1.0.2",
         "1.0.1"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Memberships",
       "repository": "osysharp/memberships",
       "description": "Osysharp.Memberships \u2014 an Osy# package. memberships and passes \u2014 day tickets, monthly and yearly memberships, cards of N visits (a pack of Osysharp.PrepaidCredits), starting on a date or on the first visit; admission that uses a visit, never goes below zero and says plainly why somebody may not enter; pauses that move the end date, extension, renewal (by hand or by the app\u0027s payment) and the notice before it ends, transfer, family members on one membership, and its unused value in money \u2014 every change and every attempt to enter recorded with who and why \u2014 with a my-memberships page, a desk page and a plans page.",
       "availability": "Published",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "use": "use Osysharp.Memberships@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "AddToMembership",
         "AdmissionLineOf",
@@ -1417,61 +1647,65 @@
       "repository": "osysharp/microsoftgraph",
       "description": "Osysharp.MicrosoftGraph \u2014 an Osy# package. Microsoft 365 through Graph \u2014 mail, calendar and files, as the signed-in user or as the app.",
       "availability": "Published",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "use": "use Osysharp.MicrosoftGraph@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.2.0",
         "0.1.1"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Models.Anthropic",
       "repository": "osysharp/models",
-      "description": "Osysharp.Models.Anthropic \u2014 an Osy# package. the Anthropic Messages API as an app.Models \u0060Client\u0060 \u2014 complete and stream, with prompt caching.",
+      "description": "Osysharp.Models.Anthropic \u2014 an Osy# package. the Anthropic Messages API as a model provider for Osysharp.Llm \u2014 complete and stream, with prompt caching, tool choice and structured output.",
       "availability": "Published",
-      "version": "0.1.1",
-      "use": "use Osysharp.Models.Anthropic@0;",
+      "version": "1.0.0",
+      "use": "use Osysharp.Models.Anthropic@1;",
       "stars": 0,
       "source": "topic",
       "folder": "anthropic",
       "versions": [
+        "1.0.0",
         "0.1.1",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Models.Gemini",
       "repository": "osysharp/models",
-      "description": "Osysharp.Models.Gemini \u2014 an Osy# package. the Google Gemini API as an app.Models \u0060Client\u0060 \u2014 complete and stream, tools included.",
+      "description": "Osysharp.Models.Gemini \u2014 an Osy# package. the Google Gemini API as a model provider for Osysharp.Llm \u2014 complete and stream, tools included.",
       "availability": "Published",
-      "version": "0.1.0",
-      "use": "use Osysharp.Models.Gemini@0;",
+      "version": "1.0.0",
+      "use": "use Osysharp.Models.Gemini@1;",
       "stars": 0,
       "source": "topic",
       "folder": "gemini",
       "versions": [
+        "1.0.0",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Models.OpenAi",
       "repository": "osysharp/models",
-      "description": "Osysharp.Models.OpenAi \u2014 an Osy# package. the OpenAI Chat Completions API as an app.Models \u0060Client\u0060 \u2014 and any endpoint that speaks its wire.",
+      "description": "Osysharp.Models.OpenAi \u2014 an Osy# package. the OpenAI Chat Completions API as a model provider for Osysharp.Llm \u2014 and any endpoint that speaks its wire.",
       "availability": "Published",
-      "version": "0.1.1",
-      "use": "use Osysharp.Models.OpenAi@0;",
+      "version": "1.0.0",
+      "use": "use Osysharp.Models.OpenAi@1;",
       "stars": 0,
       "source": "topic",
       "folder": "openai",
       "versions": [
+        "1.0.0",
         "0.1.1",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Notifications",
@@ -1528,14 +1762,15 @@
       "repository": "osysharp/offersales",
       "description": "Osysharp.OfferSales \u2014 an Osy# package. sell a few simple offers \u2014 a ticket, a pass, a pack, a membership \u2014 online through any payment provider, by transfer or pay-at-the-desk marked received, or across a counter (cash, a card terminal, a reader or a QR code), for the buyer or somebody they buy for; prices, sale windows, limited places and a per-person limit; each purchase recorded with a receipt number, held while it is paid and lapsing when it is not; paid announced exactly once, refunds whole or in part announced once each; the day\u0027s takings by channel and method and a CSV \u2014 with an offers page, a buyer\u0027s purchases, a counter and an offers desk.",
       "availability": "Published",
-      "version": "0.1.0",
-      "use": "use Osysharp.OfferSales@0;",
+      "version": "1.0.0",
+      "use": "use Osysharp.OfferSales@1;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "1.0.0",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "ApplyOfferSalesEvents",
         "ApplyRefund",
@@ -1571,7 +1806,6 @@
         "RefundableOf",
         "RefundsOf",
         "RefundsThrough",
-        "ReturnPlaces",
         "SellAtCounter",
         "StartCounterPurchase",
         "StartPurchase",
@@ -1585,7 +1819,7 @@
       "repository": "osysharp/offersales",
       "description": "Osysharp.OfferSales.Memberships \u2014 an Osy# package. an Osysharp.Memberships plan as an Osysharp.OfferSales offer \u2014 sold to whoever it was bought for once it is paid, at what was paid, and ended when it is refunded in full.",
       "availability": "Published",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "use": "use Osysharp.OfferSales.Memberships@0;",
       "stars": 0,
       "source": "topic",
@@ -1595,9 +1829,10 @@
         "osy-completes-osysharp-memberships"
       ],
       "versions": [
+        "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "MembershipReference"
       ]
@@ -1607,7 +1842,7 @@
       "repository": "osysharp/offersales",
       "description": "Osysharp.OfferSales.PrepaidCredits \u2014 an Osy# package. a pack of Osysharp.PrepaidCredits as an Osysharp.OfferSales offer \u2014 credits, a scope and a validity \u2014 granted to whoever it was bought for once it is paid, and voided when it is refunded in full.",
       "availability": "Published",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "use": "use Osysharp.OfferSales.PrepaidCredits@0;",
       "stars": 0,
       "source": "topic",
@@ -1617,9 +1852,10 @@
         "osy-completes-osysharp-prepaidcredits"
       ],
       "versions": [
+        "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "CreditPackReference"
       ]
@@ -1696,14 +1932,15 @@
       "repository": "osysharp/pagebuilder",
       "description": "Osysharp.PageBuilder \u2014 an Osy# package. the page desk: arrange each Region\u0027s blocks with generated forms and a live preview, site versions on a schedule, and a staff preview of the whole site.",
       "availability": "Published",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "use": "use Osysharp.PageBuilder@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.3.0",
         "0.2.1"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "DropPagesWords",
         "InTheMail",
@@ -1747,49 +1984,52 @@
       "repository": "osysharp/payments",
       "description": "Osysharp.Payments.Klarna \u2014 an Osy# package. Klarna payments \u2014 a session, an order, and the capture/refund half that comes after.",
       "availability": "Published",
-      "version": "0.1.2",
+      "version": "0.2.0",
       "use": "use Osysharp.Payments.Klarna@0;",
       "stars": 0,
       "source": "topic",
       "folder": "klarna",
       "versions": [
+        "0.2.0",
         "0.1.2",
         "0.1.1",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Payments.Stripe",
       "repository": "osysharp/payments",
       "description": "Osysharp.Payments.Stripe \u2014 an Osy# package. card payments through Stripe \u2014 payment intents, checkout sessions, customers, refunds, verified webhooks, and a payments-contract provider.",
       "availability": "Published",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "use": "use Osysharp.Payments.Stripe@0;",
       "stars": 0,
       "source": "topic",
       "folder": "stripe",
       "versions": [
+        "0.2.0",
         "0.1.1",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Payments.Swish",
       "repository": "osysharp/payments",
       "description": "Osysharp.Payments.Swish \u2014 an Osy# package. Swish payments \u2014 a request to the payer\u0027s phone or a QR code, status asked of Swish over mutual TLS, and refunds.",
       "availability": "Published",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "use": "use Osysharp.Payments.Swish@0;",
       "stars": 0,
       "source": "topic",
       "folder": "swish",
       "versions": [
+        "0.2.0",
         "0.1.1",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "IsSwishId",
         "SwishAmount",
@@ -1805,42 +2045,45 @@
       "repository": "osysharp/pdfviewer",
       "description": "Osysharp.PdfViewer \u2014 an Osy# package. a paged PDF reader over a \u0060FileAsset\u0060, canvas-rendered, with a real text layer.",
       "availability": "Published",
-      "version": "1.0.2",
+      "version": "1.1.0",
       "use": "use Osysharp.PdfViewer@1;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "1.1.0",
         "1.0.2"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.PdfWriter",
       "repository": "osysharp/pdfwriter",
       "description": "Osysharp.PdfWriter \u2014 an Osy# package. write a PDF \u2014 text in Helvetica, rules and pages \u2014 for receipts, invoices and slips.",
       "availability": "Published",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "use": "use Osysharp.PdfWriter@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.PrepaidCredits",
       "repository": "osysharp/prepaidcredits",
       "description": "Osysharp.PrepaidCredits \u2014 an Osy# package. prepaid uses: packs of credits granted to a person (a class pack, a ten-visit card, desk-hours), optionally expiring and scoped, spent several at a time from the pack that expires first, never below zero, idempotent per reference, refundable, for the holder or somebody they pay for; staff adjust, extend, void and move credits with a reason; expiry and low-balance notices; a statement the holder reads; and the value still owed \u2014 with a my-credits page and a desk page.",
       "availability": "Published",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "use": "use Osysharp.PrepaidCredits@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "AdjustCredits",
         "CountIn",
@@ -2039,7 +2282,7 @@
       "repository": "osysharp/privacy",
       "description": "Osysharp.Privacy.ClassBookings \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.ClassBookings \u2014 the places a person booked or waited for, their attendance, late cancellations and no-shows: counted, in their copy of their data, and erased when they ask, a place they still held passing to the next person waiting.",
       "availability": "Published",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "use": "use Osysharp.Privacy.ClassBookings@0;",
       "stars": 0,
       "source": "topic",
@@ -2049,16 +2292,17 @@
         "osy-completes-osysharp-classbookings"
       ],
       "versions": [
+        "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Privacy.Conversations",
       "repository": "osysharp/privacy",
       "description": "Osysharp.Privacy.Conversations \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.Conversations \u2014 complaints kept RESTRICTED for legal claims \u2014 read only for a claim, every read logged \u2014 while the rest of a person\u0027s conversations, their contact points and the redacted copies are erased on request, a daily purge that ends every conversation\u0027s period, the app\u0027s own say on which conversations concern a claim, and a person with no account proving their address to ask for themselves.",
       "availability": "Published",
-      "version": "0.6.3",
+      "version": "0.7.0",
       "use": "use Osysharp.Privacy.Conversations@0;",
       "stars": 0,
       "source": "topic",
@@ -2068,11 +2312,12 @@
         "osy-completes-osysharp-conversations"
       ],
       "versions": [
+        "0.7.0",
         "0.6.3",
         "0.6.2",
         "0.6.1"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "AnalysisCategory",
         "ClaimsCategory",
@@ -2096,7 +2341,7 @@
       "repository": "osysharp/privacy",
       "description": "Osysharp.Privacy.Guardianship \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.Guardianship \u2014 who looks after a person and whom they look after, their date of birth and care notes (special-category data), the consents answered for them, their emergency contacts and the invitations to their address: counted, in their copy of their data, and erased when they ask.",
       "availability": "Published",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "use": "use Osysharp.Privacy.Guardianship@0;",
       "stars": 0,
       "source": "topic",
@@ -2106,16 +2351,41 @@
         "osy-completes-osysharp-guardianship"
       ],
       "versions": [
+        "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
+    },
+    {
+      "name": "Osysharp.Privacy.HumanRequests",
+      "repository": "osysharp/privacy",
+      "description": "Osysharp.Privacy.HumanRequests \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.HumanRequests \u2014 the requests put to a person (by account, or by the address a link was sent to) and the requests marked as about them: in their copy of their data with what they were asked and answered, kept out of use, and erased when they ask \u2014 the request left standing with how it ended, and a process run that told it told again without them",
+      "availability": "Published",
+      "version": "1.1.0",
+      "use": "use Osysharp.Privacy.HumanRequests@1;",
+      "stars": 0,
+      "source": "topic",
+      "folder": "humanrequests",
+      "completes": [
+        "osy-completes-osysharp-privacy",
+        "osy-completes-osysharp-humanrequests"
+      ],
+      "versions": [
+        "1.1.0"
+      ],
+      "minPlatform": "0.14.0",
+      "exports": [
+        "AskedRowKind",
+        "RequestsCategory",
+        "RequestsOf"
+      ]
     },
     {
       "name": "Osysharp.Privacy.IncidentReports",
       "repository": "osysharp/privacy",
       "description": "Osysharp.Privacy.IncidentReports \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.IncidentReports \u2014 the reports a person filed, the reports naming them with their injury, care and statement, and what they were told about an incident: special-category data kept on a legal obligation, counted, in their copy of their data, and erased from the record once its period ends.",
       "availability": "Published",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "use": "use Osysharp.Privacy.IncidentReports@0;",
       "stars": 0,
       "source": "topic",
@@ -2125,16 +2395,17 @@
         "osy-completes-osysharp-incidentreports"
       ],
       "versions": [
+        "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Privacy.KnowledgeBase",
       "repository": "osysharp/privacy",
       "description": "Osysharp.Privacy.KnowledgeBase \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.KnowledgeBase \u2014 the articles and versions a person wrote or published and the review steps they took, found by their account, in their copy of their data, their review notes kept restricted on request, and their name taken off everything when they ask to be erased while the articles stay.",
       "availability": "Published",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "use": "use Osysharp.Privacy.KnowledgeBase@0;",
       "stars": 0,
       "source": "topic",
@@ -2144,16 +2415,39 @@
         "osy-completes-osysharp-knowledgebase"
       ],
       "versions": [
+        "0.2.0",
         "0.1.1"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
+    },
+    {
+      "name": "Osysharp.Privacy.Llm",
+      "repository": "osysharp/privacy",
+      "description": "Osysharp.Privacy.Llm \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.Llm\u0027s meter \u2014 the AI model calls made for a person: found by their account, in their copy of their data, kept out of use on request, taken off the meter when they ask to be erased or after thirteen months while what the calls cost stays counted, with legal holds honoured.",
+      "availability": "Published",
+      "version": "1.1.0",
+      "use": "use Osysharp.Privacy.Llm@1;",
+      "stars": 0,
+      "source": "topic",
+      "folder": "llm",
+      "completes": [
+        "osy-completes-osysharp-privacy",
+        "osy-completes-osysharp-llm"
+      ],
+      "versions": [
+        "1.1.0"
+      ],
+      "minPlatform": "0.14.0",
+      "exports": [
+        "ModelCallsCategory"
+      ]
     },
     {
       "name": "Osysharp.Privacy.MailReceiving",
       "repository": "osysharp/privacy",
       "description": "Osysharp.Privacy.MailReceiving \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.Mail.Receiving \u2014 the mail a person sent to the app\u0027s watched mailboxes, as it arrived, in their copy of their data and erased when they ask.",
       "availability": "Published",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "use": "use Osysharp.Privacy.MailReceiving@0;",
       "stars": 0,
       "source": "topic",
@@ -2163,17 +2457,18 @@
         "osy-completes-osysharp-mail-receiving"
       ],
       "versions": [
+        "0.3.0",
         "0.2.1",
         "0.2.0"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Privacy.Memberships",
       "repository": "osysharp/privacy",
       "description": "Osysharp.Privacy.Memberships \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.Memberships \u2014 a person\u0027s memberships, who else they let in, every change and every visit, in their copy of their data and erased when they ask.",
       "availability": "Published",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "use": "use Osysharp.Privacy.Memberships@0;",
       "stars": 0,
       "source": "topic",
@@ -2183,16 +2478,17 @@
         "osy-completes-osysharp-memberships"
       ],
       "versions": [
+        "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Privacy.Notifications",
       "repository": "osysharp/privacy",
       "description": "Osysharp.Privacy.Notifications \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.Notifications \u2014 a person\u0027s notifications and their preferences, found by their account, in their copy of their data, kept restricted on request and erased when they ask.",
       "availability": "Published",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "use": "use Osysharp.Privacy.Notifications@0;",
       "stars": 0,
       "source": "topic",
@@ -2202,17 +2498,18 @@
         "osy-completes-osysharp-notifications"
       ],
       "versions": [
+        "0.3.0",
         "0.2.1",
         "0.2.0"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Privacy.OfferSales",
       "repository": "osysharp/privacy",
       "description": "Osysharp.Privacy.OfferSales \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.OfferSales \u2014 the purchases a person made or had made for them, how they were paid and what was refunded: kept on the books\u0027 legal obligation, counted, in their copy of their data, and erased when that ends.",
       "availability": "Published",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "use": "use Osysharp.Privacy.OfferSales@0;",
       "stars": 0,
       "source": "topic",
@@ -2222,16 +2519,17 @@
         "osy-completes-osysharp-offersales"
       ],
       "versions": [
+        "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Privacy.PrepaidCredits",
       "repository": "osysharp/privacy",
       "description": "Osysharp.Privacy.PrepaidCredits \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.PrepaidCredits \u2014 a person\u0027s packs, what they used them for and every change to them, in their copy of their data and erased when they ask.",
       "availability": "Published",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "use": "use Osysharp.Privacy.PrepaidCredits@0;",
       "stars": 0,
       "source": "topic",
@@ -2241,16 +2539,17 @@
         "osy-completes-osysharp-prepaidcredits"
       ],
       "versions": [
+        "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Privacy.Qualifications",
       "repository": "osysharp/privacy",
       "description": "Osysharp.Privacy.Qualifications \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.Qualifications \u2014 the qualifications a person holds, what they signed and on which text, and the evidence files, in their copy of their data and erased when they ask.",
       "availability": "Published",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "use": "use Osysharp.Privacy.Qualifications@0;",
       "stars": 0,
       "source": "topic",
@@ -2260,16 +2559,17 @@
         "osy-completes-osysharp-qualifications"
       ],
       "versions": [
+        "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Privacy.SatisfactionSurveys",
       "repository": "osysharp/privacy",
       "description": "Osysharp.Privacy.SatisfactionSurveys \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.SatisfactionSurveys \u2014 a person\u0027s questions and answers about how it went, found by their account or a proven address, in their copy of their data, kept restricted on request and erased when they ask.",
       "availability": "Published",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "use": "use Osysharp.Privacy.SatisfactionSurveys@0;",
       "stars": 0,
       "source": "topic",
@@ -2279,9 +2579,10 @@
         "osy-completes-osysharp-satisfactionsurveys"
       ],
       "versions": [
+        "0.3.0",
         "0.2.1"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "AsksOf"
       ]
@@ -2291,7 +2592,7 @@
       "repository": "osysharp/privacy",
       "description": "Osysharp.Privacy.ShiftScheduling \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.ShiftScheduling \u2014 a person\u0027s shifts, time off, the hours they are not free and their cover requests, in their copy of their data and erased when they ask.",
       "availability": "Published",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "use": "use Osysharp.Privacy.ShiftScheduling@0;",
       "stars": 0,
       "source": "topic",
@@ -2301,16 +2602,17 @@
         "osy-completes-osysharp-shiftscheduling"
       ],
       "versions": [
+        "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Privacy.Sms",
       "repository": "osysharp/privacy",
       "description": "Osysharp.Privacy.Sms \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.Sms \u2014 the texts the app sent a person, found by their number, in their copy of their data and erased when they ask.",
       "availability": "Published",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "use": "use Osysharp.Privacy.Sms@0;",
       "stars": 0,
       "source": "topic",
@@ -2320,17 +2622,18 @@
         "osy-completes-osysharp-sms"
       ],
       "versions": [
+        "0.3.0",
         "0.2.1",
         "0.2.0"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Privacy.UserAccounts",
       "repository": "osysharp/privacy",
       "description": "Osysharp.Privacy.UserAccounts \u2014 an Osy# package. Osysharp.Privacy\u0027s part for Osysharp.UserAccounts \u2014 the step-up for self-service requests (a code to the account\u0027s own address, typed back, spent once by the request\u0027s run), and accounts made for somebody who never signs in: in their guardian\u0027s copy of their data, and erased with the person they were made for.",
       "availability": "Published",
-      "version": "0.4.0",
+      "version": "0.5.0",
       "use": "use Osysharp.Privacy.UserAccounts@0;",
       "stars": 0,
       "source": "topic",
@@ -2340,23 +2643,25 @@
         "osy-completes-osysharp-useraccounts"
       ],
       "versions": [
+        "0.5.0",
         "0.4.0"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Qualifications",
       "repository": "osysharp/qualifications",
-      "description": "Osysharp.Qualifications \u2014 an Osy# package. qualifications a person holds \u2014 licences, certificates, inductions, checks and signed waivers \u2014 of kinds with a validity in months (or none), recorded by staff or submitted with evidence for verification, a waiver signed on the exact text version the person was shown (by them, or by whoever acts for them), revocation and rejection with the reason, a renewal notice before each lapses and word when it does, and one call answering whether somebody holds what is needed now and why not \u2014 with a person\u0027s own page, a staff desk of what lapses soon and what waits for verification, and a kinds page with the waiver texts.",
+      "description": "Osysharp.Qualifications \u2014 an Osy# package. qualifications a person holds \u2014 licences, certificates, inductions, checks and signed waivers \u2014 of kinds with a validity in months (or none), recorded by staff or submitted with evidence for verification, a waiver signed on the exact text version the person was shown (by them, or by whoever acts for them), revocation and rejection with the reason, a renewal notice before each lapses and word when it does, and one call answering whether somebody holds what is needed now and why not \u2014 with a person\u0027s own page, a staff page of what lapses soon and what waits for verification, and a kinds page with the waiver texts.",
       "availability": "Published",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "use": "use Osysharp.Qualifications@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "AttachEvidence",
         "AwaitingVerification",
@@ -2403,14 +2708,15 @@
       "repository": "osysharp/recordtimeline",
       "description": "Osysharp.RecordTimeline \u2014 an Osy# package. a record\u0027s timeline, from the events the app and its kits raise \u2014 one line per event on the record it is about and on each record it rolls up to, said in the reader\u0027s words from the event\u0027s own sentence, shown only to somebody who may read the record, kept for a declared time; one component to place it on a record\u0027s page.",
       "availability": "Published",
-      "version": "0.1.3",
+      "version": "0.2.0",
       "use": "use Osysharp.RecordTimeline@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.2.0",
         "0.1.3"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "ActivityOf",
         "Said",
@@ -2422,14 +2728,15 @@
       "repository": "osysharp/replycomposer",
       "description": "Osysharp.ReplyComposer \u2014 an Osy# package. where a person writes a reply to any record \u2014 saved replies with typed placeholders filled from the record (an unknown key refused when saved, an unfillable one refused at send), macros that stage the app\u0027s own verbs and run them with the send, markdown formatting with a bar and keys that act on the selection, drafts saved per record and per author that survive a reload (and a seam for a draft prepared by someone else), the writer\u0027s signature, files pasted, dropped or picked, and \u0027send and set\u2026\u0027 as the app\u0027s choice.",
       "availability": "Published",
-      "version": "0.6.3",
+      "version": "0.7.0",
       "use": "use Osysharp.ReplyComposer@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.7.0",
         "0.6.3"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "ActionsFor",
         "ApplyMacro",
@@ -2485,17 +2792,18 @@
       "repository": "osysharp/reports",
       "description": "Osysharp.Reports \u2014 an Osy# package. reports a team builds for itself \u2014 start from one thing the app keeps, pick fields by following its relations, group, measure (counts, totals, averages, medians and percentiles) and filter, all computed in the database as the reader may read it \u2014 read as figures, a table and a chart, exported as CSV, saved and shared by name.",
       "availability": "Published",
-      "version": "0.4.3",
-      "use": "use Osysharp.Reports@0;",
+      "version": "1.0.0",
+      "use": "use Osysharp.Reports@1;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "1.0.0",
         "0.4.3",
         "0.4.2",
         "0.4.1",
         "0.4.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "BucketEnd",
         "BucketLabel",
@@ -2583,15 +2891,16 @@
       "repository": "osysharp/resend",
       "description": "Osysharp.Resend \u2014 an Osy# package. transactional email through Resend \u2014 one send or a batch, text and HTML, replies and attachments.",
       "availability": "Published",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "use": "use Osysharp.Resend@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.3.0",
         "0.2.1",
         "0.2.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "ListUnsubscribeHeaders"
       ]
@@ -2601,15 +2910,16 @@
       "repository": "osysharp/s3",
       "description": "Osysharp.S3 \u2014 an Osy# package. an app.BlobStore for S3-compatible object storage \u2014 AWS S3 and Cloudflare R2 \u2014 signed with SigV4.",
       "availability": "Published",
-      "version": "1.0.1",
+      "version": "1.1.0",
       "use": "use Osysharp.S3@1;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "1.1.0",
         "1.0.1",
         "1.0.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "SigV4Authorization"
       ]
@@ -2619,14 +2929,15 @@
       "repository": "osysharp/satisfactionsurveys",
       "description": "Osysharp.SatisfactionSurveys \u2014 an Osy# package. asking the person a piece of work served how it went \u2014 one good-or-bad answer and an optional comment per subject and person (held by the database), answered from a mail link with no account or signed in on the app\u0027s page, changeable for a while, applied durably after the commit, and read back as a summary: answered, good, week by week, recent comments.",
       "availability": "Published",
-      "version": "0.5.2",
+      "version": "0.6.0",
       "use": "use Osysharp.SatisfactionSurveys@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.6.0",
         "0.5.2"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "AnswerFeedbackByLink",
         "AnswerLines",
@@ -2663,29 +2974,31 @@
       "repository": "osysharp/seo",
       "description": "Osysharp.Seo \u2014 an Osy# package. schema.org structured data (JSON-LD) for a page\u0027s head \u2014 products, offers, articles, breadcrumbs, organizations.",
       "availability": "Published",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "use": "use Osysharp.Seo@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.3.0",
         "0.2.1",
         "0.2.0"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.ShiftScheduling",
       "repository": "osysharp/shiftscheduling",
       "description": "Osysharp.ShiftScheduling \u2014 an Osy# package. a staff rota \u2014 shifts with a number of places, positions and what working one requires (answered by the app, or a qualifications kit), drafts published in one go, places a manager assigns or a worker claims (never over-filled, one place a shift, no overlaps, approved time off, weekly unavailability and an hours cap respected, the app\u0027s own rules asked), cover requests and swaps with approval, copying a week, hours per person and period, and a durable reminder before every shift \u2014 with a worker\u0027s my-shifts page, a manager\u0027s week and a requests page.",
       "availability": "Published",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "use": "use Osysharp.ShiftScheduling@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "AcceptCover",
         "AddShift",
@@ -2763,7 +3076,7 @@
       "repository": "osysharp/shiftscheduling",
       "description": "Osysharp.ShiftScheduling.Qualifications \u2014 an Osy# package. a rota position\u0027s requirements answered by Osysharp.Qualifications \u2014 nobody is put on a shift needing a qualification they do not hold in force that day, and the refusal says why in the qualifications kit\u0027s words.",
       "availability": "Published",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "use": "use Osysharp.ShiftScheduling.Qualifications@0;",
       "stars": 0,
       "source": "topic",
@@ -2773,42 +3086,44 @@
         "osy-completes-osysharp-qualifications"
       ],
       "versions": [
+        "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Shipping",
       "repository": "osysharp/shipping",
       "description": "Osysharp.Shipping \u2014 an Osy# package. the delivery contract \u2014 quote, ship, track and carrier events \u2014 plus flat-rate delivery and collection.",
       "availability": "Published",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "use": "use Osysharp.Shipping@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.2.0",
         "0.1.1"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Shop",
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop \u2014 an Osy# package. an online shop\u0027s backend \u2014 catalogue, bag, orders, pluggable payment and delivery providers, returns, mail and the staff desk \u2014 with its customers and staff signing in through Osysharp.UserAccounts.",
       "availability": "Published",
-      "version": "1.0.3",
+      "version": "1.2.0",
       "use": "use Osysharp.Shop@1;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "1.2.0",
         "1.0.3",
         "1.0.2",
         "1.0.1",
         "1.0.0",
-        "0.8.0",
-        "0.7.0"
+        "0.8.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "AcceptReturn",
         "AcceptTerms",
@@ -3062,6 +3377,7 @@
         "KindOf",
         "LabelLink",
         "LastTouched",
+        "LeftOf",
         "LimitCounter",
         "LimitPacker",
         "LimitRole",
@@ -3145,6 +3461,7 @@
         "OrderPageLink",
         "OrderPageViewOf",
         "OrderStageTabs",
+        "OrderStatusesIn",
         "OrderTimeline",
         "OrdersOf",
         "Overlap",
@@ -3337,6 +3654,7 @@
         "StockAt",
         "StockByLocation",
         "StockMoveNote",
+        "StockNote",
         "StockOf",
         "StopExchangeRates",
         "StopSelling",
@@ -3407,7 +3725,7 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.AgeCheck.BankId \u2014 an Osy# package. Age verification with Swedish BankID \u2014 the shop\u0027s AgeVerifier, over mutual TLS.",
       "availability": "Published",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "use": "use Osysharp.Shop.AgeCheck.BankId@0;",
       "stars": 0,
       "source": "topic",
@@ -3417,9 +3735,10 @@
         "osy-completes-osysharp-bankid"
       ],
       "versions": [
+        "0.3.0",
         "0.2.1"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "BankIdFailed",
         "BankIdWaiting",
@@ -3432,18 +3751,19 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Bookkeeping \u2014 an Osy# package. a shop\u0027s books \u2014 SIE 4, CSV and the VAT report per rate \u2014 from its invoices and credit notes.",
       "availability": "Published",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "use": "use Osysharp.Shop.Bookkeeping@0;",
       "stars": 0,
       "source": "topic",
       "folder": "bookkeeping",
       "versions": [
+        "0.5.0",
         "0.4.1",
         "0.4.0",
         "0.3.1",
         "0.3.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "Accounts",
         "Amount",
@@ -3482,18 +3802,18 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Discounts \u2014 an Osy# package. discount codes for the shop \u2014 percent, amount or free delivery, with limits and dates.",
       "availability": "Published",
-      "version": "0.5.1",
+      "version": "0.6.0",
       "use": "use Osysharp.Shop.Discounts@0;",
       "stars": 0,
       "source": "topic",
       "folder": "discounts",
       "versions": [
+        "0.6.0",
         "0.5.1",
         "0.5.0",
-        "0.4.0",
-        "0.3.0"
+        "0.4.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "AmountIn",
         "ApplyCode",
@@ -3522,15 +3842,16 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.ExchangeRates \u2014 an Osy# package. the European Central Bank\u0027s daily reference rates, for showing a visitor prices in their own currency.",
       "availability": "Published",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "use": "use Osysharp.Shop.ExchangeRates@0;",
       "stars": 0,
       "source": "topic",
       "folder": "exchangerates",
       "versions": [
+        "0.3.0",
         "0.2.1"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "EcbSheet"
       ]
@@ -3540,20 +3861,20 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Looks.Atelier \u2014 an Osy# package. a shop look \u2014 the gallery wall: white, one light grotesk, full-bleed photographs, hairlines, an oxblood accent.",
       "availability": "Published",
-      "version": "0.2.2",
+      "version": "0.3.0",
       "use": "use Osysharp.Shop.Looks.Atelier@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks/atelier",
       "versions": [
+        "0.3.0",
         "0.2.2",
         "0.2.1",
         "0.2.0",
         "0.1.3",
-        "0.1.2",
-        "0.1.1"
+        "0.1.2"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "ShelfPhoto"
       ]
@@ -3563,20 +3884,20 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Looks.Boutique \u2014 an Osy# package. a shop look \u2014 the boutique: powder blue, navy, a soft serif, round corners, a tomato accent and a sliding bag.",
       "availability": "Published",
-      "version": "0.2.2",
+      "version": "0.3.0",
       "use": "use Osysharp.Shop.Looks.Boutique@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks/boutique",
       "versions": [
+        "0.3.0",
         "0.2.2",
         "0.2.1",
         "0.2.0",
         "0.1.3",
-        "0.1.2",
-        "0.1.1"
+        "0.1.2"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "BoutiqueShelfPhoto"
       ]
@@ -3586,40 +3907,40 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Looks.Drop \u2014 an Osy# package. a shop look \u2014 the drop: black, a poster face in capitals, a ticker, mono labels, a signal-orange accent.",
       "availability": "Published",
-      "version": "0.2.2",
+      "version": "0.3.0",
       "use": "use Osysharp.Shop.Looks.Drop@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks/drop",
       "versions": [
+        "0.3.0",
         "0.2.2",
         "0.2.1",
         "0.2.0",
         "0.1.3",
-        "0.1.2",
-        "0.1.1"
+        "0.1.2"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Shop.Looks.Fitting",
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Looks.Fitting \u2014 an Osy# package. a shop look \u2014 the fitting room: dark chocolate, Young Serif in italic, the piece pinned to half the screen, amber.",
       "availability": "Published",
-      "version": "0.2.2",
+      "version": "0.3.0",
       "use": "use Osysharp.Shop.Looks.Fitting@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks/fitting",
       "versions": [
+        "0.3.0",
         "0.2.2",
         "0.2.1",
         "0.2.0",
         "0.1.3",
-        "0.1.2",
-        "0.1.1"
+        "0.1.2"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "FittingArtSlug"
       ]
@@ -3627,42 +3948,42 @@
     {
       "name": "Osysharp.Shop.Looks.Index",
       "repository": "osysharp/shop",
-      "description": "Osysharp.Shop.Looks.Index \u2014 an Osy# package. a shop look \u2014 the index: grey, black Geist, mono prices, the shelf tree always open, an acid-lime accent.",
+      "description": "Osysharp.Shop.Looks.Index \u2014 an Osy# package. a shop look \u2014 the index: grey, black Geist, mono prices, the shelf tree always in view, an acid-lime accent.",
       "availability": "Published",
-      "version": "0.2.2",
+      "version": "0.3.0",
       "use": "use Osysharp.Shop.Looks.Index@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks/index",
       "versions": [
+        "0.3.0",
         "0.2.2",
         "0.2.1",
         "0.2.0",
         "0.1.3",
-        "0.1.2",
-        "0.1.1"
+        "0.1.2"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Shop.Looks.Kiosk",
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Looks.Kiosk \u2014 an Osy# package. a shop look \u2014 the kiosk: lilac-grey, one light grotesk, the find full-bleed like a magazine cover, an emerald accent.",
       "availability": "Published",
-      "version": "0.2.2",
+      "version": "0.3.0",
       "use": "use Osysharp.Shop.Looks.Kiosk@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks/kiosk",
       "versions": [
+        "0.3.0",
         "0.2.2",
         "0.2.1",
         "0.2.0",
         "0.1.3",
-        "0.1.2",
-        "0.1.1"
+        "0.1.2"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "KioskShelfPicture"
       ]
@@ -3672,40 +3993,40 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Looks.Loud \u2014 an Osy# package. a shop look \u2014 loud: hot yellow, black poster type in capitals, a ticker, an electric-blue accent.",
       "availability": "Published",
-      "version": "0.2.2",
+      "version": "0.3.0",
       "use": "use Osysharp.Shop.Looks.Loud@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks/loud",
       "versions": [
+        "0.3.0",
         "0.2.2",
         "0.2.1",
         "0.2.0",
         "0.1.3",
-        "0.1.2",
-        "0.1.1"
+        "0.1.2"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Shop.Looks.Rail",
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Looks.Rail \u2014 an Osy# package. a shop look \u2014 the rail: a bottle-green wall, a big tight grotesk, finds pinned at an angle, a price-tag yellow.",
       "availability": "Published",
-      "version": "0.2.2",
+      "version": "0.3.0",
       "use": "use Osysharp.Shop.Looks.Rail@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks/rail",
       "versions": [
+        "0.3.0",
         "0.2.2",
         "0.2.1",
         "0.2.0",
         "0.1.3",
-        "0.1.2",
-        "0.1.1"
+        "0.1.2"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "RailShelfCover"
       ]
@@ -3715,20 +4036,20 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Looks.Studio \u2014 an Osy# package. a shop look \u2014 the showroom: aubergine on white, an italic serif, a pinned photograph that follows the page, hot pink.",
       "availability": "Published",
-      "version": "0.2.2",
+      "version": "0.3.0",
       "use": "use Osysharp.Shop.Looks.Studio@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks/studio",
       "versions": [
+        "0.3.0",
         "0.2.2",
         "0.2.1",
         "0.2.0",
         "0.1.3",
-        "0.1.2",
-        "0.1.1"
+        "0.1.2"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "StudioArtSlug"
       ]
@@ -3738,38 +4059,38 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Looks.Swap \u2014 an Osy# package. a shop look \u2014 the swap sheet: white, a condensed grotesk and mono lot labels, the shelves in a column, signal red.",
       "availability": "Published",
-      "version": "0.2.2",
+      "version": "0.3.0",
       "use": "use Osysharp.Shop.Looks.Swap@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks/swap",
       "versions": [
+        "0.3.0",
         "0.2.2",
         "0.2.1",
         "0.2.0",
         "0.1.3",
-        "0.1.2",
-        "0.1.1"
+        "0.1.2"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Shop.Reviews",
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Reviews \u2014 an Osy# package. product reviews for the shop \u2014 verified buyers only, moderated by staff, averaged for search engines.",
       "availability": "Published",
-      "version": "0.5.1",
+      "version": "0.6.0",
       "use": "use Osysharp.Shop.Reviews@0;",
       "stars": 0,
       "source": "topic",
       "folder": "reviews",
       "versions": [
+        "0.6.0",
         "0.5.1",
         "0.5.0",
-        "0.4.1",
-        "0.4.0"
+        "0.4.1"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "ApproveReview",
         "BoughtIt",
@@ -3792,18 +4113,19 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Subscriptions \u2014 an Osy# package. subscriptions for the shop \u2014 plans and add-ons per interval, entitlements, renewals, prorated changes.",
       "availability": "Published",
-      "version": "0.5.1",
+      "version": "0.6.0",
       "use": "use Osysharp.Shop.Subscriptions@0;",
       "stars": 0,
       "source": "topic",
       "folder": "subscriptions",
       "versions": [
+        "0.6.0",
         "0.5.1",
         "0.5.0",
         "0.4.1",
         "0.4.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "AddAddOn",
         "AddItem",
@@ -3868,32 +4190,34 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.VatNumbers \u2014 an Osy# package. EU VAT-number checks against VIES \u2014 the shop\u0027s reverse-charge check.",
       "availability": "Published",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "use": "use Osysharp.Shop.VatNumbers@0;",
       "stars": 0,
       "source": "topic",
       "folder": "vatnumbers",
       "versions": [
+        "0.3.0",
         "0.2.1"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Site.Looks",
       "repository": "osysharp/site",
       "description": "Osysharp.Site.Looks \u2014 an Osy# package. the general site contract for looks \u2014 hero, picture with words, quote, opening hours, address, sign-up, gallery, announcement, footer \u2014 as block TYPES each look draws in its own design.",
       "availability": "Published",
-      "version": "0.1.3",
+      "version": "0.2.0",
       "use": "use Osysharp.Site.Looks@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks",
       "versions": [
+        "0.2.0",
         "0.1.3",
         "0.1.2",
         "0.1.1"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Sms",
@@ -3923,29 +4247,31 @@
       "repository": "osysharp/sms",
       "description": "Osysharp.Sms.FortySixElks \u2014 an Osy# package. 46elks as a sender for Osysharp.Sms \u2014 Nordic alphanumeric senders, EU-only handling, and a dry run for staging.",
       "availability": "Published",
-      "version": "0.1.3",
+      "version": "0.2.0",
       "use": "use Osysharp.Sms.FortySixElks@0;",
       "stars": 0,
       "source": "topic",
       "folder": "fortysixelks",
       "versions": [
+        "0.2.0",
         "0.1.3"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Stemming",
       "repository": "osysharp/stemming",
       "description": "Osysharp.Stemming \u2014 an Osy# package. words in their base form for search \u2014 Snowball stemmers for English, Swedish, Danish and Norwegian and a light Arabic stemmer, so an inflected query finds the other forms of its words; any other language matched word for word.",
       "availability": "Published",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "use": "use Osysharp.Stemming@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "BaseLanguage",
         "Cut",
@@ -4177,14 +4503,15 @@
       "repository": "osysharp/usermanagement",
       "description": "Osysharp.UserManagement \u2014 an Osy# package. the user manager: a searchable people list (roles, two-step sign-in, last sign-in, sessions), and audited access changes \u2014 grant and revoke the app\u0027s roles, deactivate and reactivate, reset a lost second factor, sign out everywhere, and the same within an organisation; API keys issued once and revoked at once, and integrations \u2014 programs that work under their own name with keys and a role and can never sign in \u2014 each one a record of who changed whose access, when and why, made only by the app\u0027s people managers.",
       "availability": "Published",
-      "version": "0.6.3",
+      "version": "0.7.0",
       "use": "use Osysharp.UserManagement@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.7.0",
         "0.6.3"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "AccessProblem",
         "AccessTrail",
@@ -4236,50 +4563,53 @@
       "repository": "osysharp/warehouses",
       "description": "Osysharp.Warehouses.Databricks \u2014 an Osy# package. Databricks as a data source and an export destination: entities read from a SQL warehouse, and changes merged into its tables.",
       "availability": "Published",
-      "version": "0.2.4",
+      "version": "0.3.0",
       "use": "use Osysharp.Warehouses.Databricks@0;",
       "stars": 0,
       "source": "topic",
       "folder": "databricks",
       "versions": [
+        "0.3.0",
         "0.2.4",
         "0.2.3",
         "0.2.2",
         "0.2.1"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.Warehouses.Snowflake",
       "repository": "osysharp/warehouses",
       "description": "Osysharp.Warehouses.Snowflake \u2014 an Osy# package. Snowflake as a data source and an export destination: entities read from a warehouse, and changes merged into its tables.",
       "availability": "Published",
-      "version": "0.2.4",
+      "version": "0.3.0",
       "use": "use Osysharp.Warehouses.Snowflake@0;",
       "stars": 0,
       "source": "topic",
       "folder": "snowflake",
       "versions": [
+        "0.3.0",
         "0.2.4",
         "0.2.3",
         "0.2.2",
         "0.2.1"
       ],
-      "minPlatform": "0.9.0"
+      "minPlatform": "0.14.0"
     },
     {
       "name": "Osysharp.WebAnalytics",
       "repository": "osysharp/webanalytics",
       "description": "Osysharp.WebAnalytics \u2014 an Osy# package. web analytics \u2014 Plausible or Google Analytics 4: page views, e-commerce events, and consent before GA4 tracks.",
       "availability": "Published",
-      "version": "0.1.3",
+      "version": "0.2.0",
       "use": "use Osysharp.WebAnalytics@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.2.0",
         "0.1.3"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "AnalyticsConfiguration"
       ]
@@ -4289,16 +4619,17 @@
       "repository": "osysharp/webhooks",
       "description": "Osysharp.Webhooks \u2014 an Osy# package. outbound webhooks \u2014 an administrator subscribes an endpoint to any of the events the app and its kits raise about a record; each one is sent as a JSON document signed the Standard Webhooks way under a secret shown once and kept sealed, delivered durably after the commit with doubling retries, given up on in the end and the subscription paused when it keeps failing, every attempt in a delivery log whose documents are removed after a short declared retention; only what the subscription\u0027s maker may read is ever sent; a settings page to add, test, pause, roll the secret of and remove subscriptions and to send a failed delivery again.",
       "availability": "Published",
-      "version": "0.4.2",
+      "version": "0.5.0",
       "use": "use Osysharp.Webhooks@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.5.0",
         "0.4.2",
         "0.4.1",
         "0.4.0"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "ActiveWebhooks",
         "AddWebhook",
@@ -4618,7 +4949,7 @@
       "repository": "osysharp/workqueues",
       "description": "Osysharp.WorkQueues.Notifications \u2014 an Osy# package. the inbox\u0027s people told in their bell \u2014 an item offered to them, work handed to them while its holder is away, a promise at risk or missed on what they hold, and a queue\u0027s leads when nobody picks an item up \u2014 in their own words and language, and never about an item they may not read; the leads are whoever the app\u0027s LeadsInbox policy says.",
       "availability": "Published",
-      "version": "0.3.1",
+      "version": "0.4.0",
       "use": "use Osysharp.WorkQueues.Notifications@0;",
       "stars": 0,
       "source": "topic",
@@ -4628,9 +4959,10 @@
         "osy-completes-osysharp-notifications"
       ],
       "versions": [
+        "0.4.0",
         "0.3.1"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "InboxNotify",
         "InboxNotifyAll"
@@ -4641,7 +4973,7 @@
       "repository": "osysharp/workqueues",
       "description": "Osysharp.WorkQueues.Reports \u2014 an Osy# package. Osysharp.Reports sources for Osysharp.WorkQueues \u2014 arrived, done, first reply and time to done (median and slowest tenth), open now, and promises kept, by agent, queue, channel, organization, tier and priority.",
       "availability": "Published",
-      "version": "0.2.2",
+      "version": "0.3.0",
       "use": "use Osysharp.WorkQueues.Reports@0;",
       "stars": 0,
       "source": "topic",
@@ -4651,9 +4983,10 @@
         "osy-completes-osysharp-reports"
       ],
       "versions": [
+        "0.3.0",
         "0.2.2"
       ],
-      "minPlatform": "0.9.0",
+      "minPlatform": "0.14.0",
       "exports": [
         "ArrivedAt",
         "Cap",
@@ -4768,22 +5101,6 @@
       "folder": "workqueues"
     },
     {
-      "name": "Osysharp.Color",
-      "repository": "osysharp/color",
-      "description": "colour maths \u2014 hex and OKLCH, WCAG contrast, readable-on, mixing, and palettes (light and dark) suggested from one base colour.",
-      "availability": "Known",
-      "stars": 0,
-      "source": "overlay"
-    },
-    {
-      "name": "Osysharp.HumanRequests",
-      "repository": "osysharp/humanrequests",
-      "description": "requests put to people \u2014 a question with typed options, an approval bound to the exact version approved, a request for information or a document \u2014 from a person, a process or an agent, with a deadline in business hours, reminders and escalation; answered in the app\u0027s work queue or, with no account, through a link that opens that one request; the answer comes back typed to whatever waits for it, however long that takes.",
-      "availability": "Known",
-      "stars": 0,
-      "source": "overlay"
-    },
-    {
       "name": "Osysharp.HumanRequests.Processes",
       "repository": "osysharp/humanrequests",
       "description": "people inside business processes: each request a workflow\u0027s run puts to a person \u2014 a question, an approval, a form, a link sent to somebody outside \u2014 is told on that run in the state that put it: who was asked, that its date passed and whom it went on to, who answered and after how long, or that nobody did; and each line opens the request in place.",
@@ -4791,14 +5108,6 @@
       "stars": 0,
       "source": "overlay",
       "folder": "processes"
-    },
-    {
-      "name": "Osysharp.Llm",
-      "repository": "osysharp/llm",
-      "description": "calling a model: the provider and router contracts, the call path (route, reserve, call, fall back, meter), a price book and budgets with hard limits, typed extraction and typed decisions, and a scripted model for tests.",
-      "availability": "Known",
-      "stars": 0,
-      "source": "overlay"
     },
     {
       "name": "Osysharp.Privacy.Agents",
@@ -4826,24 +5135,6 @@
       "stars": 0,
       "source": "overlay",
       "folder": "assignments"
-    },
-    {
-      "name": "Osysharp.Privacy.HumanRequests",
-      "repository": "osysharp/privacy",
-      "description": "Osysharp.Privacy\u0027s holder for Osysharp.HumanRequests \u2014 the requests put to a person (by account, or by the address a link was sent to) and the requests marked as about them: in their copy of their data with what they were asked and answered, kept out of use, and erased when they ask \u2014 the request left standing with how it ended, and a process run that told it told again without them",
-      "availability": "Known",
-      "stars": 0,
-      "source": "overlay",
-      "folder": "humanrequests"
-    },
-    {
-      "name": "Osysharp.Privacy.Llm",
-      "repository": "osysharp/privacy",
-      "description": "Osysharp.Privacy\u0027s holder for Osysharp.Llm\u0027s meter \u2014 the AI model calls made for a person: found by their account, in their copy of their data, kept out of use on request, taken off the meter when they ask to be erased or after thirteen months while what the calls cost stays counted, with legal holds honoured.",
-      "availability": "Known",
-      "stars": 0,
-      "source": "overlay",
-      "folder": "llm"
     },
     {
       "name": "Osysharp.Privacy.WorkRepositories",
