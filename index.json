@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T05:00:09.885535+00:00",
+  "generated": "2026-10-20T06:01:57.305193+00:00",
   "packages": [
     {
       "name": "Osysharp.Agents",
@@ -591,6 +591,46 @@
         "StateOf",
         "StillGoing",
         "WasChargedTo"
+      ]
+    },
+    {
+      "name": "Osysharp.Assignments.Allocations",
+      "repository": "osysharp/assignments",
+      "description": "Osysharp.Assignments.Allocations \u2014 an Osy# package. shared resources between assignments: a pool with a counted amount (stock, hours, money), claims that are held or refused so two assignments never hold the same unit, claims that wait their turn, what happens when there is less than was thought (the pool is overdrawn, each holder is told, the pool\u0027s keeper decides who gives way), and release when an assignment closes; with the pool\u0027s page and a panel on every assignment",
+      "availability": "Published",
+      "version": "1.1.0",
+      "use": "use Osysharp.Assignments.Allocations@1;",
+      "stars": 0,
+      "source": "topic",
+      "folder": "allocations",
+      "versions": [
+        "1.1.0"
+      ],
+      "minPlatform": "0.14.0",
+      "exports": [
+        "AllocationsOf",
+        "Amount",
+        "AskFor",
+        "Claim",
+        "ClaimUnder",
+        "CorrectPool",
+        "CutAllocation",
+        "EndWaitingWork",
+        "GiveBackWhenCalledOff",
+        "GiveBackWhenDone",
+        "GiveBackWhenFailed",
+        "HoldersOf",
+        "LeftIn",
+        "LineOf",
+        "OpenPool",
+        "PoolBy",
+        "PoolOf",
+        "ReleaseAllocation",
+        "RenamePool",
+        "RequireClaimable",
+        "ServeWhoWaits",
+        "UseAllocation",
+        "WaitingWorkKey"
       ]
     },
     {
@@ -1535,6 +1575,37 @@
         "WhyNotCovered",
         "policy AnswersRequests",
         "policy HandlesRequests"
+      ]
+    },
+    {
+      "name": "Osysharp.HumanRequests.Processes",
+      "repository": "osysharp/humanrequests",
+      "description": "Osysharp.HumanRequests.Processes \u2014 an Osy# package. people inside business processes: each request a workflow\u0027s run puts to a person \u2014 a question, an approval, a form, a link sent to somebody outside \u2014 is told on that run in the state that put it: who was asked, that its date passed and whom it went on to, who answered and after how long, or that nobody did; and each line opens the request in place.",
+      "availability": "Published",
+      "version": "1.1.0",
+      "use": "use Osysharp.HumanRequests.Processes@1;",
+      "stars": 0,
+      "source": "topic",
+      "folder": "processes",
+      "completes": [
+        "osy-completes-osysharp-humanrequests",
+        "osy-completes-osysharp-processes"
+      ],
+      "versions": [
+        "1.1.0"
+      ],
+      "minPlatform": "0.14.0",
+      "exports": [
+        "Answered",
+        "Asked",
+        "AskedOf",
+        "CalledOff",
+        "ItsDatePassed",
+        "NamedOrSomebody",
+        "NobodyAnswered",
+        "RequestSubject",
+        "TellItWithoutThem",
+        "TellTheRun"
       ]
     },
     {
@@ -2903,26 +2974,50 @@
       ]
     },
     {
-      "name": "Osysharp.Privacy.Agents.HumanRequests",
+      "name": "Osysharp.Privacy.Agents",
       "repository": "osysharp/privacy",
-      "description": "Osysharp.Privacy.Agents.HumanRequests \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.Agents.HumanRequests \u2014 the inbox items a person handed to an AI agent: in their copy of their data, and taken off them when they ask to be erased, once every item has come back; that it was handed over, to which agent and how it came back stay",
+      "description": "Osysharp.Privacy.Agents \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.Agents \u2014 what the app\u0027s AI agents did for a person and about a person: found by the account it was for and by what the app marked it as about, in their copy of their data, kept out of use on request, erased on request while every record\u0027s hash chain still verifies, its content gone after a month and the record after seven for everybody, with legal holds honoured.",
       "availability": "Published",
       "version": "1.1.0",
-      "use": "use Osysharp.Privacy.Agents.HumanRequests@1;",
+      "use": "use Osysharp.Privacy.Agents@1;",
       "stars": 0,
       "source": "topic",
-      "folder": "agents/humanrequests",
+      "folder": "agents",
       "completes": [
         "osy-completes-osysharp-privacy",
-        "osy-completes-osysharp-agents-humanrequests"
+        "osy-completes-osysharp-agents"
       ],
       "versions": [
         "1.1.0"
       ],
       "minPlatform": "0.14.0",
       "exports": [
-        "AgentHandoverCategory",
-        "HandedBy"
+        "AddRoot",
+        "AgentContentCategory",
+        "AgentCorrectionsCategory",
+        "AgentInstructionKind",
+        "AgentOversightCategory",
+        "AgentRecordCategory",
+        "AgentTeachingCategory",
+        "AgentWorkKind",
+        "AgentWorkOf",
+        "CorrectionsAbout",
+        "ExportAgentContent",
+        "ExportAgentRecord",
+        "ExportCorrections",
+        "ExportTaught",
+        "HelpItem",
+        "HelpRow",
+        "InstructionsAbout",
+        "IsAgentWorkHeld",
+        "LooseHelpOf",
+        "MarkAgentInstructionAbout",
+        "MarkAgentWorkAbout",
+        "OversawBy",
+        "PersonOf",
+        "StandingRulesFor",
+        "SubjectOfAccounts",
+        "TaughtBy"
       ]
     },
     {
@@ -3329,6 +3424,42 @@
         "0.4.0"
       ],
       "minPlatform": "0.14.0"
+    },
+    {
+      "name": "Osysharp.Privacy.WorkRepositories",
+      "repository": "osysharp/privacy",
+      "description": "Osysharp.Privacy.WorkRepositories \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.WorkRepositories \u2014 the items of an assignment\u0027s repository that are about a person (found by what the app marked, or by the assignment they belong to) and what a person contributed (found by account): in their copy of their data, kept out of use on request, erased on request while each item keeps its place in the record, and each kind erased for everybody when its own period ends \u2014 the app\u0027s rule per kind as a category the tenant can change, with legal holds honoured.",
+      "availability": "Published",
+      "version": "1.1.0",
+      "use": "use Osysharp.Privacy.WorkRepositories@1;",
+      "stars": 0,
+      "source": "topic",
+      "folder": "workrepositories",
+      "completes": [
+        "osy-completes-osysharp-privacy",
+        "osy-completes-osysharp-workrepositories"
+      ],
+      "versions": [
+        "1.1.0"
+      ],
+      "minPlatform": "0.14.0",
+      "exports": [
+        "AssignmentMarkKind",
+        "CategoryOfKind",
+        "ContributorOf",
+        "EndOf",
+        "EveryItemKind",
+        "ExportContributions",
+        "ExportItems",
+        "ItemsAbout",
+        "KindPlural",
+        "MarkItemAbout",
+        "MonthsOf",
+        "RepositoryContributionsCategory",
+        "RepositoryItemKind",
+        "RepositoryItemsCategory",
+        "RepositoryKindCategory"
+      ]
     },
     {
       "name": "Osysharp.Processes",
@@ -5845,42 +5976,6 @@
         "TakeItemsFrom",
         "WorkInHand"
       ]
-    },
-    {
-      "name": "Osysharp.Assignments.Allocations",
-      "repository": "osysharp/assignments",
-      "description": "shared resources between assignments: a pool with a counted amount (stock, hours, money), claims that are held or refused so two assignments never hold the same unit, claims that wait their turn, what happens when there is less than was thought (the pool is overdrawn, each holder is told, the pool\u0027s keeper decides who gives way), and release when an assignment closes; with the pool\u0027s page and a panel on every assignment",
-      "availability": "Known",
-      "stars": 0,
-      "source": "overlay",
-      "folder": "allocations"
-    },
-    {
-      "name": "Osysharp.HumanRequests.Processes",
-      "repository": "osysharp/humanrequests",
-      "description": "people inside business processes: each request a workflow\u0027s run puts to a person \u2014 a question, an approval, a form, a link sent to somebody outside \u2014 is told on that run in the state that put it: who was asked, that its date passed and whom it went on to, who answered and after how long, or that nobody did; and each line opens the request in place.",
-      "availability": "Known",
-      "stars": 0,
-      "source": "overlay",
-      "folder": "processes"
-    },
-    {
-      "name": "Osysharp.Privacy.Agents",
-      "repository": "osysharp/privacy",
-      "description": "Osysharp.Privacy\u0027s holder for Osysharp.Agents \u2014 what the app\u0027s AI agents did for a person and about a person: found by the account it was for and by what the app marked it as about, in their copy of their data, kept out of use on request, erased on request while every record\u0027s hash chain still verifies, its content gone after a month and the record after seven for everybody, with legal holds honoured.",
-      "availability": "Known",
-      "stars": 0,
-      "source": "overlay",
-      "folder": "agents"
-    },
-    {
-      "name": "Osysharp.Privacy.WorkRepositories",
-      "repository": "osysharp/privacy",
-      "description": "Osysharp.Privacy\u0027s holder for Osysharp.WorkRepositories \u2014 the items of an assignment\u0027s repository that are about a person (found by what the app marked, or by the assignment they belong to) and what a person contributed (found by account): in their copy of their data, kept out of use on request, erased on request while each item keeps its place in the record, and each kind erased for everybody when its own period ends \u2014 the app\u0027s rule per kind as a category the tenant can change, with legal holds honoured.",
-      "availability": "Known",
-      "stars": 0,
-      "source": "overlay",
-      "folder": "workrepositories"
     }
   ]
 }
