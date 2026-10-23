@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T07:49:37.359465+00:00",
+  "generated": "2026-10-23T09:07:26.039853+00:00",
   "packages": [
     {
       "name": "Osysharp.Agents",
@@ -3063,6 +3063,29 @@
         "StandingRulesFor",
         "SubjectOfAccounts",
         "TaughtBy"
+      ]
+    },
+    {
+      "name": "Osysharp.Privacy.Agents.HumanRequests",
+      "repository": "osysharp/privacy",
+      "description": "Osysharp.Privacy.Agents.HumanRequests \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.Agents.HumanRequests \u2014 the inbox items a person handed to an AI agent: in their copy of their data, and taken off them when they ask to be erased, once every item has come back; that it was handed over, to which agent and how it came back stay",
+      "availability": "Published",
+      "version": "1.1.0",
+      "use": "use Osysharp.Privacy.Agents.HumanRequests@1;",
+      "stars": 0,
+      "source": "topic",
+      "folder": "agents/humanrequests",
+      "completes": [
+        "osy-completes-osysharp-privacy",
+        "osy-completes-osysharp-agents-humanrequests"
+      ],
+      "versions": [
+        "1.1.0"
+      ],
+      "minPlatform": "0.14.0",
+      "exports": [
+        "AgentHandoverCategory",
+        "HandedBy"
       ]
     },
     {
