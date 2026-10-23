@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T06:51:38.704345+00:00",
+  "generated": "2026-10-23T07:49:37.359465+00:00",
   "packages": [
     {
       "name": "Osysharp.Agents",
@@ -4044,11 +4044,12 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop \u2014 an Osy# package. an online shop\u0027s backend \u2014 catalogue, bag, orders, pluggable payment and delivery providers, returns, mail and the staff desk \u2014 with its customers and staff signing in through Osysharp.UserAccounts.",
       "availability": "Published",
-      "version": "1.2.0",
+      "version": "1.4.0",
       "use": "use Osysharp.Shop@1;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "1.4.0",
         "1.2.0",
         "1.0.3",
         "1.0.2",
@@ -4056,7 +4057,7 @@
         "1.0.0",
         "0.8.0"
       ],
-      "minPlatform": "0.14.0",
+      "minPlatform": "0.15.1",
       "exports": [
         "AcceptReturn",
         "AcceptTerms",
@@ -4153,6 +4154,7 @@
         "ConfirmedCounterCustomer",
         "Converted",
         "CountBoughtTogether",
+        "CountReasons",
         "CounterCardKey",
         "CounterCode",
         "CounterCodeFits",
@@ -4204,6 +4206,7 @@
         "DeskOrderQuote",
         "DeskReturnOutcome",
         "DigitalConsentWords",
+        "DiscardOfferedDescription",
         "DistanceText",
         "DownloadFileLink",
         "DownloadFor",
@@ -4211,6 +4214,7 @@
         "DownloadProblem",
         "DownloadViewOf",
         "DownloadsOf",
+        "DraftDescription",
         "DropCustomer",
         "EmailCounterReceipt",
         "EndBagLinks",
@@ -4382,6 +4386,7 @@
         "NotifyMe",
         "NotifyWhenBack",
         "OfferProvider",
+        "OfferedDescriptionOf",
         "OfferedNow",
         "OfferedTo",
         "OnHold",
@@ -4440,6 +4445,9 @@
         "ProductHeadTitle",
         "ProductStructuredData",
         "ProductUrl",
+        "ProductWriter",
+        "ProductWriterIsOn",
+        "ProductWriterNow",
         "ProductsCsv",
         "ProductsCsvLink",
         "Providers",
@@ -4596,6 +4604,7 @@
         "TakeBackAtCounter",
         "TakeCredit",
         "TakeGiftCards",
+        "TakeOfferedDescription",
         "TakePayment",
         "TakeRefundedCard",
         "TellAboutCredit",
@@ -4607,6 +4616,8 @@
         "TopSellers",
         "TotalsFor",
         "Transfers",
+        "TurnProductWriterOff",
+        "TurnProductWriterOn",
         "UndoReturnLine",
         "UnpaidInvoices",
         "UnusedCardsOf",
@@ -4680,6 +4691,30 @@
       ]
     },
     {
+      "name": "Osysharp.Shop.Agents",
+      "repository": "osysharp/shop",
+      "description": "Osysharp.Shop.Agents \u2014 an Osy# package. the shop\u0027s agents: a description writer that drafts a product\u0027s description from its details when staff ask, offered in the product editor to change and save \u2014 never used by itself; it holds no tools, reads only what the asking staff member reads, is off until staff switch it on, and may spend 5 cents a draft.",
+      "availability": "Published",
+      "version": "1.0.0",
+      "use": "use Osysharp.Shop.Agents@1;",
+      "stars": 0,
+      "source": "topic",
+      "folder": "agents",
+      "completes": [
+        "osy-completes-osysharp-shop",
+        "osy-completes-osysharp-agents"
+      ],
+      "versions": [
+        "1.0.0"
+      ],
+      "minPlatform": "0.15.1",
+      "exports": [
+        "Listed",
+        "ProductFacts",
+        "WriterName"
+      ]
+    },
+    {
       "name": "Osysharp.Shop.Bookkeeping",
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Bookkeeping \u2014 an Osy# package. a shop\u0027s books \u2014 SIE 4, CSV and the VAT report per rate \u2014 from its invoices and credit notes.",
@@ -4690,11 +4725,7 @@
       "source": "topic",
       "folder": "bookkeeping",
       "versions": [
-        "0.5.0",
-        "0.4.1",
-        "0.4.0",
-        "0.3.1",
-        "0.3.0"
+        "0.5.0"
       ],
       "minPlatform": "0.14.0",
       "exports": [
@@ -4741,10 +4772,7 @@
       "source": "topic",
       "folder": "discounts",
       "versions": [
-        "0.6.0",
-        "0.5.1",
-        "0.5.0",
-        "0.4.0"
+        "0.6.0"
       ],
       "minPlatform": "0.14.0",
       "exports": [
@@ -4794,12 +4822,13 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Looks.Atelier \u2014 an Osy# package. a shop look \u2014 the gallery wall: white, one light grotesk, full-bleed photographs, hairlines, an oxblood accent.",
       "availability": "Published",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "use": "use Osysharp.Shop.Looks.Atelier@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks/atelier",
       "versions": [
+        "0.4.0",
         "0.3.0",
         "0.2.2",
         "0.2.1",
@@ -4807,7 +4836,7 @@
         "0.1.3",
         "0.1.2"
       ],
-      "minPlatform": "0.14.0",
+      "minPlatform": "0.15.0",
       "exports": [
         "ShelfPhoto"
       ]
@@ -4817,12 +4846,13 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Looks.Boutique \u2014 an Osy# package. a shop look \u2014 the boutique: powder blue, navy, a soft serif, round corners, a tomato accent and a sliding bag.",
       "availability": "Published",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "use": "use Osysharp.Shop.Looks.Boutique@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks/boutique",
       "versions": [
+        "0.4.0",
         "0.3.0",
         "0.2.2",
         "0.2.1",
@@ -4830,7 +4860,7 @@
         "0.1.3",
         "0.1.2"
       ],
-      "minPlatform": "0.14.0",
+      "minPlatform": "0.15.0",
       "exports": [
         "BoutiqueShelfPhoto"
       ]
@@ -4840,12 +4870,13 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Looks.Drop \u2014 an Osy# package. a shop look \u2014 the drop: black, a poster face in capitals, a ticker, mono labels, a signal-orange accent.",
       "availability": "Published",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "use": "use Osysharp.Shop.Looks.Drop@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks/drop",
       "versions": [
+        "0.4.0",
         "0.3.0",
         "0.2.2",
         "0.2.1",
@@ -4853,19 +4884,20 @@
         "0.1.3",
         "0.1.2"
       ],
-      "minPlatform": "0.14.0"
+      "minPlatform": "0.15.0"
     },
     {
       "name": "Osysharp.Shop.Looks.Fitting",
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Looks.Fitting \u2014 an Osy# package. a shop look \u2014 the fitting room: dark chocolate, Young Serif in italic, the piece pinned to half the screen, amber.",
       "availability": "Published",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "use": "use Osysharp.Shop.Looks.Fitting@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks/fitting",
       "versions": [
+        "0.4.0",
         "0.3.0",
         "0.2.2",
         "0.2.1",
@@ -4873,7 +4905,7 @@
         "0.1.3",
         "0.1.2"
       ],
-      "minPlatform": "0.14.0",
+      "minPlatform": "0.15.0",
       "exports": [
         "FittingArtSlug"
       ]
@@ -4883,12 +4915,13 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Looks.Index \u2014 an Osy# package. a shop look \u2014 the index: grey, black Geist, mono prices, the shelf tree always in view, an acid-lime accent.",
       "availability": "Published",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "use": "use Osysharp.Shop.Looks.Index@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks/index",
       "versions": [
+        "0.4.0",
         "0.3.0",
         "0.2.2",
         "0.2.1",
@@ -4896,19 +4929,20 @@
         "0.1.3",
         "0.1.2"
       ],
-      "minPlatform": "0.14.0"
+      "minPlatform": "0.15.0"
     },
     {
       "name": "Osysharp.Shop.Looks.Kiosk",
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Looks.Kiosk \u2014 an Osy# package. a shop look \u2014 the kiosk: lilac-grey, one light grotesk, the find full-bleed like a magazine cover, an emerald accent.",
       "availability": "Published",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "use": "use Osysharp.Shop.Looks.Kiosk@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks/kiosk",
       "versions": [
+        "0.4.0",
         "0.3.0",
         "0.2.2",
         "0.2.1",
@@ -4916,7 +4950,7 @@
         "0.1.3",
         "0.1.2"
       ],
-      "minPlatform": "0.14.0",
+      "minPlatform": "0.15.0",
       "exports": [
         "KioskShelfPicture"
       ]
@@ -4926,12 +4960,13 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Looks.Loud \u2014 an Osy# package. a shop look \u2014 loud: hot yellow, black poster type in capitals, a ticker, an electric-blue accent.",
       "availability": "Published",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "use": "use Osysharp.Shop.Looks.Loud@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks/loud",
       "versions": [
+        "0.4.0",
         "0.3.0",
         "0.2.2",
         "0.2.1",
@@ -4939,19 +4974,20 @@
         "0.1.3",
         "0.1.2"
       ],
-      "minPlatform": "0.14.0"
+      "minPlatform": "0.15.0"
     },
     {
       "name": "Osysharp.Shop.Looks.Rail",
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Looks.Rail \u2014 an Osy# package. a shop look \u2014 the rail: a bottle-green wall, a big tight grotesk, finds pinned at an angle, a price-tag yellow.",
       "availability": "Published",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "use": "use Osysharp.Shop.Looks.Rail@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks/rail",
       "versions": [
+        "0.4.0",
         "0.3.0",
         "0.2.2",
         "0.2.1",
@@ -4959,7 +4995,7 @@
         "0.1.3",
         "0.1.2"
       ],
-      "minPlatform": "0.14.0",
+      "minPlatform": "0.15.0",
       "exports": [
         "RailShelfCover"
       ]
@@ -4969,12 +5005,13 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Looks.Studio \u2014 an Osy# package. a shop look \u2014 the showroom: aubergine on white, an italic serif, a pinned photograph that follows the page, hot pink.",
       "availability": "Published",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "use": "use Osysharp.Shop.Looks.Studio@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks/studio",
       "versions": [
+        "0.4.0",
         "0.3.0",
         "0.2.2",
         "0.2.1",
@@ -4982,7 +5019,7 @@
         "0.1.3",
         "0.1.2"
       ],
-      "minPlatform": "0.14.0",
+      "minPlatform": "0.15.0",
       "exports": [
         "StudioArtSlug"
       ]
@@ -4992,12 +5029,13 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Looks.Swap \u2014 an Osy# package. a shop look \u2014 the swap sheet: white, a condensed grotesk and mono lot labels, the shelves in a column, signal red.",
       "availability": "Published",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "use": "use Osysharp.Shop.Looks.Swap@0;",
       "stars": 0,
       "source": "topic",
       "folder": "looks/swap",
       "versions": [
+        "0.4.0",
         "0.3.0",
         "0.2.2",
         "0.2.1",
@@ -5005,7 +5043,7 @@
         "0.1.3",
         "0.1.2"
       ],
-      "minPlatform": "0.14.0"
+      "minPlatform": "0.15.0"
     },
     {
       "name": "Osysharp.Shop.Reviews",
