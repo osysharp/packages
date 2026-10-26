@@ -1,20 +1,21 @@
 {
-  "generated": "2026-10-23T09:07:26.039853+00:00",
+  "generated": "2026-10-26T11:15:28.920098+00:00",
   "packages": [
     {
       "name": "Osysharp.Agents",
       "repository": "osysharp/agents",
       "description": "Osysharp.Agents \u2014 an Osy# package. AI agents as typed classes: skills with a typed input and a checked, typed result; tools that are the app\u0027s own actions, run as the agent and never past the person it works for; a hard budget per piece of work; a receipt and a tamper-evident record of every step; a gate that says what it does alone, what it proposes to a person first and what it never does; a ladder of help \u2014 a more capable model first, then a person, whom the work waits for; corrections people make of its work, drawn into instructions that reach it only once a person has made them active, in numbered sets a piece of work records and an agent can be put back to; and handing typed pieces of its work on to other agents \u2014 several at once \u2014 each with its own receipt under the one that handed it on, done for the same person, never doing alone what any piece of work above it must propose, and spending out of what is left above it.",
       "availability": "Published",
-      "version": "1.8.1",
+      "version": "1.9.0",
       "use": "use Osysharp.Agents@1;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "1.9.0",
         "1.8.1",
         "1.6.0"
       ],
-      "minPlatform": "0.15.0",
+      "minPlatform": "0.17.0",
       "exports": [
         "AbandonedAtOrUnder",
         "AbandonedCheckEvery",
@@ -569,7 +570,7 @@
       "repository": "osysharp/assignments",
       "description": "Osysharp.Assignments.Agents \u2014 an Osy# package. an agent\u0027s work attached to the assignment it is for: attached under a key before the run starts, answered from its receipt when it had already finished, run again when it never reported back; its cost counted on the assignment, refused once the assignment\u0027s budget is spent; called off when the assignment is; work the agent hands on to other agents is attached to the same assignment, a piece each, and the whole is counted once.",
       "availability": "Published",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "use": "use Osysharp.Assignments.Agents@1;",
       "stars": 0,
       "source": "topic",
@@ -579,9 +580,10 @@
         "osy-completes-osysharp-agents"
       ],
       "versions": [
+        "1.4.0",
         "1.3.0"
       ],
-      "minPlatform": "0.14.0",
+      "minPlatform": "0.17.0",
       "exports": [
         "Charged",
         "Clip",
@@ -1903,15 +1905,16 @@
       "repository": "osysharp/llm",
       "description": "Osysharp.Llm \u2014 an Osy# package. calling a model: the provider and router contracts, the call path (route, reserve, call, fall back, meter), a price book and budgets with hard limits, typed extraction and typed decisions, and a scripted model for tests.",
       "availability": "Published",
-      "version": "2.4.1",
+      "version": "2.5.0",
       "use": "use Osysharp.Llm@2;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "2.5.0",
         "2.4.1",
         "2.3.0"
       ],
-      "minPlatform": "0.15.0",
+      "minPlatform": "0.17.0",
       "exports": [
         "Admit",
         "BudgetSentence",
