@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27T18:10:18.605668+00:00",
+  "generated": "2026-10-30T20:56:24.041997+00:00",
   "packages": [
     {
       "name": "Osysharp.Agents",
@@ -2483,13 +2483,14 @@
     {
       "name": "Osysharp.Notifications",
       "repository": "osysharp/notifications",
-      "description": "Osysharp.Notifications \u2014 an Osy# package. telling a person something needs them \u2014 a bell with a live count and a list (read and unread, mark all read), a daily mail digest of what they have not seen or a mention mailed at once (their own choice, in their own language), delivered durably after the commit, deduplicated while unread, and never about a record the recipient may not read under their own security.",
+      "description": "Osysharp.Notifications \u2014 an Osy# package. telling a person something needs them \u2014 a bell with a live count and a list (read and unread, mark all read), a push to their phone or browser at once (Web Push, VAPID) and a daily mail digest of what they have not seen or a mention mailed at once (their own choices, in their own language), delivered durably after the commit, deduplicated while unread, and never about a record the recipient may not read under their own security.",
       "availability": "Published",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "use": "use Osysharp.Notifications@1;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "1.3.0",
         "1.2.0",
         "1.1.3",
         "1.1.2",
@@ -2497,8 +2498,11 @@
         "1.1.0",
         "1.0.0"
       ],
-      "minPlatform": "0.14.0",
+      "minPlatform": "0.17.0",
       "exports": [
+        "Base64Url",
+        "ChannelWaitAfter",
+        "Clipped",
         "Deliver",
         "KitSentence",
         "LastReadIn",
@@ -2514,6 +2518,7 @@
         "MarkRead",
         "Mention",
         "MyNotificationLines",
+        "NotificationChannelNamed",
         "NotificationInitials",
         "NotificationLineOf",
         "NotificationsAppName",
@@ -2521,13 +2526,24 @@
         "Notify",
         "NotifyAll",
         "OpenNotification",
+        "OriginOf",
         "PurgeNotifications",
+        "PushOf",
+        "PushPublicKey",
+        "PushTo",
+        "QueueChannelSends",
         "RememberLanguage",
         "SaidOf",
         "SendDigests",
+        "SendOnChannel",
+        "SubscribeToPush",
         "SweepNotifications",
         "TellAbout",
-        "UnreadNotifications"
+        "TheWebPush",
+        "UnreadNotificationLines",
+        "UnreadNotifications",
+        "UnsubscribeFromPush",
+        "VapidToken"
       ]
     },
     {
