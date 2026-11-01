@@ -1,16 +1,17 @@
 {
-  "generated": "2026-10-30T20:56:24.041997+00:00",
+  "generated": "2026-11-01T08:08:05.652427+00:00",
   "packages": [
     {
       "name": "Osysharp.Agents",
       "repository": "osysharp/agents",
       "description": "Osysharp.Agents \u2014 an Osy# package. AI agents as typed classes: skills with a typed input and a checked, typed result; tools that are the app\u0027s own actions, run as the agent and never past the person it works for; a hard budget per piece of work; a receipt and a tamper-evident record of every step; a gate that says what it does alone, what it proposes to a person first and what it never does; a ladder of help \u2014 a more capable model first, then a person, whom the work waits for; corrections people make of its work, drawn into instructions that reach it only once a person has made them active, in numbered sets a piece of work records and an agent can be put back to; and handing typed pieces of its work on to other agents \u2014 several at once \u2014 each with its own receipt under the one that handed it on, done for the same person, never doing alone what any piece of work above it must propose, and spending out of what is left above it.",
       "availability": "Published",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "use": "use Osysharp.Agents@1;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "1.13.0",
         "1.12.0",
         "1.11.0",
         "1.10.0",
@@ -41,6 +42,7 @@
         "AskTheModel",
         "AskedFor",
         "BareName",
+        "BeginAgentWork",
         "BriefAs",
         "Broken",
         "CallOf",
@@ -56,6 +58,7 @@
         "Consulted",
         "ContinueAgentWork",
         "CorrectAgentWork",
+        "CorrectAgentWorkFromOutcome",
         "CorrectionsOf",
         "CorrectionsOfAgent",
         "DecideAgentProposal",
@@ -76,6 +79,7 @@
         "EraseStandingRulesFor",
         "ErasedSummary",
         "EvidenceOf",
+        "FinishAgentWork",
         "FinishTurn",
         "ForgetAgentWork",
         "ForgetWhoOversawAgents",
@@ -90,6 +94,7 @@
         "GuardBeforeTool",
         "Guarded",
         "GuardedOf",
+        "GuidanceFor",
         "HandOnName",
         "HandOnTools",
         "HandWorkOn",
@@ -142,8 +147,12 @@
         "ProposalFingerprintWith",
         "ProposalsForMe",
         "ProposeAgentInstruction",
+        "ProposeWhenCorrectionsRecur",
         "QuestionsForMe",
         "Rank",
+        "RecordAgentWork",
+        "RecordedScopes",
+        "RecordedSkill",
         "RejectAgentInstruction",
         "RejectAgentProposal",
         "RelayAnswerToAgent",
@@ -3386,9 +3395,9 @@
     {
       "name": "Osysharp.Privacy.Notifications",
       "repository": "osysharp/privacy",
-      "description": "Osysharp.Privacy.Notifications \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.Notifications \u2014 a person\u0027s notifications and their preferences, found by their account, in their copy of their data, kept restricted on request and erased when they ask.",
+      "description": "Osysharp.Privacy.Notifications \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.Notifications \u2014 a person\u0027s notifications, their preferences and the browsers they allowed to notify them, found by their account, in their copy of their data, kept restricted on request and erased when they ask.",
       "availability": "Published",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "use": "use Osysharp.Privacy.Notifications@0;",
       "stars": 0,
       "source": "topic",
@@ -3398,11 +3407,12 @@
         "osy-completes-osysharp-notifications"
       ],
       "versions": [
+        "0.4.0",
         "0.3.0",
         "0.2.1",
         "0.2.0"
       ],
-      "minPlatform": "0.14.0"
+      "minPlatform": "0.17.0"
     },
     {
       "name": "Osysharp.Privacy.OfferSales",
@@ -5417,11 +5427,12 @@
       "repository": "osysharp/ui",
       "description": "Osysharp.Ui \u2014 an Osy# package. the general application vocabulary: buttons, fields, dialogs, the data grid, and the app shell.",
       "availability": "Published",
-      "version": "3.0.0",
+      "version": "3.1.0",
       "use": "use Osysharp.Ui@3;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "3.1.0",
         "3.0.0",
         "2.22.0",
         "2.21.1",
@@ -5433,7 +5444,7 @@
         "2.18.0",
         "2.17.1"
       ],
-      "minPlatform": "0.15.0",
+      "minPlatform": "0.17.0",
       "exports": [
         "AnnouncedSettings",
         "ChangedBy",
@@ -5446,7 +5457,7 @@
         "SettingsChangedLine",
         "StoreLinkName",
         "TimeAgo",
-        "ZoneWords"
+        "TimeZoneWords"
       ]
     },
     {
