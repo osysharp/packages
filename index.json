@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01T08:08:05.652427+00:00",
+  "generated": "2026-11-01T09:38:41.452239+00:00",
   "packages": [
     {
       "name": "Osysharp.Agents",
@@ -836,6 +836,20 @@
         "1.0.2"
       ],
       "minPlatform": "0.14.0"
+    },
+    {
+      "name": "Osysharp.Brand",
+      "repository": "osysharp/brand",
+      "description": "Osysharp.Brand \u2014 an Osy# package. the Osyrin brand: a violet-and-plum theme in light and dark, the # in a ring as a mark, the wordmark, a header band for a product\u0027s name and context, and Inter.",
+      "availability": "Published",
+      "version": "0.1.0",
+      "use": "use Osysharp.Brand@0;",
+      "stars": 0,
+      "source": "topic",
+      "versions": [
+        "0.1.0"
+      ],
+      "minPlatform": "0.17.10"
     },
     {
       "name": "Osysharp.Carriers.PostNord",
@@ -2444,50 +2458,53 @@
       "repository": "osysharp/models",
       "description": "Osysharp.Models.Anthropic \u2014 an Osy# package. the Anthropic Messages API as a model provider for Osysharp.Llm \u2014 complete and stream, with prompt caching, tool choice and structured output.",
       "availability": "Published",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "use": "use Osysharp.Models.Anthropic@1;",
       "stars": 0,
       "source": "topic",
       "folder": "anthropic",
       "versions": [
+        "1.1.0",
         "1.0.0",
         "0.1.1",
         "0.1.0"
       ],
-      "minPlatform": "0.14.0"
+      "minPlatform": "0.17.0"
     },
     {
       "name": "Osysharp.Models.Gemini",
       "repository": "osysharp/models",
       "description": "Osysharp.Models.Gemini \u2014 an Osy# package. the Google Gemini API as a model provider for Osysharp.Llm \u2014 complete and stream, tools included.",
       "availability": "Published",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "use": "use Osysharp.Models.Gemini@1;",
       "stars": 0,
       "source": "topic",
       "folder": "gemini",
       "versions": [
+        "1.1.0",
         "1.0.0",
         "0.1.0"
       ],
-      "minPlatform": "0.14.0"
+      "minPlatform": "0.17.0"
     },
     {
       "name": "Osysharp.Models.OpenAi",
       "repository": "osysharp/models",
       "description": "Osysharp.Models.OpenAi \u2014 an Osy# package. the OpenAI Chat Completions API as a model provider for Osysharp.Llm \u2014 and any endpoint that speaks its wire.",
       "availability": "Published",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "use": "use Osysharp.Models.OpenAi@1;",
       "stars": 0,
       "source": "topic",
       "folder": "openai",
       "versions": [
+        "1.1.0",
         "1.0.0",
         "0.1.1",
         "0.1.0"
       ],
-      "minPlatform": "0.14.0"
+      "minPlatform": "0.17.0"
     },
     {
       "name": "Osysharp.Notifications",
@@ -3963,16 +3980,17 @@
       "repository": "osysharp/resend",
       "description": "Osysharp.Resend \u2014 an Osy# package. transactional email through Resend \u2014 one send or a batch, text and HTML, replies and attachments.",
       "availability": "Published",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "use": "use Osysharp.Resend@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.4.0",
         "0.3.0",
         "0.2.1",
         "0.2.0"
       ],
-      "minPlatform": "0.14.0",
+      "minPlatform": "0.17.0",
       "exports": [
         "ListUnsubscribeHeaders"
       ]
