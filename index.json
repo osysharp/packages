@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01T09:38:41.452239+00:00",
+  "generated": "2026-11-01T10:00:25.721802+00:00",
   "packages": [
     {
       "name": "Osysharp.Agents",
@@ -2422,6 +2422,35 @@
       ]
     },
     {
+      "name": "Osysharp.Memory",
+      "repository": "osysharp/memory",
+      "description": "Osysharp.Memory \u2014 an Osy# package. stated links between records, files remembered about a record, and the operator\u0027s statistics and prune \u2014 the memory verbs over the platform\u0027s vector store.",
+      "availability": "Published",
+      "version": "2.0.0",
+      "use": "use Osysharp.Memory@2;",
+      "stars": 0,
+      "source": "topic",
+      "versions": [
+        "2.0.0"
+      ],
+      "minPlatform": "0.17.0",
+      "exports": [
+        "Annotate",
+        "Cite",
+        "EndsAt",
+        "FollowLinks",
+        "IdsOf",
+        "RangeOf",
+        "ReadableEnds",
+        "RequireMemoryOperator",
+        "Said",
+        "SearchMemory",
+        "StateLink",
+        "WithdrawLinks",
+        "Words"
+      ]
+    },
+    {
       "name": "Osysharp.Memory.Testing",
       "repository": "osysharp/memory",
       "description": "Osysharp.Memory.Testing \u2014 an Osy# package. a deterministic, offline embedder for tests \u2014 a hashed bag of words \u2014 so a suite can assert what Memory.Search and [Searchable(Memory)] find without a model.",
@@ -4206,11 +4235,12 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop \u2014 an Osy# package. an online shop\u0027s backend \u2014 catalogue, bag, orders, pluggable payment and delivery providers, returns, mail and the staff desk \u2014 with its customers and staff signing in through Osysharp.UserAccounts.",
       "availability": "Published",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "use": "use Osysharp.Shop@1;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "1.7.0",
         "1.6.0",
         "1.5.0",
         "1.4.0",
@@ -4996,8 +5026,7 @@
         "0.4.0",
         "0.3.0",
         "0.2.2",
-        "0.2.1",
-        "0.2.0"
+        "0.2.1"
       ],
       "minPlatform": "0.15.0",
       "exports": [
