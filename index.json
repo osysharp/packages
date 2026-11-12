@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12T04:27:55.820301+00:00",
+  "generated": "2026-11-12T04:33:00.720736+00:00",
   "packages": [
     {
       "name": "Osysharp.Agents",
@@ -1470,16 +1470,17 @@
       "repository": "osysharp/dns",
       "description": "Osysharp.Dns \u2014 an Osy# package. DNS records an app writes \u2014 one record shape, a pluggable provider, add-a-value TXT semantics, and a provider that keeps records in the app\u0027s own table.",
       "availability": "Published",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "use": "use Osysharp.Dns@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.3.0",
         "0.2.0",
         "0.1.1",
         "0.1.0"
       ],
-      "minPlatform": "0.14.0",
+      "minPlatform": "0.19.0",
       "exports": [
         "AddressRecordsAt",
         "IsAddressKind",
@@ -5484,11 +5485,12 @@
       "repository": "osysharp/ui",
       "description": "Osysharp.Ui \u2014 an Osy# package. the general application vocabulary: buttons, fields, dialogs, the data grid, and the app shell.",
       "availability": "Published",
-      "version": "3.2.0",
+      "version": "3.3.0",
       "use": "use Osysharp.Ui@3;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "3.3.0",
         "3.2.0",
         "3.1.0",
         "3.0.0",
