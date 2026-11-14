@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-14T10:54:37.112133+00:00",
+  "generated": "2026-11-14T11:07:13.6055+00:00",
   "packages": [
     {
       "name": "Osysharp.Agents",
@@ -343,17 +343,18 @@
       "repository": "osysharp/agents",
       "description": "Osysharp.Agents.Management \u2014 an Osy# package. the screens a person runs an app\u0027s AI agents from: every agent with who answers for it, what it does alone, proposes and never does, its skills, the specialists it hands work to, what it has spent of its limits, how often people corrected it, and Pause and Resume with the reason; all the agents\u0027 work, filtered by agent, state, person, time and what it was charged to, each piece with its tree, what it waits for, its steps and Stop; everybody the agents are waiting on, for how long; every standing rule with who gave it, how often it has been used and Take back; what was spent by agent, skill, person and charge against each limit, and what a limit stopped; and who may do what.",
       "availability": "Published",
-      "version": "2.1.0",
-      "use": "use Osysharp.Agents.Management@2;",
+      "version": "3.0.0",
+      "use": "use Osysharp.Agents.Management@3;",
       "stars": 0,
       "source": "topic",
       "folder": "management",
       "versions": [
+        "3.0.0",
         "2.1.0",
         "2.0.0",
         "1.2.0"
       ],
-      "minPlatform": "0.17.0",
+      "minPlatform": "0.19.0",
       "exports": [
         "Admitted",
         "AgentHref",
@@ -420,8 +421,8 @@
       "repository": "osysharp/agents",
       "description": "Osysharp.Agents.Processes \u2014 an Osy# package. agents inside business processes: each piece of an agent\u0027s work given in a workflow\u0027s run is told on that run \u2014 given, waiting on a person, finished, failed, called off \u2014 in the state that gave it, and opens in place as the full inspector; the work\u0027s own page says which run of which process it is a step of; a run is listed from its first agent step with nothing written in the workflow; and a table of a run\u0027s agent work with what each cost.",
       "availability": "Published",
-      "version": "1.3.0",
-      "use": "use Osysharp.Agents.Processes@1;",
+      "version": "2.0.0",
+      "use": "use Osysharp.Agents.Processes@2;",
       "stars": 0,
       "source": "topic",
       "folder": "processes",
@@ -430,11 +431,12 @@
         "osy-completes-osysharp-processes"
       ],
       "versions": [
+        "2.0.0",
         "1.3.0",
         "1.2.0",
         "1.1.0"
       ],
-      "minPlatform": "0.17.0",
+      "minPlatform": "0.19.0",
       "exports": [
         "AgentWorkInRun",
         "AgentWorkSubject",
@@ -3239,8 +3241,8 @@
       "repository": "osysharp/privacy",
       "description": "Osysharp.Privacy.Agents.HumanRequests \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.Agents.HumanRequests \u2014 the inbox items a person handed to an AI agent: in their copy of their data, and taken off them when they ask to be erased, once every item has come back; that it was handed over, to which agent and how it came back stay",
       "availability": "Published",
-      "version": "1.1.0",
-      "use": "use Osysharp.Privacy.Agents.HumanRequests@1;",
+      "version": "2.0.0",
+      "use": "use Osysharp.Privacy.Agents.HumanRequests@2;",
       "stars": 0,
       "source": "topic",
       "folder": "agents/humanrequests",
@@ -3249,9 +3251,10 @@
         "osy-completes-osysharp-agents-humanrequests"
       ],
       "versions": [
+        "2.0.0",
         "1.1.0"
       ],
-      "minPlatform": "0.14.0",
+      "minPlatform": "0.19.0",
       "exports": [
         "AgentHandoverCategory",
         "HandedBy"
@@ -6341,8 +6344,8 @@
       "repository": "osysharp/workrepositories",
       "description": "Osysharp.WorkRepositories.Agents \u2014 an Osy# package. an agent\u0027s findings as repository items: tools that record evidence, findings, correspondence and proposals as the agent, for whoever asked, with their source and the piece of work they were written in; tools that list and read items by reference; and the result of every piece of agent work attached to an assignment filed as an unverified finding with its receipt.",
       "availability": "Published",
-      "version": "1.3.0",
-      "use": "use Osysharp.WorkRepositories.Agents@1;",
+      "version": "2.0.0",
+      "use": "use Osysharp.WorkRepositories.Agents@2;",
       "stars": 0,
       "source": "topic",
       "folder": "agents",
@@ -6351,11 +6354,12 @@
         "osy-completes-osysharp-agents"
       ],
       "versions": [
+        "2.0.0",
         "1.3.0",
         "1.2.0",
         "1.1.0"
       ],
-      "minPlatform": "0.17.0",
+      "minPlatform": "0.19.0",
       "exports": [
         "HandItemsTo",
         "ListItems",
