@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-14T11:29:34.533598+00:00",
+  "generated": "2026-11-14T12:47:06.223082+00:00",
   "packages": [
     {
       "name": "Osysharp.Agents",
@@ -1882,11 +1882,12 @@
       "repository": "osysharp/invitations",
       "description": "Osysharp.Invitations \u2014 an Osy# package. invite a person by address with their role (and organisation) fixed when it is sent \u2014 mailed, reminded, expiring, revocable and resendable as a durable run; answered only by the invited address: a newcomer through a single-use mailed link, an existing account only once fully signed in (its second step included) and with that address proven.",
       "availability": "Published",
-      "version": "2.0.1",
+      "version": "2.1.0",
       "use": "use Osysharp.Invitations@2;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "2.1.0",
         "2.0.1",
         "2.0.0",
         "1.0.0",
@@ -1896,7 +1897,7 @@
         "0.3.0",
         "0.2.0"
       ],
-      "minPlatform": "0.19.5",
+      "minPlatform": "0.19.12",
       "exports": [
         "AcceptInvitation",
         "AcceptInvitationById",
