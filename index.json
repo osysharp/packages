@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-14T10:39:50.524095+00:00",
+  "generated": "2026-11-14T10:54:37.112133+00:00",
   "packages": [
     {
       "name": "Osysharp.Agents",
@@ -242,8 +242,8 @@
       "repository": "osysharp/agents",
       "description": "Osysharp.Agents.HumanRequests \u2014 an Osy# package. an agent\u0027s proposals and questions as requests in the work queue of the person they are for: the proposal shown as the exact call, why, and what the agent had looked at; approve, reject with a reason, or approve and let it do this alone from now on; the answer carried back to the waiting work; an inbox item handed to an agent and taken back; work an agent gave up on put to its sponsor; and the tree of a piece of agent work on its page \u2014 who is doing what, where each piece stands, whom it waits for and what it cost.",
       "availability": "Published",
-      "version": "1.5.0",
-      "use": "use Osysharp.Agents.HumanRequests@1;",
+      "version": "2.0.0",
+      "use": "use Osysharp.Agents.HumanRequests@2;",
       "stars": 0,
       "source": "topic",
       "folder": "humanrequests",
@@ -252,11 +252,12 @@
         "osy-completes-osysharp-humanrequests"
       ],
       "versions": [
+        "2.0.0",
         "1.5.0",
         "1.4.0",
         "1.3.0"
       ],
-      "minPlatform": "0.17.0",
+      "minPlatform": "0.19.0",
       "exports": [
         "AgentWords",
         "AnswerWords",
@@ -298,18 +299,19 @@
       "repository": "osysharp/agents",
       "description": "Osysharp.Agents.Inspector \u2014 an Osy# package. one page for a piece of an AI agent\u0027s work, for a person who was not there: what was asked, by whom, for whom and as which account; the brief and the result; what the agent may do alone and what it proposes; the instruction set it ran with and what has changed since; every step in order with models, reasons, arguments as a person reads them, answers, proposals and who decided, questions and answers, waits and how long; delegated work as a tree; cost per step and in all against its limit; whether the record\u0027s chain still checks; and what was erased, shown as erased. Read-only, filterable, and each step has a link.",
       "availability": "Published",
-      "version": "2.1.0",
-      "use": "use Osysharp.Agents.Inspector@2;",
+      "version": "3.0.0",
+      "use": "use Osysharp.Agents.Inspector@3;",
       "stars": 0,
       "source": "topic",
       "folder": "inspector",
       "versions": [
+        "3.0.0",
         "2.1.0",
         "2.0.0",
         "1.3.0",
         "1.2.0"
       ],
-      "minPlatform": "0.17.0",
+      "minPlatform": "0.19.0",
       "exports": [
         "AddUnder",
         "At",
@@ -454,15 +456,16 @@
       "repository": "osysharp/agents",
       "description": "Osysharp.Agents.Teaching \u2014 an Osy# package. the screens people teach an AI agent on: Correct this on a piece of its work \u2014 the result, a step, a proposal \u2014 with what was wrong, what right looks like and why, and an instruction proposed from it in the same breath; and an agent\u0027s Instructions page: what is waiting to be read, what is active and since when, who decided, what each was drawn from, how much work was sent it and how often it was still corrected, with Activate, Edit, Reject, Retire and Roll back for those the app admits.",
       "availability": "Published",
-      "version": "1.2.0",
-      "use": "use Osysharp.Agents.Teaching@1;",
+      "version": "2.0.0",
+      "use": "use Osysharp.Agents.Teaching@2;",
       "stars": 0,
       "source": "topic",
       "folder": "teaching",
       "versions": [
+        "2.0.0",
         "1.2.0"
       ],
-      "minPlatform": "0.14.0",
+      "minPlatform": "0.19.0",
       "exports": [
         "ActivateFromPage",
         "CardOf",
@@ -600,8 +603,8 @@
       "repository": "osysharp/assignments",
       "description": "Osysharp.Assignments.Agents \u2014 an Osy# package. an agent\u0027s work attached to the assignment it is for: attached under a key before the run starts, answered from its receipt when it had already finished, run again when it never reported back; its cost counted on the assignment, refused once the assignment\u0027s budget is spent; called off when the assignment is; work the agent hands on to other agents is attached to the same assignment, a piece each, and the whole is counted once.",
       "availability": "Published",
-      "version": "1.6.0",
-      "use": "use Osysharp.Assignments.Agents@1;",
+      "version": "2.0.0",
+      "use": "use Osysharp.Assignments.Agents@2;",
       "stars": 0,
       "source": "topic",
       "folder": "agents",
@@ -610,12 +613,13 @@
         "osy-completes-osysharp-agents"
       ],
       "versions": [
+        "2.0.0",
         "1.6.0",
         "1.5.0",
         "1.4.0",
         "1.3.0"
       ],
-      "minPlatform": "0.17.0",
+      "minPlatform": "0.19.0",
       "exports": [
         "Charged",
         "Clip",
@@ -4947,8 +4951,8 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.Agents \u2014 an Osy# package. the shop\u0027s agents: a description writer that drafts a product\u0027s description from its details when staff ask, offered in the product editor to change and save \u2014 never used by itself; it holds no tools, reads only what the asking staff member reads, is off until staff switch it on, and may spend 5 cents a draft.",
       "availability": "Published",
-      "version": "1.0.0",
-      "use": "use Osysharp.Shop.Agents@1;",
+      "version": "2.0.0",
+      "use": "use Osysharp.Shop.Agents@2;",
       "stars": 0,
       "source": "topic",
       "folder": "agents",
@@ -4957,9 +4961,10 @@
         "osy-completes-osysharp-agents"
       ],
       "versions": [
+        "2.0.0",
         "1.0.0"
       ],
-      "minPlatform": "0.15.1",
+      "minPlatform": "0.19.0",
       "exports": [
         "Listed",
         "ProductFacts",
@@ -5146,8 +5151,7 @@
         "0.3.0",
         "0.2.2",
         "0.2.1",
-        "0.2.0",
-        "0.1.3"
+        "0.2.0"
       ],
       "minPlatform": "0.19.0",
       "exports": [
