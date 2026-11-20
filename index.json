@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-20T18:26:52.218916+00:00",
+  "generated": "2026-11-20T18:49:19.147663+00:00",
   "packages": [
     {
       "name": "Osysharp.Agents",
@@ -5798,11 +5798,12 @@
       "repository": "osysharp/useraccounts",
       "description": "Osysharp.UserAccounts \u2014 an Osy# package. sign-in (password, or a provider such as Google or GitHub, linked from the account page), sign-up, password reset and change, verified address change (one the desk can start, confirmed from the new address) and verification, an address proven by a mailed link or code, two-step sign-in with an authenticator app and recovery codes, passkeys (several per account, to sign in with no password and no code, and to turn password sign-in off), a phone number for calls (any number, never texted) or for texts (proven by a texted code \u2014 to sign in with, or as an optional second step), and accounts made for somebody who never signs in (a child, a walk-in) by whoever the app names, given an address later \u2014 with pages \u2014 on Osysharp.Identity. Staff are given their roles with Osysharp.UserManagement.",
       "availability": "Published",
-      "version": "1.11.0",
+      "version": "1.12.0",
       "use": "use Osysharp.UserAccounts@1;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "1.12.0",
         "1.11.0",
         "1.10.0",
         "1.9.0",
