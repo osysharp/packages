@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-20T23:13:16.942494+00:00",
+  "generated": "2026-11-20T23:42:11.238625+00:00",
   "packages": [
     {
       "name": "Osysharp.Agents",
@@ -2316,11 +2316,12 @@
       "repository": "osysharp/look",
       "description": "Osysharp.Look \u2014 an Osy# package. The Osyrin v3 look: base theme, type scale, chips, headers, cards, tables and states, over the Ui kit.",
       "availability": "Published",
-      "version": "0.5.0",
+      "version": "0.6.0",
       "use": "use Osysharp.Look@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.6.0",
         "0.5.0"
       ],
       "minPlatform": "0.23.0",
