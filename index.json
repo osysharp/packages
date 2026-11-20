@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-20T18:49:19.147663+00:00",
+  "generated": "2026-11-20T23:13:16.942494+00:00",
   "packages": [
     {
       "name": "Osysharp.Agents",
@@ -2309,6 +2309,54 @@
         "TranslationTexts",
         "TranslationWritten",
         "TranslationsWrittenAnywhere"
+      ]
+    },
+    {
+      "name": "Osysharp.Look",
+      "repository": "osysharp/look",
+      "description": "Osysharp.Look \u2014 an Osy# package. The Osyrin v3 look: base theme, type scale, chips, headers, cards, tables and states, over the Ui kit.",
+      "availability": "Published",
+      "version": "0.5.0",
+      "use": "use Osysharp.Look@0;",
+      "stars": 0,
+      "source": "topic",
+      "versions": [
+        "0.5.0"
+      ],
+      "minPlatform": "0.23.0",
+      "exports": [
+        "BusySaid",
+        "ConsoleCurrent",
+        "ConsoleDetailTracks",
+        "ConsoleFeatures",
+        "ConsoleLitRow",
+        "ConsoleMatch",
+        "ConsoleRowKey",
+        "ConsoleSearch",
+        "ConsoleStatCountKept",
+        "ConsoleStatSubWords",
+        "ConsoleStateWord",
+        "ConsoleTabCounts",
+        "ConsoleTableFloor",
+        "ConsoleToneOf",
+        "ConsoleTracks",
+        "ExactWhen",
+        "HeadCells",
+        "InheritedValueProblem",
+        "InitialsOf",
+        "IsCurrentTab",
+        "KitTone",
+        "MetaJoined",
+        "MeterWidth",
+        "PageInset",
+        "PageStateWord",
+        "PlacesOf",
+        "ProvenanceWords",
+        "RelativeWords",
+        "SharePercent",
+        "SourceToneOf",
+        "StatShareWidth",
+        "StatToneOf"
       ]
     },
     {
