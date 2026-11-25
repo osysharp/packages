@@ -1,16 +1,17 @@
 {
-  "generated": "2026-11-25T12:57:18.41625+00:00",
+  "generated": "2026-11-25T18:44:29.962135+00:00",
   "packages": [
     {
       "name": "Osysharp.Agents",
       "repository": "osysharp/agents",
       "description": "Osysharp.Agents \u2014 an Osy# package. AI agents as typed classes: skills with a typed input and a checked, typed result; tools that are the app\u0027s own actions, run as the agent and never past the person it works for; a hard budget per piece of work; a receipt and a tamper-evident record of every step; a gate that says what it does alone, what it proposes to a person first and what it never does; a ladder of help \u2014 a more capable model first, then a person, whom the work waits for; corrections people make of its work, drawn into instructions that reach it only once a person has made them active, in numbered sets a piece of work records and an agent can be put back to; and handing typed pieces of its work on to other agents \u2014 several at once \u2014 each with its own receipt under the one that handed it on, done for the same person, never doing alone what any piece of work above it must propose, and spending out of what is left above it; and handing work outside the app \u2014 to a build host the app names \u2014 answered back over six calls (agents.delegation/1) by the host that claimed it and nobody else, watched for going quiet, timed out, its files and spend recorded on the work \u2014 and from one of an agent\u0027s own tools, which answers at once that the work is pending: the agent goes on or waits for it, holding nothing, reads what comes back as data and never as an instruction, and may look at it, wait longer, start it again or call it off.",
       "availability": "Published",
-      "version": "2.13.0",
+      "version": "2.13.1",
       "use": "use Osysharp.Agents@2;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "2.13.1",
         "2.13.0",
         "2.12.0",
         "2.11.0",
@@ -27,7 +28,7 @@
         "1.8.1",
         "1.6.0"
       ],
-      "minPlatform": "0.24.0",
+      "minPlatform": "0.24.1",
       "exports": [
         "AbandonedAtOrUnder",
         "AbandonedCheckEvery",
@@ -976,22 +977,6 @@
       "minPlatform": "0.14.0"
     },
     {
-      "name": "Osysharp.Brand",
-      "repository": "osysharp/brand",
-      "description": "Osysharp.Brand \u2014 an Osy# package. the Osyrin brand: a violet-and-plum theme in light and dark, the # in a ring as a mark, the wordmark, a header band for a product\u0027s name and context, and Inter.",
-      "availability": "Published",
-      "version": "0.3.0",
-      "use": "use Osysharp.Brand@0;",
-      "stars": 0,
-      "source": "topic",
-      "versions": [
-        "0.3.0",
-        "0.2.0",
-        "0.1.0"
-      ],
-      "minPlatform": "0.24.0"
-    },
-    {
       "name": "Osysharp.Carriers.PostNord",
       "repository": "osysharp/carriers",
       "description": "Osysharp.Carriers.PostNord \u2014 an Osy# package. PostNord parcels \u2014 booking with a PDF label, track \u0026 trace, service points, and a delivery provider.",
@@ -1067,11 +1052,12 @@
       "repository": "osysharp/charts",
       "description": "Osysharp.Charts \u2014 an Osy# package. charts in pure Osy#, no JavaScript: many mark types on one scale, plus pie and axes.",
       "availability": "Published",
-      "version": "1.11.0",
+      "version": "1.12.0",
       "use": "use Osysharp.Charts@1;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "1.12.0",
         "1.11.0",
         "1.10.0",
         "1.9.0",
@@ -1085,7 +1071,7 @@
         "1.1.1",
         "1.1.0"
       ],
-      "minPlatform": "0.22.0",
+      "minPlatform": "0.24.1",
       "exports": [
         "AnnotationLabel",
         "AnnotationPct",
@@ -1093,6 +1079,7 @@
         "ArcSteps",
         "AreaPointsOf",
         "Ascending",
+        "AxisUnitStep",
         "BandHi",
         "BandLabel",
         "BandLo",
@@ -1155,6 +1142,8 @@
         "TicksBetween",
         "TicksOf",
         "Toggled",
+        "UnitScaleTop",
+        "UnitTicksOf",
         "ValueAxisOf",
         "ValuesLabel",
         "VisibleMarks",
@@ -2171,11 +2160,12 @@
       "repository": "osysharp/llm",
       "description": "Osysharp.Llm \u2014 an Osy# package. calling a model: the provider and router contracts, the call path (route, reserve, call, fall back, meter), a price book and budgets with hard limits, typed extraction and typed decisions, and a scripted model for tests.",
       "availability": "Published",
-      "version": "3.5.0",
+      "version": "3.6.0",
       "use": "use Osysharp.Llm@3;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "3.6.0",
         "3.5.0",
         "3.4.0",
         "3.3.0",
@@ -2334,11 +2324,14 @@
       "repository": "osysharp/look",
       "description": "Osysharp.Look \u2014 an Osy# package. The Osyrin v3 look: base theme, type scale, chips, headers, cards, tables and states, over the Ui kit.",
       "availability": "Published",
-      "version": "0.14.0",
+      "version": "0.17.0",
       "use": "use Osysharp.Look@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.17.0",
+        "0.16.0",
+        "0.15.0",
         "0.14.0",
         "0.13.0",
         "0.12.0",
@@ -2350,7 +2343,7 @@
         "0.6.0",
         "0.5.0"
       ],
-      "minPlatform": "0.24.0",
+      "minPlatform": "0.24.1",
       "exports": [
         "BusySaid",
         "ConsoleCurrent",
@@ -5837,11 +5830,13 @@
       "repository": "osysharp/ui",
       "description": "Osysharp.Ui \u2014 an Osy# package. the general application vocabulary: buttons, fields, dialogs, the data grid, and the app shell.",
       "availability": "Published",
-      "version": "3.11.0",
+      "version": "3.13.0",
       "use": "use Osysharp.Ui@3;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "3.13.0",
+        "3.12.0",
         "3.11.0",
         "3.10.0",
         "3.9.0",
@@ -5863,7 +5858,7 @@
         "2.18.0",
         "2.17.1"
       ],
-      "minPlatform": "0.24.0",
+      "minPlatform": "0.24.1",
       "exports": [
         "AnnouncedCounts",
         "AnnouncedSettings",
