@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-24T20:28:41.307951+00:00",
+  "generated": "2026-11-25T12:57:18.41625+00:00",
   "packages": [
     {
       "name": "Osysharp.Agents",
@@ -974,6 +974,22 @@
         "1.0.2"
       ],
       "minPlatform": "0.14.0"
+    },
+    {
+      "name": "Osysharp.Brand",
+      "repository": "osysharp/brand",
+      "description": "Osysharp.Brand \u2014 an Osy# package. the Osyrin brand: a violet-and-plum theme in light and dark, the # in a ring as a mark, the wordmark, a header band for a product\u0027s name and context, and Inter.",
+      "availability": "Published",
+      "version": "0.3.0",
+      "use": "use Osysharp.Brand@0;",
+      "stars": 0,
+      "source": "topic",
+      "versions": [
+        "0.3.0",
+        "0.2.0",
+        "0.1.0"
+      ],
+      "minPlatform": "0.24.0"
     },
     {
       "name": "Osysharp.Carriers.PostNord",
@@ -2155,11 +2171,12 @@
       "repository": "osysharp/llm",
       "description": "Osysharp.Llm \u2014 an Osy# package. calling a model: the provider and router contracts, the call path (route, reserve, call, fall back, meter), a price book and budgets with hard limits, typed extraction and typed decisions, and a scripted model for tests.",
       "availability": "Published",
-      "version": "3.4.0",
+      "version": "3.5.0",
       "use": "use Osysharp.Llm@3;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "3.5.0",
         "3.4.0",
         "3.3.0",
         "3.2.0",
@@ -2175,7 +2192,7 @@
         "2.4.1",
         "2.3.0"
       ],
-      "minPlatform": "0.24.0",
+      "minPlatform": "0.24.1",
       "exports": [
         "Admit",
         "AllowedModelsInForce",
@@ -5820,11 +5837,12 @@
       "repository": "osysharp/ui",
       "description": "Osysharp.Ui \u2014 an Osy# package. the general application vocabulary: buttons, fields, dialogs, the data grid, and the app shell.",
       "availability": "Published",
-      "version": "3.10.0",
+      "version": "3.11.0",
       "use": "use Osysharp.Ui@3;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "3.11.0",
         "3.10.0",
         "3.9.0",
         "3.8.0",
