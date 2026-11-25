@@ -1,16 +1,17 @@
 {
-  "generated": "2026-11-25T21:46:17.397104+00:00",
+  "generated": "2026-11-25T22:25:16.368753+00:00",
   "packages": [
     {
       "name": "Osysharp.Agents",
       "repository": "osysharp/agents",
       "description": "Osysharp.Agents \u2014 an Osy# package. AI agents as typed classes: skills with a typed input and a checked, typed result; tools that are the app\u0027s own actions, run as the agent and never past the person it works for; a hard budget per piece of work; a receipt and a tamper-evident record of every step; a gate that says what it does alone, what it proposes to a person first and what it never does; a ladder of help \u2014 a more capable model first, then a person, whom the work waits for; corrections people make of its work, drawn into instructions that reach it only once a person has made them active, in numbered sets a piece of work records and an agent can be put back to; and handing typed pieces of its work on to other agents \u2014 several at once \u2014 each with its own receipt under the one that handed it on, done for the same person, never doing alone what any piece of work above it must propose, and spending out of what is left above it; and handing work outside the app \u2014 to a build host the app names \u2014 answered back over six calls (agents.delegation/1) by the host that claimed it and nobody else, watched for going quiet, timed out, its files and spend recorded on the work \u2014 and from one of an agent\u0027s own tools, which answers at once that the work is pending: the agent goes on or waits for it, holding nothing, reads what comes back as data and never as an instruction, and may look at it, wait longer, start it again or call it off.",
       "availability": "Published",
-      "version": "2.18.0",
+      "version": "2.19.0",
       "use": "use Osysharp.Agents@2;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "2.19.0",
         "2.18.0",
         "2.17.0",
         "2.16.0",
@@ -1057,11 +1058,12 @@
       "repository": "osysharp/charts",
       "description": "Osysharp.Charts \u2014 an Osy# package. charts in pure Osy#, no JavaScript: many mark types on one scale, plus pie and axes.",
       "availability": "Published",
-      "version": "1.17.0",
+      "version": "1.18.0",
       "use": "use Osysharp.Charts@1;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "1.18.0",
         "1.17.0",
         "1.16.0",
         "1.15.0",
@@ -2334,11 +2336,12 @@
       "repository": "osysharp/look",
       "description": "Osysharp.Look \u2014 an Osy# package. The Osyrin v3 look: base theme, type scale, chips, headers, cards, tables and states, over the Ui kit.",
       "availability": "Published",
-      "version": "0.22.0",
+      "version": "0.23.0",
       "use": "use Osysharp.Look@0;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "0.23.0",
         "0.22.0",
         "0.21.0",
         "0.20.0",
