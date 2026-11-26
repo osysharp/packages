@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-26T06:50:34.124031+00:00",
+  "generated": "2026-11-26T13:57:33.361775+00:00",
   "packages": [
     {
       "name": "Osysharp.Agents",
@@ -1473,7 +1473,7 @@
       "repository": "osysharp/conversations",
       "description": "Osysharp.Conversations.MachineTranslation \u2014 an Osy# package. the app\u0027s own model as the translator of its conversations \u2014 a copy of every customer message in the desk\u0027s language and every reply in each customer\u0027s, through the app\u0027s key, router and budget; a missing key a state the desk is told about, never a lost message.",
       "availability": "Published",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "use": "use Osysharp.Conversations.MachineTranslation@0;",
       "stars": 0,
       "source": "topic",
@@ -1483,11 +1483,12 @@
         "osy-completes-osysharp-machinetranslation"
       ],
       "versions": [
+        "0.4.0",
         "0.3.0",
         "0.2.1",
         "0.2.0"
       ],
-      "minPlatform": "0.14.0"
+      "minPlatform": "0.25.0"
     },
     {
       "name": "Osysharp.Conversations.Mail",
@@ -2024,7 +2025,7 @@
       "repository": "osysharp/incidentreports",
       "description": "Osysharp.IncidentReports.Guardianship \u2014 an Osy# package. the guardians Osysharp.Guardianship links are who Osysharp.IncidentReports tells when somebody they look after is named in an incident \u2014 offered on the review desk, told in one call, and their acknowledgement kept.",
       "availability": "Published",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "use": "use Osysharp.IncidentReports.Guardianship@0;",
       "stars": 0,
       "source": "topic",
@@ -2034,10 +2035,11 @@
         "osy-completes-osysharp-guardianship"
       ],
       "versions": [
+        "0.3.0",
         "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.14.0"
+      "minPlatform": "0.25.0"
     },
     {
       "name": "Osysharp.Invitations",
@@ -2801,17 +2803,18 @@
       "repository": "osysharp/memory",
       "description": "Osysharp.Memory.Testing \u2014 an Osy# package. a deterministic, offline embedder for tests \u2014 a hashed bag of words \u2014 so a suite can assert what Memory.Search and [Searchable(Memory)] find without a model.",
       "availability": "Published",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "use": "use Osysharp.Memory.Testing@0;",
       "stars": 0,
       "source": "topic",
       "folder": "testing",
       "versions": [
+        "0.3.0",
         "0.2.0",
         "0.1.1",
         "0.1.0"
       ],
-      "minPlatform": "0.14.0"
+      "minPlatform": "0.25.0"
     },
     {
       "name": "Osysharp.MicrosoftGraph",
@@ -3014,8 +3017,8 @@
       "repository": "osysharp/offersales",
       "description": "Osysharp.OfferSales.Memberships \u2014 an Osy# package. an Osysharp.Memberships plan as an Osysharp.OfferSales offer \u2014 sold to whoever it was bought for once it is paid, at what was paid, and ended when it is refunded in full.",
       "availability": "Published",
-      "version": "0.2.0",
-      "use": "use Osysharp.OfferSales.Memberships@0;",
+      "version": "1.0.0",
+      "use": "use Osysharp.OfferSales.Memberships@1;",
       "stars": 0,
       "source": "topic",
       "folder": "memberships",
@@ -3024,21 +3027,19 @@
         "osy-completes-osysharp-memberships"
       ],
       "versions": [
+        "1.0.0",
         "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.14.0",
-      "exports": [
-        "MembershipReference"
-      ]
+      "minPlatform": "0.25.0"
     },
     {
       "name": "Osysharp.OfferSales.PrepaidCredits",
       "repository": "osysharp/offersales",
       "description": "Osysharp.OfferSales.PrepaidCredits \u2014 an Osy# package. a pack of Osysharp.PrepaidCredits as an Osysharp.OfferSales offer \u2014 credits, a scope and a validity \u2014 granted to whoever it was bought for once it is paid, and voided when it is refunded in full.",
       "availability": "Published",
-      "version": "0.2.0",
-      "use": "use Osysharp.OfferSales.PrepaidCredits@0;",
+      "version": "1.0.0",
+      "use": "use Osysharp.OfferSales.PrepaidCredits@1;",
       "stars": 0,
       "source": "topic",
       "folder": "prepaidcredits",
@@ -3047,13 +3048,11 @@
         "osy-completes-osysharp-prepaidcredits"
       ],
       "versions": [
+        "1.0.0",
         "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.14.0",
-      "exports": [
-        "CreditPackReference"
-      ]
+      "minPlatform": "0.25.0"
     },
     {
       "name": "Osysharp.Organizations",
@@ -3603,8 +3602,8 @@
       "repository": "osysharp/privacy",
       "description": "Osysharp.Privacy.ClassBookings \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.ClassBookings \u2014 the places a person booked or waited for, their attendance, late cancellations and no-shows: counted, in their copy of their data, and erased when they ask, a place they still held passing to the next person waiting.",
       "availability": "Published",
-      "version": "0.2.0",
-      "use": "use Osysharp.Privacy.ClassBookings@0;",
+      "version": "1.0.0",
+      "use": "use Osysharp.Privacy.ClassBookings@1;",
       "stars": 0,
       "source": "topic",
       "folder": "classbookings",
@@ -3613,10 +3612,11 @@
         "osy-completes-osysharp-classbookings"
       ],
       "versions": [
+        "1.0.0",
         "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.14.0"
+      "minPlatform": "0.25.0"
     },
     {
       "name": "Osysharp.Privacy.Conversations",
@@ -3707,8 +3707,8 @@
       "repository": "osysharp/privacy",
       "description": "Osysharp.Privacy.IncidentReports \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.IncidentReports \u2014 the reports a person filed, the reports naming them with their injury, care and statement, and what they were told about an incident: special-category data kept on a legal obligation, counted, in their copy of their data, and erased from the record once its period ends.",
       "availability": "Published",
-      "version": "0.2.0",
-      "use": "use Osysharp.Privacy.IncidentReports@0;",
+      "version": "1.0.0",
+      "use": "use Osysharp.Privacy.IncidentReports@1;",
       "stars": 0,
       "source": "topic",
       "folder": "incidentreports",
@@ -3717,10 +3717,11 @@
         "osy-completes-osysharp-incidentreports"
       ],
       "versions": [
+        "1.0.0",
         "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.14.0"
+      "minPlatform": "0.25.0"
     },
     {
       "name": "Osysharp.Privacy.KnowledgeBase",
@@ -3770,8 +3771,8 @@
       "repository": "osysharp/privacy",
       "description": "Osysharp.Privacy.MailReceiving \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.Mail.Receiving \u2014 the mail a person sent to the app\u0027s watched mailboxes, as it arrived, in their copy of their data and erased when they ask.",
       "availability": "Published",
-      "version": "0.3.0",
-      "use": "use Osysharp.Privacy.MailReceiving@0;",
+      "version": "1.0.0",
+      "use": "use Osysharp.Privacy.MailReceiving@1;",
       "stars": 0,
       "source": "topic",
       "folder": "mailreceiving",
@@ -3780,19 +3781,20 @@
         "osy-completes-osysharp-mail-receiving"
       ],
       "versions": [
+        "1.0.0",
         "0.3.0",
         "0.2.1",
         "0.2.0"
       ],
-      "minPlatform": "0.14.0"
+      "minPlatform": "0.25.0"
     },
     {
       "name": "Osysharp.Privacy.Memberships",
       "repository": "osysharp/privacy",
       "description": "Osysharp.Privacy.Memberships \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.Memberships \u2014 a person\u0027s memberships, who else they let in, every change and every visit, in their copy of their data and erased when they ask.",
       "availability": "Published",
-      "version": "0.2.0",
-      "use": "use Osysharp.Privacy.Memberships@0;",
+      "version": "1.0.0",
+      "use": "use Osysharp.Privacy.Memberships@1;",
       "stars": 0,
       "source": "topic",
       "folder": "memberships",
@@ -3801,10 +3803,11 @@
         "osy-completes-osysharp-memberships"
       ],
       "versions": [
+        "1.0.0",
         "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.14.0"
+      "minPlatform": "0.25.0"
     },
     {
       "name": "Osysharp.Privacy.Notifications",
@@ -3833,8 +3836,8 @@
       "repository": "osysharp/privacy",
       "description": "Osysharp.Privacy.OfferSales \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.OfferSales \u2014 the purchases a person made or had made for them, how they were paid and what was refunded: kept on the books\u0027 legal obligation, counted, in their copy of their data, and erased when that ends.",
       "availability": "Published",
-      "version": "0.2.0",
-      "use": "use Osysharp.Privacy.OfferSales@0;",
+      "version": "1.0.0",
+      "use": "use Osysharp.Privacy.OfferSales@1;",
       "stars": 0,
       "source": "topic",
       "folder": "offersales",
@@ -3843,18 +3846,19 @@
         "osy-completes-osysharp-offersales"
       ],
       "versions": [
+        "1.0.0",
         "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.14.0"
+      "minPlatform": "0.25.0"
     },
     {
       "name": "Osysharp.Privacy.PrepaidCredits",
       "repository": "osysharp/privacy",
       "description": "Osysharp.Privacy.PrepaidCredits \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.PrepaidCredits \u2014 a person\u0027s packs, what they used them for and every change to them, in their copy of their data and erased when they ask.",
       "availability": "Published",
-      "version": "0.2.0",
-      "use": "use Osysharp.Privacy.PrepaidCredits@0;",
+      "version": "1.0.0",
+      "use": "use Osysharp.Privacy.PrepaidCredits@1;",
       "stars": 0,
       "source": "topic",
       "folder": "prepaidcredits",
@@ -3863,18 +3867,19 @@
         "osy-completes-osysharp-prepaidcredits"
       ],
       "versions": [
+        "1.0.0",
         "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.14.0"
+      "minPlatform": "0.25.0"
     },
     {
       "name": "Osysharp.Privacy.Qualifications",
       "repository": "osysharp/privacy",
       "description": "Osysharp.Privacy.Qualifications \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.Qualifications \u2014 the qualifications a person holds, what they signed and on which text, and the evidence files, in their copy of their data and erased when they ask.",
       "availability": "Published",
-      "version": "0.2.0",
-      "use": "use Osysharp.Privacy.Qualifications@0;",
+      "version": "1.0.0",
+      "use": "use Osysharp.Privacy.Qualifications@1;",
       "stars": 0,
       "source": "topic",
       "folder": "qualifications",
@@ -3883,10 +3888,11 @@
         "osy-completes-osysharp-qualifications"
       ],
       "versions": [
+        "1.0.0",
         "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.14.0"
+      "minPlatform": "0.25.0"
     },
     {
       "name": "Osysharp.Privacy.SatisfactionSurveys",
@@ -3916,8 +3922,8 @@
       "repository": "osysharp/privacy",
       "description": "Osysharp.Privacy.ShiftScheduling \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.ShiftScheduling \u2014 a person\u0027s shifts, time off, the hours they are not free and their cover requests, in their copy of their data and erased when they ask.",
       "availability": "Published",
-      "version": "0.2.0",
-      "use": "use Osysharp.Privacy.ShiftScheduling@0;",
+      "version": "1.0.0",
+      "use": "use Osysharp.Privacy.ShiftScheduling@1;",
       "stars": 0,
       "source": "topic",
       "folder": "shiftscheduling",
@@ -3926,18 +3932,19 @@
         "osy-completes-osysharp-shiftscheduling"
       ],
       "versions": [
+        "1.0.0",
         "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.14.0"
+      "minPlatform": "0.25.0"
     },
     {
       "name": "Osysharp.Privacy.Sms",
       "repository": "osysharp/privacy",
       "description": "Osysharp.Privacy.Sms \u2014 an Osy# package. Osysharp.Privacy\u0027s holder for Osysharp.Sms \u2014 the texts the app sent a person, found by their number, in their copy of their data and erased when they ask.",
       "availability": "Published",
-      "version": "0.3.0",
-      "use": "use Osysharp.Privacy.Sms@0;",
+      "version": "1.0.0",
+      "use": "use Osysharp.Privacy.Sms@1;",
       "stars": 0,
       "source": "topic",
       "folder": "sms",
@@ -3946,11 +3953,12 @@
         "osy-completes-osysharp-sms"
       ],
       "versions": [
+        "1.0.0",
         "0.3.0",
         "0.2.1",
         "0.2.0"
       ],
-      "minPlatform": "0.14.0"
+      "minPlatform": "0.25.0"
     },
     {
       "name": "Osysharp.Privacy.UserAccounts",
@@ -4575,7 +4583,7 @@
       "repository": "osysharp/shiftscheduling",
       "description": "Osysharp.ShiftScheduling.Qualifications \u2014 an Osy# package. a rota position\u0027s requirements answered by Osysharp.Qualifications \u2014 nobody is put on a shift needing a qualification they do not hold in force that day, and the refusal says why in the qualifications kit\u0027s words.",
       "availability": "Published",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "use": "use Osysharp.ShiftScheduling.Qualifications@0;",
       "stars": 0,
       "source": "topic",
@@ -4585,10 +4593,11 @@
         "osy-completes-osysharp-qualifications"
       ],
       "versions": [
+        "0.3.0",
         "0.2.0",
         "0.1.0"
       ],
-      "minPlatform": "0.14.0"
+      "minPlatform": "0.25.0"
     },
     {
       "name": "Osysharp.Shipping",
@@ -5415,19 +5424,17 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.ExchangeRates \u2014 an Osy# package. the European Central Bank\u0027s daily reference rates, for showing a visitor prices in their own currency.",
       "availability": "Published",
-      "version": "0.3.0",
-      "use": "use Osysharp.Shop.ExchangeRates@0 { egress \u0022www.ecb.europa.eu\u0022; }",
+      "version": "1.0.0",
+      "use": "use Osysharp.Shop.ExchangeRates@1 { egress \u0022www.ecb.europa.eu\u0022; }",
       "stars": 0,
       "source": "topic",
       "folder": "exchangerates",
       "versions": [
+        "1.0.0",
         "0.3.0",
         "0.2.1"
       ],
-      "minPlatform": "0.14.0",
-      "exports": [
-        "EcbSheet"
-      ]
+      "minPlatform": "0.25.0"
     },
     {
       "name": "Osysharp.Shop.Looks.Atelier",
@@ -5683,9 +5690,7 @@
         "0.7.0",
         "0.6.0",
         "0.5.1",
-        "0.5.0",
-        "0.4.1",
-        "0.4.0"
+        "0.5.0"
       ],
       "minPlatform": "0.22.0",
       "exports": [
@@ -5752,16 +5757,17 @@
       "repository": "osysharp/shop",
       "description": "Osysharp.Shop.VatNumbers \u2014 an Osy# package. EU VAT-number checks against VIES \u2014 the shop\u0027s reverse-charge check.",
       "availability": "Published",
-      "version": "0.3.0",
-      "use": "use Osysharp.Shop.VatNumbers@0 { egress \u0022ec.europa.eu\u0022; }",
+      "version": "1.0.0",
+      "use": "use Osysharp.Shop.VatNumbers@1 { egress \u0022ec.europa.eu\u0022; }",
       "stars": 0,
       "source": "topic",
       "folder": "vatnumbers",
       "versions": [
+        "1.0.0",
         "0.3.0",
         "0.2.1"
       ],
-      "minPlatform": "0.14.0"
+      "minPlatform": "0.25.0"
     },
     {
       "name": "Osysharp.Site.Looks",
@@ -5809,17 +5815,18 @@
       "repository": "osysharp/sms",
       "description": "Osysharp.Sms.FortySixElks \u2014 an Osy# package. 46elks as a sender for Osysharp.Sms \u2014 Nordic alphanumeric senders, EU-only handling, and a dry run for staging.",
       "availability": "Published",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "use": "use Osysharp.Sms.FortySixElks@0 { egress \u0022api.46elks.com\u0022; }",
       "stars": 0,
       "source": "topic",
       "folder": "fortysixelks",
       "versions": [
+        "0.3.0",
         "0.2.1",
         "0.2.0",
         "0.1.3"
       ],
-      "minPlatform": "0.19.0"
+      "minPlatform": "0.25.0"
     },
     {
       "name": "Osysharp.Stemming",
