@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-28T02:10:17.674822+00:00",
+  "generated": "2026-11-28T11:20:36.151645+00:00",
   "packages": [
     {
       "name": "Osysharp.Agents",
@@ -623,11 +623,12 @@
       "repository": "osysharp/artifacts",
       "description": "Osysharp.Artifacts \u2014 an Osy# package. artifacts made for review \u2014 HTML prototypes, pictures, PDFs, notes \u2014 kept with every version, commented per version, and shown in a sandboxed viewer that never runs as the app.",
       "availability": "Published",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "use": "use Osysharp.Artifacts@1;",
       "stars": 0,
       "source": "topic",
       "versions": [
+        "1.1.0",
         "1.0.0",
         "0.7.0",
         "0.6.0",
@@ -636,7 +637,7 @@
         "0.3.0",
         "0.1.0"
       ],
-      "minPlatform": "0.24.0"
+      "minPlatform": "0.25.2"
     },
     {
       "name": "Osysharp.Assignments",
